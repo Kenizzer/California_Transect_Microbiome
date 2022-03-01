@@ -33,8 +33,8 @@ The package **Decontam** (Davis et al. 2017) was used to remove contaminants usi
 ## Bacterial Analysis
 
 ### Alpha and beta diversity
-
 ***See CA_transect_analysis.r***
+
  Alpha diversity statistics were calculated using **vegan** (Anderson, M. J. 2001; Oksanen *et al.* 2019) and **picante** (Kembel et al. 2010) in the case of Faith’s Phylogenetic distance (Faith 1992). Linear mixed models were fit via the lmerTest package v3.1.3 (Kuznetsova et al. 2017) to assess the effects of the experimental design on alpha diversity indices: `response ~ Rootstock (R) + Scion (S) + Compartment (C) + Sugar Content (Su) + Year + Site + R×S + C×Su`. PERMANOVA analyses were conducted using the function Adonis from the package **vegan**. For each plant compartment (berries, leaves, roots), a model with Bray-Curtis dissimilarity as the response and fit with all factors as marginal fixed effects with 1,000 permutations per model.
 
 ### Differential abundance
@@ -47,12 +47,12 @@ Differential abundance analysis was conducted using **DESeq2** (Love et al. 2014
 
  We used **ranger’s** (Wright and Ziegler 2017) implementation of the random forest algorithm in the package **caret** (Kuhn 2008). For training the random forest classifier, the dataset was randomly split into a train set (80%) and a test set (20%). Optimal hyperparameters for each classifier were determined using a grid search over the number of trees (1-501), minimum node size (1, 5, 10), and number of features available at each node (10-100% of the ASVs). For each combination in the grid, the performance of the classifier on out-of-bag samples was assessed with 10-fold cross validation. Classifiers were then trained to predict each of the categorical factors (rootstock, scion, compartment, year, and site). Tile plots were used to visualize the output confusion matrix results. We determined the relative importance of phyla in classification accuracy per factor, as well as ASVs that contributing considerably to classifier accuracy (i.e., high gini importance), top ASVs were further examined using boxplots.
 
-### Soil Analysis
+## Soil Analysis
 ***See Code/Soil_Analysis***
 
 For soil texture, hydrometer readings were processed using the package **envalysis** (Steinmetz 2021) to obtain percentages of sand, silt, and clay. Independent linear models for sand, silt, and clay were fit with collection site and year as main effects. For elemental composition analysis, concentrations values greater than five standard deviations from the mean were removed. A biplot was generated using the package **factoextra** (Kassambara and Mundt 2020) to visualize clustering of soil samples by collection site along with the loadings of the principal component analysis (PCA). A linear model was fit to the first two principal components (PC) with collection site and year as main effects. Each of the linear models was assessed via a type-2 ANOVA framework. Soil microbiota samples were processed similar to the plant compartment samples above.
 
-### Brix Analysis
+## Brix Analysis
 ***See CA_transect_analysis.R (lines 224-269)***
 
 For each vine, we measured the total soluble solids (measure in °Bx) using a hand-held refractometer (ATAGO) by selecting berries from a damage-free representative cluster. We modeled the sugar content of the berries of the vines across the growing season. Using a linear model, we assessed the effects from the experimental design on the sugar content (°Brix) using the following model: `Sugar Content ~ Rootstock + Site + Scion + Collection Week + Scion×Collection Week`. The package **car** (Fox and Weisberg 2019) was used to assess the model under a type-3 ANOVA framework.
