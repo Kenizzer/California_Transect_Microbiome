@@ -1,0 +1,38 @@
+sample	State	Site	Year	Block	pH	P	K	Ca	Mg	S	Na	Fe	Mn	Zn	Cu	B
+MV08	Missouri	Mount Vernon	2018	Block 3	7.2	123	197	2590	311	12	7	82	83	60	3.4	1.5
+MV09	Missouri	Mount Vernon	2018	Block 3	7.4	128	130	2873	296	11	14	83	76	30	4.4	1.2
+MV10	Missouri	Mount Vernon	2018	Block 3	7	138	131	2633	287	13	12	99	65	36	5.5	1.5
+MV11	Missouri	Mount Vernon	2018	Block 2	7.1	112	124	2793	297	14	15	82	99	49	33.2	1.7
+MV12	Missouri	Mount Vernon	2018	Block 2	7.2	95	100	2502	321	11	15	93	62	35	7.5	1.4
+MV13	Missouri	Mount Vernon	2018	Block 2	7.2	189	191	2849	314	14	7	104	76	34	15.1	1.6
+MV14	Missouri	Mount Vernon	2018	Block 1	7.5	178	127	3302	311	12	16	90	83	50	11.2	1.8
+MV15	Missouri	Mount Vernon	2018	Block 1	7.1	178	160	2798	262	12	7	110	69	27	10.3	1.5
+MV16	Missouri	Mount Vernon	2018	Block 1	7.3	186	154	2857	348	14	14	104	81	30	12.3	1.6
+CA01	California	Madera	2018	RIP 730	7.9	87	137	1087	209	20	65	67	24	17	1.1	1.4
+CA02	California	Madera	2018	RIP 772	8.2	100	635	4714	410	248	635	27	36	4	1	2.5
+CA03	California	Madera	2018	RIP 760	8.3	67	402	3811	363	70	276	25	30	7	0.7	1.9
+CA04	California	Madera	2018	RIP 775	7.7	166	810	3814	459	587	951	47	35	7	1.2	2.9
+CA05	California	Merced	2018	018 CARPENTER	5.5	94	117	674	207	121	52	326	30	7	1.7	1.4
+CA06	California	Merced	2018	103 SEC B	6.5	181	307	993	128	22	35	244	32	21	2.8	1.7
+CA07	California	Merced	2018	005 SEC D	8	49	187	963	227	206	350	97	33	12	1.5	1.6
+CA08	California	Merced	2018	089 OLCESE 24	8.4	82	88	1450	245	128	249	69	25	10	6.8	1.6
+CA09	California	San Joaquin	2018	Cabernet Sauvignon	7.7	42	223	696	174	36	23	223	103	3	2.9	1.1
+CA10	California	San Joaquin	2018	Cabernet Sauvignon	6.6	52	285	863	207	264	53	201	88	16	2.2	1.4
+CA11	California	San Joaquin	2018	Cabernet Sauvignon	6.7	144	221	614	140	54	27	272	146	9	4.4	1.2
+CA12	California	San Joaquin	2018	Chardonnay	7.3	37	260	746	173	33	21	190	64	102	2.8	1.2
+CA13	California	San Joaquin	2018	Chardonnay	6.4	91	294	708	148	208	47	204	129	22	3.2	1.1
+CA14	California	San Joaquin	2018	Chardonnay	7.3	25	276	530	136	15	17	183	129	5	1.8	1
+CA15	California	San Joaquin	2019	Cabernet Sauvignon	7.1	31	158	582	168	20	19	189	41	3	2.1	1.1
+CA16	California	San Joaquin	2019	Cabernet Sauvignon	6.8	64	272	627	129	28	22	217	119	10	2.4	1.3
+CA17	California	San Joaquin	2019	Cabernet Sauvignon	7.1	43	112	629	174	15	18	215	127	2	3.1	1.1
+CA18	California	San Joaquin	2019	Chardonnay	7.1	40	293	623	141	16	18	165	110	217	3.7	1
+CA19	California	San Joaquin	2019	Chardonnay	6.8	59	225	562	118	20	8	170	118	11	3.1	1.1
+CA20	California	San Joaquin	2019	Chardonnay	7.1	40	190	602	132	9	16	184	131	17	1.9	1.2
+CA21	California	Merced	2019	018 CARPENTER	5.9	84	116	688	131	12	13	200	46	6	1.9	1
+CA22	California	Merced	2019	103 SEC B	6.6	148	234	789	104	11	28	264	29	16	2.9	1.2
+CA23	California	Merced	2019	005 SEC D	8.3	38	50	1352	167	53	128	84	31	11	1.5	1.4
+CA24	California	Merced	2019	089 OLCESE 24	8.7	109	77	1301	162	27	57	68	26	12	7.5	1.4
+CA25	California	Madera	2019	RIP 730	7.8	132	155	1118	188	30	60	71	28	20	0.8	1.4
+CA26	California	Madera	2019	RIP 772	8.6	63	576	4732	346	144	608	27	38	3	1	2.3
+CA27	California	Madera	2019	RIP 760	8.9	50	345	3561	319	25	297	24	29	8	0.7	1.5
+CA28	California	Madera	2019	RIP 775	8.6	72	605	2683	359	76	625	37	42	4	1.2	2.1

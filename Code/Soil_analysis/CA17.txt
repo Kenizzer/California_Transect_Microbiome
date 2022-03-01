@@ -1,0 +1,9 @@
+Sample	Time	Reading	Correction_factor	Temperature
+CA Soil 17	0.66	23	1	25
+CA Soil 17	2.00	19	1	25
+CA Soil 17	10.00	14	1	25
+CA Soil 17	30.00	12.5	1	25
+CA Soil 17	60.00	11.5	1	25
+CA Soil 17	120.00	11	1	25
+CA Soil 17	240.00	10	1	25
+CA Soil 17	360.00	10	1	25
