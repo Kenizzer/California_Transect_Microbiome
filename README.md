@@ -20,7 +20,7 @@ Multiple scion/rootstock combinations were sampled across vineyards in the 2018 
 ## Processing 
 
 ### QIIME2 
-***See Qiime_analysis.md***
+[***See Qiime_analysis.md***](https://github.com/Kenizzer/California_Transect_Microbiome/blob/main/Code/Qiime_analysis.md)
 
 **QIIME2** (Bolyen et al. 2019) was used to demultiplex samples according to barcode sequence. The DADA2 plugin (Callahan et al. 2016) was used to denoise, dereplicate, and filter chimeric sequences on each sequencing run individually for accurate error model generation. Afterward, the resulting amplicon sequence variant (ASV) tables and catalogs of representative sequences for each sequence plate were merged. A Naive Bayes classifier pre-trained on the SILVA v.138 16S database (Yilmaz et al. 2014; Bokulich et al. 2018, 2021) was used for taxonomic classification. ASVs not assigned to a phylum were removed along with ASVs assigned to chloroplasts and mitochondria. 
 
