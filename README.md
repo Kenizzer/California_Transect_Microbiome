@@ -2,8 +2,7 @@
 
 ## Abridged abstract
 
-Coming Soon!
-
+We sought to explore the seasonal and biogeographical patterning of microbiota of grapevine compartments (berries, leaves, and roots) across space by utilizing multiple commercial vineyards in the Central Valley of California and across time over two successive growing seasons. The microbiota of the compartments was profiled via 16S rRNA metabarcoding. We found significant differences in diversity and richness between grapevine compartments with additional patterning by year, site, and the interaction of rootstock and scion genotype. Community composition revealed compartment specific dynamics: microbiota of the berries and leaves showed subtle impacts of collection year and development and the microbiota of the roots exhibited much stronger impacts from collection site and rootstock genotype. Bacterial communities were stable across the growing season for all compartments, partially reinforcing the existence of a microbial terroir.
 
 Table of markers used within the study.
 
