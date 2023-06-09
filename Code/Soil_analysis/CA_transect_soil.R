@@ -219,11 +219,12 @@ phylum_lvl <- psmelt(phylum_lvl)
 phylum_lvl$Phylum <- forcats::fct_relevel(as.factor(phylum_lvl$Phylum), "Other", after = Inf)
 summary(phylum_lvl$Phylum)
 # PLOT
+levels(phylum_lvl$lower_political) <- c("Madera", "Merced", "San Joaquin")
 Panel_C <- ggplot(phylum_lvl, aes(x=Sample, y=Abundance, fill = Phylum)) +
   geom_bar(position="fill", stat = "identity") +
   ylab("Relative abundance") +
   facet_grid(~lower_political, scale = "free") +
-  scale_fill_manual(values=safe_colorblind_palette) +
+  scale_fill_manual(values=safe_colorblind_palette)  +
   theme(axis.title.x=element_blank(),
         axis.text.x=element_blank(),
         axis.ticks.x=element_blank(),
@@ -232,9 +233,9 @@ Panel_C <- ggplot(phylum_lvl, aes(x=Sample, y=Abundance, fill = Phylum)) +
 summary(phy_soil_only_vst@sam_data)
 # madera 8, merced 8, san joaquin 12
 site_phylum <- phylum_lvl
-site_phylum[site_phylum$lower_political == "madera",]$Abundance <- site_phylum[site_phylum$lower_political == "madera",]$Abundance / 8
-site_phylum[site_phylum$lower_political == "merced",]$Abundance <- site_phylum[site_phylum$lower_political == "merced",]$Abundance / 8
-site_phylum[site_phylum$lower_political == "san joaquin",]$Abundance <- site_phylum[site_phylum$lower_political == "san joaquin",]$Abundance / 12
+site_phylum[site_phylum$lower_political == "Madera",]$Abundance <- site_phylum[site_phylum$lower_political == "Madera",]$Abundance / 8
+site_phylum[site_phylum$lower_political == "Merced",]$Abundance <- site_phylum[site_phylum$lower_political == "Merced",]$Abundance / 8
+site_phylum[site_phylum$lower_political == "San Joaquin",]$Abundance <- site_phylum[site_phylum$lower_political == "San Joaquin",]$Abundance / 12
 #PLOT
 Panel_C_stacked <- ggplot(site_phylum, aes(x=lower_political, y=Abundance, fill=Phylum)) +
                           geom_bar(stat="identity") +
