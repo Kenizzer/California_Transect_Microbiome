@@ -198,6 +198,8 @@ pairs(emmeans(fphd_16s_fit.mod, ~ plant_body_site))
 pairs(emmeans(fphd_16s_fit.mod, ~ year))
 pairs(emmeans(fphd_16s_fit.mod, ~ site))
 pairs(emmeans(fphd_16s_fit.mod, ~ rootstock|scion))
+pairs(emmeans(fphd_16s_fit.mod, ~ rootstock|scion))
+
 
 pairs(emmeans(simpI_16s_fit.mod, ~ plant_body_site))
 pairs(emmeans(simpI_16s_fit.mod, ~ year))
@@ -275,9 +277,10 @@ ggplot(alpha_leaf, aes(x=brix, y=Shannon, fill=year)) + geom_point(shape=21, siz
 labels_df <- tibble(plant_body_site=levels(alpha_diversity.df$plant_body_site), rootstock=levels(alpha_diversity.df$rootstock), Mfaith=max(alpha_diversity.df$Faithpd) * 1.2)
 TukeyHSD(aov(Faithpd ~ plant_body_site, data = alpha_diversity.df), conf.level = 0.95)
 fig3A <- ggplot(alpha_diversity.df, aes(plant_body_site, Faithpd, fill = plant_body_site)) +
-    geom_boxplot(outlier.shape = NA) +
+    geom_jitter(width = 0.25, color = "black") +
+    xlab ("Compartment") +
+    geom_boxplot(outlier.shape = NA, alpha = 0.8, color = "black") +
     theme(legend.position = "top") +
-    geom_jitter(width = 0.25, color = "black") + xlab ("Compartment") +
     ylab("Faith's phylogenetic diversity") +
     scale_fill_manual(name="Compartment", breaks=c("berry", "leaf", "root"),
                       labels=c("Berry","Leaf", "Root"), values = compartment_palette) +
@@ -288,15 +291,24 @@ mean(alpha_diversity.df[alpha_diversity.df$plant_body_site == 'berry',]$Faithpd)
 mean(alpha_diversity.df[alpha_diversity.df$plant_body_site == 'leaf',]$Faithpd) #5.709501
 mean(alpha_diversity.df[alpha_diversity.df$plant_body_site == 'root',]$Faithpd) #61.06594
 # Boxplot of scion X rootstock X compartment faith
-fig3B <- ggplot(alpha_diversity.df[alpha_diversity.df$plant_body_site == "root" & alpha_diversity.df$scion == "chardonnay",], aes(x=rootstock, y=Faithpd,  fill=rootstock)) +
-    geom_boxplot(outlier.shape = NA)+ xlab ("Rootstock") + ylab("Faith's phylogenetic diversity") +
+facet_label <- c("Cabernet Sauvignon", "Chardonnay")
+names(facet_label) <- c("cabernet sauvignon", "chardonnay")
+
+TukeyHSD(aov(Faithpd ~ rootstock*scion, data = alpha_diversity.df[alpha_diversity.df$plant_body_site == "root",]), conf.level = 0.95)
+
+fig3B <- ggplot(alpha_diversity.df[alpha_diversity.df$plant_body_site == "root",], aes(x=rootstock, y=Faithpd,  fill=rootstock)) +
     geom_jitter(width = 0.2, color = "black") +
+    geom_boxplot(outlier.shape = NA, alpha = 0.8, color = "black") + xlab ("Rootstock") + ylab("Faith's phylogenetic diversity") +
     scale_fill_manual(name = "Rootstock", values=rootstock_palette) +
-    geom_text(data=labels_df, aes(rootstock, Mfaith, label=c("a","a","b")), size = 6) + ylim(0, NA)
+    geom_text(data=labels_df, aes(rootstock, Mfaith, label=c("ab","a","a","a","a","b")), size = 6) + ylim(0, NA) +
+    facet_wrap(~scion, labeller = labeller(scion = facet_label)) +
+    theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
+
+
 fig3 <- ggarrange(fig3A,fig3B, labels = c('A', 'B'))
 #
-ggsave("figure3_faith_by_compartment_and_rootsock-scion.svg", fig2, height = 6, width = 10, bg = 'white', dpi = 1200)
-ggsave("figure3_faith_by_compartment_and_rootsock-scion.pdf", fig2, height = 6, width = 10)
+ggsave("figure3_faith_by_compartment_and_rootsock-scion.svg", fig3, height = 6, width = 10, bg = 'white', dpi = 1200)
+ggsave("figure3_faith_by_compartment_and_rootsock-scion.pdf", fig3, height = 6, width = 10)
 # Stats 
 # We found that Teleki 5C showed lower alpha diversity (faith) than the other rootstocks,
 # this was particularly apparent in the root samples. Below are some summary stats for the 
