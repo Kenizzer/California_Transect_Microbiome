@@ -285,7 +285,8 @@ fig3A <- ggplot(alpha_diversity.df, aes(plant_body_site, Faithpd, fill = plant_b
     scale_fill_manual(name="Compartment", breaks=c("berry", "leaf", "root"),
                       labels=c("Berry","Leaf", "Root"), values = compartment_palette) +
     scale_x_discrete(breaks=c("berry", "leaf", "root"), labels=c("Berry", "Leaf", "Root")) +
-    geom_text(data=labels_df, aes(plant_body_site, Mfaith, label=c("a","a","b")), size = 6)
+    geom_text(data=labels_df, aes(plant_body_site, Mfaith, label=c("a","a","b")), size = 6) +
+    theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
 # Stats mean faith for compartments for main text
 mean(alpha_diversity.df[alpha_diversity.df$plant_body_site == 'berry',]$Faithpd) #4.633959
 mean(alpha_diversity.df[alpha_diversity.df$plant_body_site == 'leaf',]$Faithpd) #5.709501
@@ -306,7 +307,7 @@ fig3B <- ggplot(alpha_diversity.df[alpha_diversity.df$plant_body_site == "root",
 
 
 fig3 <- ggarrange(fig3A,fig3B, labels = c('A', 'B'))
-#
+# save
 ggsave("figure3_faith_by_compartment_and_rootsock-scion.svg", fig3, height = 6, width = 10, bg = 'white', dpi = 1200)
 ggsave("figure3_faith_by_compartment_and_rootsock-scion.pdf", fig3, height = 6, width = 10)
 # Stats 
