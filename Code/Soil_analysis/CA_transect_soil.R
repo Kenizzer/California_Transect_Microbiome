@@ -20,7 +20,9 @@ library('viridis'); packageVersion('viridis')
 library('corrplot'); packageVersion('corrplot')
 library('factoextra'); packageVersion('factoextra')
 library('data.table'); packageVersion('data.table')
-library('patchwork'); packageVersion("patchwork")
+library('patchwork'); packageVersion('patchwork')
+library('fantaxtic'); packageVersion('fantaxtic')
+
 
 # Theme set and Color Palettes
 theme_set(theme_pubr())
@@ -243,6 +245,42 @@ Panel_C_stacked <- ggplot(site_phylum, aes(x=lower_political, y=Abundance, fill=
                           theme(legend.text.align = 0) +
                           theme(legend.position = 'right')
 
+# Figure 2C nested phylum and class
+# Make Nested dataframe for plotting
+top_nested <- nested_top_taxa(phy_soil_only_vst,
+                              top_tax_level = "Phylum",
+                              nested_tax_level = "Class",
+                              n_top_taxa = 10, 
+                              n_nested_taxa = 3)
+# Facet labels capitalized for consistancy
+ylabels <- c('madera'='Madera', 'merced' = 'Merced', 'san joaquin' = "San Joaquin")
+# Nest plot with facet between sites
+panel_C_nested <- plot_nested_bar(top_nested$ps_obj,
+                      top_level = "Phylum",
+                      nested_level = "Class",
+                      legend_title = "Phylum and Class",
+                      palette = safe_colorblind_palette) +
+  labs(y = "Relative Abuance") +
+  facet_wrap(~lower_political, scales = "free_x", labeller = as_labeller(ylabels)) +
+  # mostly changes made to fit the pubr theme without breaking legend text formatting from fantaxtic
+  theme(plot.title = element_text(hjust = 0.5, size = 8, face = "bold"), legend.key.size = unit(10, "points"),
+        axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        legend.position = 'right',
+        strip.background = element_rect(fill = "#F2F2F2", colour = "black", size = 0.7),
+        axis.line = element_line(colour = "black", size = 0.5),
+        axis.text = element_text(color = "black"),
+        strip.text = element_text(colour = 'black'),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.ticks.y = element_line("black"), 
+        panel.border = element_blank(),
+        panel.background = element_blank()) +
+  guides(fill=guide_legend(ncol=2)) 
+
+
+
 # Figure 2 panel D
 # PCoA W/ only soil samples 
 # Calculate bray-curtis
@@ -259,10 +297,9 @@ Panel_D <- PLOT_PCoA(phy_soil_only_vst, out.bray, 1, 2, split_by = 'site')
 
 # Assembled plot
 #ggarrange(Panel_A, Panel_B, Panel_C, Panel_D, labels = "AUTO") # This doesnt work to align the plots
-FigureX_multipanel <- (Panel_A | Panel_B) / (Panel_C | Panel_D) + plot_annotation(tag_levels = 'A')
+FigureX_multipanel <- (Panel_A | Panel_B) / (panel_C_nested | Panel_D) + plot_annotation(tag_levels = 'A')
 
-ggsave("Figure_2_soil.pdf", FigureX_multipanel, dpi = 600, width = 16, height = 10)
-ggsave("Figure_2_soil.svg", FigureX_multipanel, dpi = 600, width = 16, height = 10)
+ggsave("Figure_2_soil.svg", FigureX_multipanel, width = 16, height = 10)
 
 
 # Linear modeling

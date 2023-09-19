@@ -1,631 +1,631 @@
-Tube #,Block,Row,Rep,Vine,Rootstock,Scion,Sample Date,Week,Sample Location,Year,brix
-C1,N/A,2,1,2,Teleki 5C,Chardonnay,19-June-18,1,Liberty,2018,4.5
-C2,N/A,2,1,3,Teleki 5C,Chardonnay,19-June-18,1,Liberty,2018,5
-C3,N/A,2,1,5,Teleki 5C,Chardonnay,19-June-18,1,Liberty,2018,4.5
-C4,N/A,4,1,3,1103 Paulsen,Chardonnay,19-June-18,1,Liberty,2018,4.1
-C5,N/A,4,1,4,1103 Paulsen,Chardonnay,19-June-18,1,Liberty,2018,4.6
-C6,N/A,4,1,5,1103 Paulsen,Chardonnay,19-June-18,1,Liberty,2018,4.6
-C7,N/A,8,2,1,Freedom,Chardonnay,19-June-18,1,Liberty,2018,4.8
-C8,N/A,8,2,2,Freedom,Chardonnay,19-June-18,1,Liberty,2018,5.6
-C9,N/A,8,2,4,Freedom,Chardonnay,19-June-18,1,Liberty,2018,5.2
-C10,N/A,16,1,4,Freedom,Cabernet Sauvignon,19-June-18,1,Liberty,2018,5.1
-C11,N/A,16,1,5,Freedom,Cabernet Sauvignon,19-June-18,1,Liberty,2018,5
-C12,N/A,16,1,7,Freedom,Cabernet Sauvignon,19-June-18,1,Liberty,2018,4.6
-C13,N/A,17,1,3,Teleki 5C,Cabernet Sauvignon,19-June-18,1,Liberty,2018,5.2
-C14,N/A,17,1,4,Teleki 5C,Cabernet Sauvignon,19-June-18,1,Liberty,2018,5.3
-C15,N/A,17,1,6,Teleki 5C,Cabernet Sauvignon,19-June-18,1,Liberty,2018,5.7
-C16,N/A,19,1,3,1103 Paulsen,Cabernet Sauvignon,19-June-18,1,Liberty,2018,5.6
-C17,N/A,19,1,4,1103 Paulsen,Cabernet Sauvignon,19-June-18,1,Liberty,2018,5.6
-C18,N/A,19,1,5,1103 Paulsen,Cabernet Sauvignon,19-June-18,1,Liberty,2018,5.6
-C19,103 SEC B CAB.,25,N/A,12,1103 Paulsen,Cabernet Sauvignon,20-June-18,1,Livingston,2018,4.4
-C20,103 SEC B CAB.,25,N/A,13,1103 Paulsen,Cabernet Sauvignon,20-June-18,1,Livingston,2018,4.6
-C21,103 SEC B CAB.,25,N/A,14,1103 Paulsen,Cabernet Sauvignon,20-June-18,1,Livingston,2018,5
-C22,005 SEC. D,10,N/A,13,Freedom,Cabernet Sauvignon,20-June-18,1,Livingston,2018,4.3
-C23,005 SEC. D,10,N/A,14,Freedom,Cabernet Sauvignon,20-June-18,1,Livingston,2018,4.1
-C24,005 SEC. D,10,N/A,15,Freedom,Cabernet Sauvignon,20-June-18,1,Livingston,2018,4.3
-C25,089 OLCESE 24,20,N/A,10,Freedom,Chardonnay,20-June-18,1,Livingston,2018,4.5
-C26,089 OLCESE 24,20,N/A,11,Freedom,Chardonnay,20-June-18,1,Livingston,2018,4.7
-C27,089 OLCESE 24,20,N/A,12,Freedom,Chardonnay,20-June-18,1,Livingston,2018,4.4
-C28,018 CARPENTER,7,N/A,12,Teleki 5C,Chardonnay,20-June-18,1,Livingston,2018,5.3
-C29,018 CARPENTER,7,N/A,14,Teleki 5C,Chardonnay,20-June-18,1,Livingston,2018,5
-C30,018 CARPENTER,7,N/A,16,Teleki 5C,Chardonnay,20-June-18,1,Livingston,2018,5.3
-C31,RIP 772,12,N/A,11,Teleki 5C,Cabernet Sauvignon,21-June-18,1,Ripperdan,2018,4.5
-C32,RIP 772,12,N/A,12,Teleki 5C,Cabernet Sauvignon,21-June-18,1,Ripperdan,2018,4.6
-C33,RIP 772,12,N/A,13,Teleki 5C,Cabernet Sauvignon,21-June-18,1,Ripperdan,2018,4.9
-C34,RIP 760,5,N/A,11,1103 Paulsen,Chardonnay,21-June-18,1,Ripperdan,2018,4.4
-C35,RIP 760,5,N/A,12,1103 Paulsen,Chardonnay,21-June-18,1,Ripperdan,2018,4.2
-C36,RIP 760,5,N/A,13,1103 Paulsen,Chardonnay,21-June-18,1,Ripperdan,2018,4.1
-C37,RIP 775,4,N/A,11,Freedom,Cabernet Sauvignon,21-June-18,1,Ripperdan,2018,4.4
-C38,RIP 775,4,N/A,12,Freedom,Cabernet Sauvignon,21-June-18,1,Ripperdan,2018,4.4
-C39,RIP 775,4,N/A,13,Freedom,Cabernet Sauvignon,21-June-18,1,Ripperdan,2018,4.9
-C40,RIP 730,11,N/A,11,Freedom,Chardonnay,21-June-18,1,Ripperdan,2018,3.6
-C41,RIP 730,11,N/A,12,Freedom,Chardonnay,21-June-18,1,Ripperdan,2018,3.8
-C42,RIP 730,11,N/A,13,Freedom,Chardonnay,21-June-18,1,Ripperdan,2018,4.1
-C43,N/A,20,2,3,Teleki 5C,Cabernet Sauvignon,26-June-18,2,Liberty,2018,5.1
-C44,N/A,20,2,4,Teleki 5C,Cabernet Sauvignon,26-June-18,2,Liberty,2018,5.2
-C45,N/A,20,2,5,Teleki 5C,Cabernet Sauvignon,26-June-18,2,Liberty,2018,4.7
-C46,N/A,21,2,3,1103 Paulsen,Cabernet Sauvignon,26-June-18,2,Liberty,2018,4.6
-C47,N/A,21,2,4,1103 Paulsen,Cabernet Sauvignon,26-June-18,2,Liberty,2018,4.7
-C48,N/A,21,2,5,1103 Paulsen,Cabernet Sauvignon,26-June-18,2,Liberty,2018,4.7
-C49,N/A,26,3,3,Freedom,Cabernet Sauvignon,26-June-18,2,Liberty,2018,4.9
-C50,N/A,26,3,4,Freedom,Cabernet Sauvignon,26-June-18,2,Liberty,2018,4.6
-C51,N/A,26,3,6,Freedom,Cabernet Sauvignon,26-June-18,2,Liberty,2018,4.6
-C52,N/A,5,2,4,1103 Paulsen,Chardonnay,26-June-18,2,Liberty,2018,4.4
-C53,N/A,5,2,6,1103 Paulsen,Chardonnay,26-June-18,2,Liberty,2018,4.7
-C54,N/A,5,2,7,1103 Paulsen,Chardonnay,26-June-18,2,Liberty,2018,4.7
-C55,N/A,6,2,3,Teleki 5C,Chardonnay,26-June-18,2,Liberty,2018,5.2
-C56,N/A,6,2,4,Teleki 5C,Chardonnay,26-June-18,2,Liberty,2018,5.5
-C57,N/A,6,2,5,Teleki 5C,Chardonnay,26-June-18,2,Liberty,2018,5.4
-C58,N/A,12,3,3,Freedom,Chardonnay,26-June-18,2,Liberty,2018,5.8
-C59,N/A,12,3,4,Freedom,Chardonnay,26-June-18,2,Liberty,2018,5.9
-C60,N/A,12,3,6,Freedom,Chardonnay,26-June-18,2,Liberty,2018,5.4
-C61,005 SEC. D,10,N/A,23,Freedom,Cabernet Sauvignon,2-July-18,2,Livingston,2018,5.2
-C62,005 SEC. D,10,N/A,24,Freedom,Cabernet Sauvignon,2-July-18,2,Livingston,2018,4.8
-C63,005 SEC. D,10,N/A,25,Freedom,Cabernet Sauvignon,2-July-18,2,Livingston,2018,4.6
-C64,089 OLCESE 24,20,N/A,13,Freedom,Chardonnay,2-July-18,2,Livingston,2018,4.5
-C65,089 OLCESE 24,20,N/A,14,Freedom,Chardonnay,2-July-18,2,Livingston,2018,4.8
-C66,089 OLCESE 24,20,N/A,15,Freedom,Chardonnay,2-July-18,2,Livingston,2018,5.1
-C67,018 CARPENTER,7,N/A,18,Teleki 5C,Chardonnay,2-July-18,2,Livingston,2018,5.8
-C68,018 CARPENTER,7,N/A,20,Teleki 5C,Chardonnay,2-July-18,2,Livingston,2018,5.9
-C69,018 CARPENTER,7,N/A,22,Teleki 5C,Chardonnay,2-July-18,2,Livingston,2018,5.7
-C70,103 SEC B CAB.,25,N/A,15,1103 Paulsen,Cabernet Sauvignon,2-July-18,2,Livingston,2018,6.2
-C71,103 SEC B CAB.,25,N/A,16,1103 Paulsen,Cabernet Sauvignon,2-July-18,2,Livingston,2018,5.3
-C72,103 SEC B CAB.,25,N/A,17,1103 Paulsen,Cabernet Sauvignon,2-July-18,2,Livingston,2018,5.6
-C73,RIP 760,5,N/A,14,1103 Paulsen,Chardonnay,27-June-18,2,Ripperdan,2018,4
-C74,RIP 760,5,N/A,15,1103 Paulsen,Chardonnay,27-June-18,2,Ripperdan,2018,4
-C75,RIP 760,5,N/A,16,1103 Paulsen,Chardonnay,27-June-18,2,Ripperdan,2018,4.2
-C76,RIP 775,4,N/A,14,Freedom,Cabernet Sauvignon,27-June-18,2,Ripperdan,2018,4.3
-C77,RIP 775,4,N/A,15,Freedom,Cabernet Sauvignon,27-June-18,2,Ripperdan,2018,4.7
-C78,RIP 775,4,N/A,16,Freedom,Cabernet Sauvignon,27-June-18,2,Ripperdan,2018,4.8
-C79,RIP 730,11,N/A,14,Freedom,Chardonnay,27-June-18,2,Ripperdan,2018,5.1
-C80,RIP 730,11,N/A,15,Freedom,Chardonnay,27-June-18,2,Ripperdan,2018,4.6
-C81,RIP 730,11,N/A,16,Freedom,Chardonnay,27-June-18,2,Ripperdan,2018,4.3
-C82,RIP 772,12,N/A,14,Teleki 5C,Cabernet Sauvignon,27-June-18,2,Ripperdan,2018,5
-C83,RIP 772,12,N/A,15,Teleki 5C,Cabernet Sauvignon,27-June-18,2,Ripperdan,2018,5
-C84,RIP 772,12,N/A,16,Teleki 5C,Cabernet Sauvignon,27-June-18,2,Ripperdan,2018,5.2
-C85,N/A,9,3,3,Teleki 5C,Chardonnay,3-July-18,3,Liberty,2018,5.3
-C86,N/A,9,3,4,Teleki 5C,Chardonnay,3-July-18,3,Liberty,2018,5.6
-C87,N/A,9,3,5,Teleki 5C,Chardonnay,3-July-18,3,Liberty,2018,5.3
-C88,N/A,10,4,3,1103 Paulsen,Chardonnay,3-July-18,3,Liberty,2018,4.4
-C89,N/A,10,4,4,1103 Paulsen,Chardonnay,3-July-18,3,Liberty,2018,5.1
-C90,N/A,10,4,5,1103 Paulsen,Chardonnay,3-July-18,3,Liberty,2018,4.4
-C91,N/A,13,4,3,Freedom,Chardonnay,3-July-18,3,Liberty,2018,5.2
-C92,N/A,13,4,4,Freedom,Chardonnay,3-July-18,3,Liberty,2018,5.8
-C93,N/A,13,4,6,Freedom,Chardonnay,3-July-18,3,Liberty,2018,5.2
-C94,N/A,22,3,4,Teleki 5C,Cabernet Sauvignon,3-July-18,3,Liberty,2018,5.4
-C95,N/A,22,3,5,Teleki 5C,Cabernet Sauvignon,3-July-18,3,Liberty,2018,4.8
-C96,N/A,22,3,6,Teleki 5C,Cabernet Sauvignon,3-July-18,3,Liberty,2018,6.2
-C97,N/A,23,3,3,1103 Paulsen,Cabernet Sauvignon,3-July-18,3,Liberty,2018,4.8
-C98,N/A,23,3,5,1103 Paulsen,Cabernet Sauvignon,3-July-18,3,Liberty,2018,4.7
-C99,N/A,23,3,6,1103 Paulsen,Cabernet Sauvignon,3-July-18,3,Liberty,2018,5
-C100,N/A,26,4,2,Freedom,Cabernet Sauvignon,3-July-18,3,Liberty,2018,4.8
-C101,N/A,26,4,5,Freedom,Cabernet Sauvignon,3-July-18,3,Liberty,2018,4.7
-C102,N/A,26,4,6,Freedom,Cabernet Sauvignon,3-July-18,3,Liberty,2018,4.8
-C103,089 OLCESE 24,20,N/A,16,Freedom,Chardonnay,9-July-18,3,Livingston,2018,6.3
-C104,089 OLCESE 24,20,N/A,17,Freedom,Chardonnay,9-July-18,3,Livingston,2018,7.4
-C105,089 OLCESE 24,20,N/A,18,Freedom,Chardonnay,9-July-18,3,Livingston,2018,7.8
-C106,018 CARPENTER,8,N/A,12,Teleki 5C,Chardonnay,9-July-18,3,Livingston,2018,5.9
-C107,018 CARPENTER,8,N/A,14,Teleki 5C,Chardonnay,9-July-18,3,Livingston,2018,7.2
-C108,018 CARPENTER,8,N/A,16,Teleki 5C,Chardonnay,9-July-18,3,Livingston,2018,7.3
-C109,103 SEC B,25,N/A,22,1103 Paulsen,Cabernet Sauvignon,9-July-18,3,Livingston,2018,5.6
-C110,103 SEC B,25,N/A,23,1103 Paulsen,Cabernet Sauvignon,9-July-18,3,Livingston,2018,4.9
-C111,103 SEC B,25,N/A,24,1103 Paulsen,Cabernet Sauvignon,9-July-18,3,Livingston,2018,5.7
-C112,005 SEC D,9,N/A,11,Freedom,Cabernet Sauvignon,9-July-18,3,Livingston,2018,5.1
-C113,005 SEC D,9,N/A,12,Freedom,Cabernet Sauvignon,9-July-18,3,Livingston,2018,5.3
-C114,005 SEC D,9,N/A,13,Freedom,Cabernet Sauvignon,9-July-18,3,Livingston,2018,5.4
-C115,RIP 775,6,N/A,11,Freedom,Cabernet Sauvignon,5-July-18,3,Ripperdan,2018,4.8
-C116,RIP 775,6,N/A,12,Freedom,Cabernet Sauvignon,5-July-18,3,Ripperdan,2018,4.6
-C117,RIP 775,6,N/A,13,Freedom,Cabernet Sauvignon,5-July-18,3,Ripperdan,2018,4.5
-C118,RIP 730,12,N/A,11,Freedom,Chardonnay,5-July-18,3,Ripperdan,2018,4.6
-C119,RIP 730,12,N/A,12,Freedom,Chardonnay,5-July-18,3,Ripperdan,2018,4.8
-C120,RIP 730,12,N/A,13,Freedom,Chardonnay,5-July-18,3,Ripperdan,2018,5.3
-C121,RIP 772,13,N/A,11,Teleki 5C,Cabernet Sauvignon,5-July-18,3,Ripperdan,2018,4.5
-C122,RIP 772,13,N/A,12,Teleki 5C,Cabernet Sauvignon,5-July-18,3,Ripperdan,2018,4.9
-C123,RIP 772,13,N/A,13,Teleki 5C,Cabernet Sauvignon,5-July-18,3,Ripperdan,2018,4.9
-C124,RIP 760,6,N/A,11,1103 Paulsen,Chardonnay,5-July-18,3,Ripperdan,2018,4.6
-C125,RIP 760,6,N/A,12,1103 Paulsen,Chardonnay,5-July-18,3,Ripperdan,2018,5.1
-C126,RIP 760,6,N/A,13,1103 Paulsen,Chardonnay,5-July-18,3,Ripperdan,2018,6.4
-C127,N/A,20,2,3,Teleki 5C,Cabernet Sauvignon,10-July-18,4,Liberty,2018,5.6
-C128,N/A,20,2,4,Teleki 5C,Cabernet Sauvignon,10-July-18,4,Liberty,2018,5.8
-C129,N/A,20,2,5,Teleki 5C,Cabernet Sauvignon,10-July-18,4,Liberty,2018,5
-C130,N/A,21,2,3,1103 Paulsen,Cabernet Sauvignon,10-July-18,4,Liberty,2018,4.9
-C131,N/A,21,2,4,1103 Paulsen,Cabernet Sauvignon,10-July-18,4,Liberty,2018,4.3
-C132,N/A,21,2,5,1103 Paulsen,Cabernet Sauvignon,10-July-18,4,Liberty,2018,4.6
-C133,N/A,26,3,3,Freedom,Cabernet Sauvignon,10-July-18,4,Liberty,2018,5
-C134,N/A,26,3,4,Freedom,Cabernet Sauvignon,10-July-18,4,Liberty,2018,4.9
-C135,N/A,26,3,6,Freedom,Cabernet Sauvignon,10-July-18,4,Liberty,2018,5
-C136,N/A,5,2,4,1103 Paulsen,Chardonnay,10-July-18,4,Liberty,2018,5
-C137,N/A,5,2,6,1103 Paulsen,Chardonnay,10-July-18,4,Liberty,2018,5.4
-C138,N/A,5,2,8,1103 Paulsen,Chardonnay,10-July-18,4,Liberty,2018,5.1
-C139,N/A,6,2,4,Teleki 5C,Chardonnay,10-July-18,4,Liberty,2018,5.1
-C140,N/A,6,2,5,Teleki 5C,Chardonnay,10-July-18,4,Liberty,2018,6.2
-C141,N/A,6,2,6,Teleki 5C,Chardonnay,10-July-18,4,Liberty,2018,6.4
-C142,N/A,12,3,3,Freedom,Chardonnay,10-July-18,4,Liberty,2018,6
-C143,N/A,12,3,4,Freedom,Chardonnay,10-July-18,4,Liberty,2018,5.9
-C144,N/A,12,3,6,Freedom,Chardonnay,10-July-18,4,Liberty,2018,6
-C145,018 CARPENTER,8,N/A,18,Teleki 5C,Chardonnay,13-July-18,4,Livingston,2018,6.4
-C146,018 CARPENTER,8,N/A,20,Teleki 5C,Chardonnay,13-July-18,4,Livingston,2018,10.9
-C147,018 CARPENTER,8,N/A,22,Teleki 5C,Chardonnay,13-July-18,4,Livingston,2018,6.4
-C148,103 SEC B,25,N/A,25,1103 Paulsen,Cabernet Sauvignon,13-July-18,4,Livingston,2018,4.7
-C149,103 SEC B,25,N/A,26,1103 Paulsen,Cabernet Sauvignon,13-July-18,4,Livingston,2018,5
-C150,103 SEC B,25,N/A,27,1103 Paulsen,Cabernet Sauvignon,13-July-18,4,Livingston,2018,5.1
-C151,005 SEC D,9,N/A,20,Freedom,Cabernet Sauvignon,13-July-18,4,Livingston,2018,5.3
-C152,005 SEC D,9,N/A,21,Freedom,Cabernet Sauvignon,13-July-18,4,Livingston,2018,5.1
-C153,005 SEC D,9,N/A,22,Freedom,Cabernet Sauvignon,13-July-18,4,Livingston,2018,5.2
-C154,089 OLCESE 24,20,N/A,18,Freedom,Chardonnay,13-July-18,4,Livingston,2018,5.4
-C155,089 OLCESE 24,20,N/A,19,Freedom,Chardonnay,13-July-18,4,Livingston,2018,12
-C156,089 OLCESE 24,20,N/A,20,Freedom,Chardonnay,13-July-18,4,Livingston,2018,10.1
-C157,RIP 730,12,N/A,14,Freedom,Chardonnay,11-July-18,4,Ripperdan,2018,4.1
-C158,RIP 730,12,N/A,15,Freedom,Chardonnay,11-July-18,4,Ripperdan,2018,4.4
-C159,RIP 730,12,N/A,16,Freedom,Chardonnay,11-July-18,4,Ripperdan,2018,4.8
-C160,RIP 772,13,N/A,14,Teleki 5C,Cabernet Sauvignon,11-July-18,4,Ripperdan,2018,4.7
-C161,RIP 772,13,N/A,15,Teleki 5C,Cabernet Sauvignon,11-July-18,4,Ripperdan,2018,5.3
-C162,RIP 772,13,N/A,16,Teleki 5C,Cabernet Sauvignon,11-July-18,4,Ripperdan,2018,5.3
-C163,RIP 760,6,N/A,14,1103 Paulsen,Chardonnay,11-July-18,4,Ripperdan,2018,5.8
-C164,RIP 760,6,N/A,15,1103 Paulsen,Chardonnay,11-July-18,4,Ripperdan,2018,9.3
-C165,RIP 760,6,N/A,16,1103 Paulsen,Chardonnay,11-July-18,4,Ripperdan,2018,10.1
-C166,RIP 775,6,N/A,14,Freedom,Cabernet Sauvignon,11-July-18,4,Ripperdan,2018,5.2
-C167,RIP 775,6,N/A,15,Freedom,Cabernet Sauvignon,11-July-18,4,Ripperdan,2018,6
-C168,RIP 775,6,N/A,16,Freedom,Cabernet Sauvignon,11-July-18,4,Ripperdan,2018,5
-C169,N/A,2,1,2,Teleki 5C,Chardonnay,17-July-18,5,Liberty,2018,6.4
-C170,N/A,2,1,3,Teleki 5C,Chardonnay,17-July-18,5,Liberty,2018,9.8
-C171,N/A,2,1,5,Teleki 5C,Chardonnay,17-July-18,5,Liberty,2018,5.5
-C172,N/A,4,1,3,1103 Paulsen,Chardonnay,17-July-18,5,Liberty,2018,5.5
-C173,N/A,4,1,4,1103 Paulsen,Chardonnay,17-July-18,5,Liberty,2018,6.7
-C174,N/A,4,1,5,1103 Paulsen,Chardonnay,17-July-18,5,Liberty,2018,5.7
-C175,N/A,8,2,2,Freedom,Chardonnay,17-July-18,5,Liberty,2018,5.5
-C176,N/A,8,2,4,Freedom,Chardonnay,17-July-18,5,Liberty,2018,5.5
-C177,N/A,8,2,5,Freedom,Chardonnay,17-July-18,5,Liberty,2018,5
-C178,N/A,16,1,4,Freedom,Cabernet Sauvignon,17-July-18,5,Liberty,2018,5
-C179,N/A,16,1,5,Freedom,Cabernet Sauvignon,17-July-18,5,Liberty,2018,4.8
-C180,N/A,16,1,7,Freedom,Cabernet Sauvignon,17-July-18,5,Liberty,2018,4.4
-C181,N/A,17,1,3,Teleki 5C,Cabernet Sauvignon,17-July-18,5,Liberty,2018,5.3
-C182,N/A,17,1,4,Teleki 5C,Cabernet Sauvignon,17-July-18,5,Liberty,2018,5.1
-C183,N/A,17,1,6,Teleki 5C,Cabernet Sauvignon,17-July-18,5,Liberty,2018,5.4
-C184,N/A,19,1,3,1103 Paulsen,Cabernet Sauvignon,17-July-18,5,Liberty,2018,5
-C185,N/A,19,1,4,1103 Paulsen,Cabernet Sauvignon,17-July-18,5,Liberty,2018,4.9
-C186,N/A,19,1,5,1103 Paulsen,Cabernet Sauvignon,17-July-18,5,Liberty,2018,5
-C187,103 SEC B CAB.,26,N/A,12,1103 Paulsen,Cabernet Sauvignon,18-July-18,5,Livingston,2018,4.9
-C188,103 SEC B CAB.,26,N/A,13,1103 Paulsen,Cabernet Sauvignon,18-July-18,5,Livingston,2018,4.6
-C189,103 SEC B CAB.,26,N/A,14,1103 Paulsen,Cabernet Sauvignon,18-July-18,5,Livingston,2018,4.9
-C190,005 SEC. D,8,N/A,14,Freedom,Cabernet Sauvignon,18-July-18,5,Livingston,2018,4.9
-C191,005 SEC. D,8,N/A,15,Freedom,Cabernet Sauvignon,18-July-18,5,Livingston,2018,4.8
-C192,005 SEC. D,8,N/A,16,Freedom,Cabernet Sauvignon,18-July-18,5,Livingston,2018,4.9
-C193,089 OLCESE 24,21,N/A,10,Freedom,Chardonnay,18-July-18,5,Livingston,2018,14.7
-C194,089 OLCESE 24,21,N/A,11,Freedom,Chardonnay,18-July-18,5,Livingston,2018,5.1
-C195,089 OLCESE 24,21,N/A,12,Freedom,Chardonnay,18-July-18,5,Livingston,2018,14.5
-C196,018 CARPENTER,9,N/A,12,Teleki 5C,Chardonnay,18-July-18,5,Livingston,2018,16
-C197,018 CARPENTER,9,N/A,14,Teleki 5C,Chardonnay,18-July-18,5,Livingston,2018,14
-C198,018 CARPENTER,9,N/A,16,Teleki 5C,Chardonnay,18-July-18,5,Livingston,2018,14.4
-C199,RIP 772,14,N/A,11,Teleki 5C,Cabernet Sauvignon,19-July-18,5,Ripperdan,2018,5.6
-C200,RIP 772,14,N/A,12,Teleki 5C,Cabernet Sauvignon,19-July-18,5,Ripperdan,2018,5.8
-C201,RIP 772,14,N/A,13,Teleki 5C,Cabernet Sauvignon,19-July-18,5,Ripperdan,2018,4.8
-C202,RIP 760,7,N/A,11,1103 Paulsen,Chardonnay,19-July-18,5,Ripperdan,2018,14.1
-C203,RIP 760,7,N/A,12,1103 Paulsen,Chardonnay,19-July-18,5,Ripperdan,2018,12.4
-C204,RIP 760,7,N/A,13,1103 Paulsen,Chardonnay,19-July-18,5,Ripperdan,2018,12.8
-C205,RIP 775,7,N/A,11,Freedom,Cabernet Sauvignon,19-July-18,5,Ripperdan,2018,6.1
-C206,RIP 775,7,N/A,12,Freedom,Cabernet Sauvignon,19-July-18,5,Ripperdan,2018,7
-C207,RIP 775,7,N/A,13,Freedom,Cabernet Sauvignon,19-July-18,5,Ripperdan,2018,6
-C208,RIP 730,13,N/A,11,Freedom,Chardonnay,19-July-18,5,Ripperdan,2018,12.2
-C209,RIP 730,13,N/A,12,Freedom,Chardonnay,19-July-18,5,Ripperdan,2018,13.6
-C210,RIP 730,13,N/A,13,Freedom,Chardonnay,19-July-18,5,Ripperdan,2018,14.7
-C211,N/A,20,2,3,Teleki 5C,Cabernet Sauvignon,24-July-18,6,Liberty,2018,6.2
-C212,N/A,20,2,4,Teleki 5C,Cabernet Sauvignon,24-July-18,6,Liberty,2018,5.9
-C213,N/A,20,2,5,Teleki 5C,Cabernet Sauvignon,24-July-18,6,Liberty,2018,6.2
-C214,N/A,21,2,3,1103 Paulsen,Cabernet Sauvignon,24-July-18,6,Liberty,2018,4.8
-C215,N/A,21,2,4,1103 Paulsen,Cabernet Sauvignon,24-July-18,6,Liberty,2018,5.3
-C216,N/A,21,2,5,1103 Paulsen,Cabernet Sauvignon,24-July-18,6,Liberty,2018,5.1
-C217,N/A,26,3,3,Freedom,Cabernet Sauvignon,24-July-18,6,Liberty,2018,6.3
-C218,N/A,26,3,4,Freedom,Cabernet Sauvignon,24-July-18,6,Liberty,2018,4.8
-C219,N/A,26,3,6,Freedom,Cabernet Sauvignon,24-July-18,6,Liberty,2018,4.4
-C220,N/A,5,2,4,1103 Paulsen,Chardonnay,24-July-18,6,Liberty,2018,9.4
-C221,N/A,5,2,6,1103 Paulsen,Chardonnay,24-July-18,6,Liberty,2018,13.5
-C222,N/A,5,2,8,1103 Paulsen,Chardonnay,24-July-18,6,Liberty,2018,9.9
-C223,N/A,6,2,4,Teleki 5C,Chardonnay,24-July-18,6,Liberty,2018,17
-C224,N/A,6,2,5,Teleki 5C,Chardonnay,24-July-18,6,Liberty,2018,11
-C225,N/A,6,2,6,Teleki 5C,Chardonnay,24-July-18,6,Liberty,2018,14.6
-C226,N/A,12,3,3,Freedom,Chardonnay,24-July-18,6,Liberty,2018,10.1
-C227,N/A,12,3,4,Freedom,Chardonnay,24-July-18,6,Liberty,2018,18.5
-C228,N/A,12,3,6,Freedom,Chardonnay,24-July-18,6,Liberty,2018,9
-C229,005 SEC D,7,N/A,7,Freedom,Cabernet Sauvignon,25-July-18,6,Livingston,2018,5.9
-C230,005 SEC D,7,N/A,8,Freedom,Cabernet Sauvignon,25-July-18,6,Livingston,2018,7
-C231,005 SEC D,7,N/A,9,Freedom,Cabernet Sauvignon,25-July-18,6,Livingston,2018,5.3
-C232,089 OLCESE 24,21,N/A,13,Freedom,Chardonnay,25-July-18,6,Livingston,2018,13.9
-C233,089 OLCESE 24,21,N/A,14,Freedom,Chardonnay,25-July-18,6,Livingston,2018,14.6
-C234,089 OLCESE 24,21,N/A,15,Freedom,Chardonnay,25-July-18,6,Livingston,2018,16
-C235,018 CARPENTER,9,N/A,18,Teleki 5C,Chardonnay,25-July-18,6,Livingston,2018,7.3
-C236,018 CARPENTER,9,N/A,20,Teleki 5C,Chardonnay,25-July-18,6,Livingston,2018,10.8
-C237,018 CARPENTER,9,N/A,22,Teleki 5C,Chardonnay,25-July-18,6,Livingston,2018,14.8
-C238,103 SEC B,26,N/A,15,1103 Paulsen,Cabernet Sauvignon,25-July-18,6,Livingston,2018,7.9
-C239,103 SEC B,26,N/A,16,1103 Paulsen,Cabernet Sauvignon,25-July-18,6,Livingston,2018,9
-C240,103 SEC B,26,N/A,17,1103 Paulsen,Cabernet Sauvignon,25-July-18,6,Livingston,2018,6.2
-C241,RIP 760,7,N/A,14,1103 Paulsen,Chardonnay,26-July-18,6,Ripperdan,2018,18.1
-C242,RIP 760,7,N/A,15,1103 Paulsen,Chardonnay,26-July-18,6,Ripperdan,2018,12.5
-C243,RIP 760,7,N/A,16,1103 Paulsen,Chardonnay,26-July-18,6,Ripperdan,2018,17.9
-C244,RIP 775,7,N/A,14,Freedom,Cabernet Sauvignon,26-July-18,6,Ripperdan,2018,14.1
-C245,RIP 775,7,N/A,15,Freedom,Cabernet Sauvignon,26-July-18,6,Ripperdan,2018,6.3
-C246,RIP 775,7,N/A,16,Freedom,Cabernet Sauvignon,26-July-18,6,Ripperdan,2018,4.7
-C247,RIP 730,13,N/A,11,Freedom,Chardonnay,26-July-18,6,Ripperdan,2018,15.8
-C248,RIP 730,13,N/A,12,Freedom,Chardonnay,26-July-18,6,Ripperdan,2018,8.7
-C249,RIP 730,13,N/A,13,Freedom,Chardonnay,26-July-18,6,Ripperdan,2018,13.3
-C250,RIP 772,14,N/A,14,Teleki 5C,Cabernet Sauvignon,26-July-18,6,Ripperdan,2018,11.7
-C251,RIP 772,14,N/A,15,Teleki 5C,Cabernet Sauvignon,26-July-18,6,Ripperdan,2018,17.5
-C252,RIP 772,14,N/A,16,Teleki 5C,Cabernet Sauvignon,26-July-18,6,Ripperdan,2018,10.9
-C253,N/A,9,3,3,Teleki 5C,Chardonnay,31-July-18,7,Liberty,2018,19
-C254,N/A,9,3,4,Teleki 5C,Chardonnay,31-July-18,7,Liberty,2018,17.8
-C255,N/A,9,3,5,Teleki 5C,Chardonnay,31-July-18,7,Liberty,2018,16.8
-C256,N/A,10,4,3,1103 Paulsen,Chardonnay,31-July-18,7,Liberty,2018,16.5
-C257,N/A,10,4,4,1103 Paulsen,Chardonnay,31-July-18,7,Liberty,2018,16.6
-C258,N/A,10,4,5,1103 Paulsen,Chardonnay,31-July-18,7,Liberty,2018,15.5
-C259,N/A,13,4,3,Freedom,Chardonnay,31-July-18,7,Liberty,2018,13.4
-C260,N/A,13,4,4,Freedom,Chardonnay,31-July-18,7,Liberty,2018,17.5
-C261,N/A,13,4,6,Freedom,Chardonnay,31-July-18,7,Liberty,2018,18.6
-C262,N/A,22,3,4,Teleki 5C,Cabernet Sauvignon,31-July-18,7,Liberty,2018,16.9
-C263,N/A,22,3,5,Teleki 5C,Cabernet Sauvignon,31-July-18,7,Liberty,2018,17.6
-C264,N/A,22,3,6,Teleki 5C,Cabernet Sauvignon,31-July-18,7,Liberty,2018,16.3
-C265,N/A,23,3,3,1103 Paulsen,Cabernet Sauvignon,31-July-18,7,Liberty,2018,14.2
-C266,N/A,23,3,5,1103 Paulsen,Cabernet Sauvignon,31-July-18,7,Liberty,2018,13
-C267,N/A,23,3,6,1103 Paulsen,Cabernet Sauvignon,31-July-18,7,Liberty,2018,13.3
-C268,N/A,26,3,3,Freedom,Cabernet Sauvignon,31-July-18,7,Liberty,2018,15.1
-C269,N/A,26,3,4,Freedom,Cabernet Sauvignon,31-July-18,7,Liberty,2018,14.7
-C270,N/A,26,3,6,Freedom,Cabernet Sauvignon,31-July-18,7,Liberty,2018,16.9
-C271,089 OLCESE 24,21,N/A,16,Freedom,Chardonnay,1-August-18,7,Livingston,2018,19.9
-C272,089 OLCESE 24,21,N/A,17,Freedom,Chardonnay,1-August-18,7,Livingston,2018,18.9
-C273,089 OLCESE 24,21,N/A,18,Freedom,Chardonnay,1-August-18,7,Livingston,2018,18
-C274,018 CARP,10,N/A,12,Teleki 5C,Chardonnay,1-August-18,7,Livingston,2018,19.7
-C275,018 CARP,10,N/A,14,Teleki 5C,Chardonnay,1-August-18,7,Livingston,2018,19.4
-C276,018 CARP,10,N/A,16,Teleki 5C,Chardonnay,1-August-18,7,Livingston,2018,19.8
-C277,103 SEC B,26,N/A,18,1103 Paulsen,Cabernet Sauvignon,1-August-18,7,Livingston,2018,17.1
-C278,103 SEC B,26,N/A,19,1103 Paulsen,Cabernet Sauvignon,1-August-18,7,Livingston,2018,17
-C279,103 SEC B,26,N/A,20,1103 Paulsen,Cabernet Sauvignon,1-August-18,7,Livingston,2018,17.4
-C280,005 SEC D,6,N/A,14,Freedom,Cabernet Sauvignon,1-August-18,7,Livingston,2018,16.4
-C281,005 SEC D,6,N/A,15,Freedom,Cabernet Sauvignon,1-August-18,7,Livingston,2018,16.7
-C282,005 SEC D,6,N/A,16,Freedom,Cabernet Sauvignon,1-August-18,7,Livingston,2018,16.3
-C283,RIP 775,5,N/A,11,Freedom,Cabernet Sauvignon,2-August-18,7,Ripperdan,2018,18.6
-C284,RIP 775,5,N/A,12,Freedom,Cabernet Sauvignon,2-August-18,7,Ripperdan,2018,19.2
-C285,RIP 775,5,N/A,13,Freedom,Cabernet Sauvignon,2-August-18,7,Ripperdan,2018,20
-C286,RIP 730,14,N/A,11,Freedom,Chardonnay,2-August-18,7,Ripperdan,2018,17.5
-C287,RIP 730,14,N/A,12,Freedom,Chardonnay,2-August-18,7,Ripperdan,2018,18.2
-C288,RIP 730,14,N/A,13,Freedom,Chardonnay,2-August-18,7,Ripperdan,2018,18.5
-C289,RIP 772,15,N/A,11,Teleki 5C,Cabernet Sauvignon,2-August-18,7,Ripperdan,2018,16.9
-C290,RIP 772,15,N/A,12,Teleki 5C,Cabernet Sauvignon,2-August-18,7,Ripperdan,2018,18
-C291,RIP 772,15,N/A,10,Teleki 5C,Cabernet Sauvignon,2-August-18,7,Ripperdan,2018,19.6
-C292,RIP 760,8,N/A,11,1103 Paulsen,Chardonnay,2-August-18,7,Ripperdan,2018,19.1
-C293,RIP 760,8,N/A,12,1103 Paulsen,Chardonnay,2-August-18,7,Ripperdan,2018,19.7
-C294,RIP 760,8,N/A,13,1103 Paulsen,Chardonnay,2-August-18,7,Ripperdan,2018,19.5
-C295,N/A,22,3,4,Teleki 5C,Cabernet Sauvignon,6-August-18,8,Liberty,2018,15.6
-C296,N/A,22,3,5,Teleki 5C,Cabernet Sauvignon,6-August-18,8,Liberty,2018,16
-C297,N/A,22,3,6,Teleki 5C,Cabernet Sauvignon,6-August-18,8,Liberty,2018,16.5
-C298,N/A,23,3,3,1103 Paulsen,Cabernet Sauvignon,6-August-18,8,Liberty,2018,14.7
-C299,N/A,23,3,5,1103 Paulsen,Cabernet Sauvignon,6-August-18,8,Liberty,2018,14.4
-C300,N/A,23,3,6,1103 Paulsen,Cabernet Sauvignon,6-August-18,8,Liberty,2018,13.4
-C301,N/A,26,4,2,Freedom,Cabernet Sauvignon,6-August-18,8,Liberty,2018,20.1
-C302,N/A,26,4,5,Freedom,Cabernet Sauvignon,6-August-18,8,Liberty,2018,19.2
-C303,N/A,26,4,6,Freedom,Cabernet Sauvignon,6-August-18,8,Liberty,2018,20.4
-C304,N/A,9,3,3,Teleki 5C,Chardonnay,6-August-18,8,Liberty,2018,20.2
-C305,N/A,9,3,4,Teleki 5C,Chardonnay,6-August-18,8,Liberty,2018,17.9
-C306,N/A,9,3,5,Teleki 5C,Chardonnay,6-August-18,8,Liberty,2018,19.3
-C307,N/A,10,4,3,1103 Paulsen,Chardonnay,6-August-18,8,Liberty,2018,16.3
-C308,N/A,10,4,4,1103 Paulsen,Chardonnay,6-August-18,8,Liberty,2018,17.3
-C309,N/A,10,4,5,1103 Paulsen,Chardonnay,6-August-18,8,Liberty,2018,16
-C310,N/A,13,4,3,Freedom,Chardonnay,6-August-18,8,Liberty,2018,17.3
-C311,N/A,13,4,4,Freedom,Chardonnay,6-August-18,8,Liberty,2018,20
-C312,N/A,13,4,6,Freedom,Chardonnay,6-August-18,8,Liberty,2018,18.8
-C313,018 CARPENTER,10,N/A,18,Teleki 5C,Chardonnay,8-August-18,8,Livingston,2018,20.3
-C314,018 CARPENTER,10,N/A,20,Teleki 5C,Chardonnay,8-August-18,8,Livingston,2018,21.3
-C315,018 CARPENTER,10,N/A,24,Teleki 5C,Chardonnay,8-August-18,8,Livingston,2018,20.3
-C316,103 SEC B,26,N/A,21,1103 Paulsen,Cabernet Sauvignon,8-August-18,8,Livingston,2018,15.5
-C317,103 SEC B,26,N/A,22,1103 Paulsen,Cabernet Sauvignon,8-August-18,8,Livingston,2018,16.2
-C318,103 SEC B,26,N/A,23,1103 Paulsen,Cabernet Sauvignon,8-August-18,8,Livingston,2018,17.2
-C319,005 SEC D,6,N/A,27,Freedom,Cabernet Sauvignon,8-August-18,8,Livingston,2018,16.2
-C320,005 SEC D,6,N/A,28,Freedom,Cabernet Sauvignon,8-August-18,8,Livingston,2018,16.1
-C321,005 SEC D,6,N/A,39,Freedom,Cabernet Sauvignon,8-August-18,8,Livingston,2018,17.1
-C322,089 OLCESE 24,21,N/A,19,Freedom,Chardonnay,8-August-18,8,Livingston,2018,20.1
-C323,089 OLCESE 24,21,N/A,20,Freedom,Chardonnay,8-August-18,8,Livingston,2018,21
-C324,089 OLCESE 24,21,N/A,21,Freedom,Chardonnay,8-August-18,8,Livingston,2018,22.1
-C325,RIP 730,14,N/A,14,Freedom,Chardonnay,9-August-18,8,Ripperdan,2018,18.9
-C326,RIP 730,14,N/A,15,Freedom,Chardonnay,9-August-18,8,Ripperdan,2018,20.5
-C327,RIP 730,14,N/A,16,Freedom,Chardonnay,9-August-18,8,Ripperdan,2018,19.8
-C328,RIP 772,15,N/A,14,Teleki 5C,Cabernet Sauvignon,9-August-18,8,Ripperdan,2018,19.1
-C329,RIP 772,15,N/A,15,Teleki 5C,Cabernet Sauvignon,9-August-18,8,Ripperdan,2018,20.2
-C330,RIP 772,15,N/A,16,Teleki 5C,Cabernet Sauvignon,9-August-18,8,Ripperdan,2018,21
-C331,RIP 760,8,N/A,14,1103 Paulsen,Chardonnay,9-August-18,8,Ripperdan,2018,21.3
-C332,RIP 760,8,N/A,15,1103 Paulsen,Chardonnay,9-August-18,8,Ripperdan,2018,19.3
-C333,RIP 760,8,N/A,16,1103 Paulsen,Chardonnay,9-August-18,8,Ripperdan,2018,20.1
-C334,RIP 775,8,N/A,11,Freedom,Cabernet Sauvignon,9-August-18,8,Ripperdan,2018,17.4
-C335,RIP 775,8,N/A,12,Freedom,Cabernet Sauvignon,9-August-18,8,Ripperdan,2018,17.4
-C336,RIP 775,8,N/A,13,Freedom,Cabernet Sauvignon,9-August-18,8,Ripperdan,2018,19.4
-C337,N/A,20,2,3,Teleki 5C,Cabernet Sauvignon,17-June-19,1,Liberty,2019,5
-C338,N/A,20,2,4,Teleki 5C,Cabernet Sauvignon,17-June-19,1,Liberty,2019,4.3
-C339,N/A,20,2,5,Teleki 5C,Cabernet Sauvignon,17-June-19,1,Liberty,2019,4.4
-C340,N/A,21,2,3,1103 Paulsen,Cabernet Sauvignon,17-June-19,1,Liberty,2019,4.3
-C341,N/A,21,2,4,1103 Paulsen,Cabernet Sauvignon,17-June-19,1,Liberty,2019,4.4
-C342,N/A,21,2,5,1103 Paulsen,Cabernet Sauvignon,17-June-19,1,Liberty,2019,5.6
-C343,N/A,26,3,3,Freedom,Cabernet Sauvignon,17-June-19,1,Liberty,2019,3.6
-C344,N/A,26,3,4,Freedom,Cabernet Sauvignon,17-June-19,1,Liberty,2019,4.9
-C345,N/A,26,3,6,Freedom,Cabernet Sauvignon,17-June-19,1,Liberty,2019,4.3
-C346,N/A,5,2,4,1103 Paulsen,Chardonnay,17-June-19,1,Liberty,2019,4.2
-C347,N/A,5,2,6,1103 Paulsen,Chardonnay,17-June-19,1,Liberty,2019,4.1
-C348,N/A,5,2,7,1103 Paulsen,Chardonnay,17-June-19,1,Liberty,2019,3.7
-C349,N/A,6,2,3,Teleki 5C,Chardonnay,17-June-19,1,Liberty,2019,4.6
-C350,N/A,6,2,4,Teleki 5C,Chardonnay,17-June-19,1,Liberty,2019,4.6
-C351,N/A,6,2,5,Teleki 5C,Chardonnay,17-June-19,1,Liberty,2019,4.6
-C352,N/A,12,3,3,Freedom,Chardonnay,17-June-19,1,Liberty,2019,4.9
-C353,N/A,12,3,4,Freedom,Chardonnay,17-June-19,1,Liberty,2019,5
-C354,N/A,12,3,6,Freedom,Chardonnay,17-June-19,1,Liberty,2019,5.4
-C355,005 SEC. D,10,N/A,23,Freedom,Cabernet Sauvignon,20-June-19,1,Livingston,2019,4.2
-C356,005 SEC. D,10,N/A,24,Freedom,Cabernet Sauvignon,20-June-19,1,Livingston,2019,4.4
-C357,005 SEC. D,10,N/A,25,Freedom,Cabernet Sauvignon,20-June-19,1,Livingston,2019,4.3
-C358,089 OLCESE 24,20,N/A,13,Freedom,Chardonnay,20-June-19,1,Livingston,2019,4
-C359,089 OLCESE 24,20,N/A,14,Freedom,Chardonnay,20-June-19,1,Livingston,2019,5.1
-C360,089 OLCESE 24,20,N/A,15,Freedom,Chardonnay,20-June-19,1,Livingston,2019,4.5
-C361,018 CARPENTER,7,N/A,18,Teleki 5C,Chardonnay,20-June-19,1,Livingston,2019,4.3
-C362,018 CARPENTER,7,N/A,20,Teleki 5C,Chardonnay,20-June-19,1,Livingston,2019,4.3
-C363,018 CARPENTER,7,N/A,22,Teleki 5C,Chardonnay,20-June-19,1,Livingston,2019,4.2
-C364,103 SEC B CAB.,25,N/A,15,1103 Paulsen,Cabernet Sauvignon,20-June-19,1,Livingston,2019,5.2
-C365,103 SEC B CAB.,25,N/A,16,1103 Paulsen,Cabernet Sauvignon,20-June-19,1,Livingston,2019,5.3
-C366,103 SEC B CAB.,25,N/A,17,1103 Paulsen,Cabernet Sauvignon,20-June-19,1,Livingston,2019,5
-C367,RIP 760,5,N/A,14,1103 Paulsen,Chardonnay,18-June-19,1,Ripperdan,2019,4.3
-C368,RIP 760,5,N/A,15,1103 Paulsen,Chardonnay,18-June-19,1,Ripperdan,2019,4.2
-C369,RIP 760,5,N/A,16,1103 Paulsen,Chardonnay,18-June-19,1,Ripperdan,2019,4
-C370,RIP 775,4,N/A,14,Freedom,Cabernet Sauvignon,18-June-19,1,Ripperdan,2019,4.3
-C371,RIP 775,4,N/A,15,Freedom,Cabernet Sauvignon,18-June-19,1,Ripperdan,2019,4.3
-C372,RIP 775,4,N/A,16,Freedom,Cabernet Sauvignon,18-June-19,1,Ripperdan,2019,4.6
-C373,RIP 730,11,N/A,14,Freedom,Chardonnay,18-June-19,1,Ripperdan,2019,5.4
-C374,RIP 730,11,N/A,15,Freedom,Chardonnay,18-June-19,1,Ripperdan,2019,4.7
-C375,RIP 730,11,N/A,16,Freedom,Chardonnay,18-June-19,1,Ripperdan,2019,4.4
-C376,RIP 772,12,N/A,14,Teleki 5C,Cabernet Sauvignon,18-June-19,1,Ripperdan,2019,5.1
-C377,RIP 772,12,N/A,15,Teleki 5C,Cabernet Sauvignon,18-June-19,1,Ripperdan,2019,5.3
-C378,RIP 772,12,N/A,16,Teleki 5C,Cabernet Sauvignon,18-June-19,1,Ripperdan,2019,5.6
-C379,N/A,9,3,3,Teleki 5C,Chardonnay,25-June-19,2,Liberty,2019,4.8
-C380,N/A,9,3,4,Teleki 5C,Chardonnay,25-June-19,2,Liberty,2019,4.4
-C381,N/A,9,3,5,Teleki 5C,Chardonnay,25-June-19,2,Liberty,2019,4.9
-C382,N/A,10,4,3,1103 Paulsen,Chardonnay,25-June-19,2,Liberty,2019,4
-C383,N/A,10,4,4,1103 Paulsen,Chardonnay,25-June-19,2,Liberty,2019,4.5
-C384,N/A,10,4,5,1103 Paulsen,Chardonnay,25-June-19,2,Liberty,2019,4.5
-C385,N/A,13,4,3,Freedom,Chardonnay,25-June-19,2,Liberty,2019,4.8
-C386,N/A,13,4,4,Freedom,Chardonnay,25-June-19,2,Liberty,2019,5.1
-C387,N/A,13,4,6,Freedom,Chardonnay,25-June-19,2,Liberty,2019,4.7
-C388,N/A,22,3,4,Teleki 5C,Cabernet Sauvignon,25-June-19,2,Liberty,2019,4.5
-C389,N/A,22,3,5,Teleki 5C,Cabernet Sauvignon,25-June-19,2,Liberty,2019,4.5
-C390,N/A,22,3,6,Teleki 5C,Cabernet Sauvignon,25-June-19,2,Liberty,2019,6.4
-C391,N/A,23,3,3,1103 Paulsen,Cabernet Sauvignon,25-June-19,2,Liberty,2019,4
-C392,N/A,23,3,5,1103 Paulsen,Cabernet Sauvignon,25-June-19,2,Liberty,2019,4
-C393,N/A,23,3,6,1103 Paulsen,Cabernet Sauvignon,25-June-19,2,Liberty,2019,4.2
-C394,N/A,26,4,2,Freedom,Cabernet Sauvignon,25-June-19,2,Liberty,2019,4.7
-C395,N/A,26,4,5,Freedom,Cabernet Sauvignon,25-June-19,2,Liberty,2019,4.4
-C396,N/A,26,4,6,Freedom,Cabernet Sauvignon,25-June-19,2,Liberty,2019,4.5
-C397,089 OLCESE 24,20,N/A,16,Freedom,Chardonnay,26-June-19,2,Livingston,2019,5.2
-C398,089 OLCESE 24,20,N/A,17,Freedom,Chardonnay,26-June-19,2,Livingston,2019,5
-C399,089 OLCESE 24,20,N/A,18,Freedom,Chardonnay,26-June-19,2,Livingston,2019,5
-C400,018 CARPENTER,8,N/A,12,Teleki 5C,Chardonnay,26-June-19,2,Livingston,2019,4.7
-C401,018 CARPENTER,8,N/A,14,Teleki 5C,Chardonnay,26-June-19,2,Livingston,2019,4.7
-C402,018 CARPENTER,8,N/A,16,Teleki 5C,Chardonnay,26-June-19,2,Livingston,2019,5.3
-C403,103 SEC B,25,N/A,22,1103 Paulsen,Cabernet Sauvignon,26-June-19,2,Livingston,2019,4.7
-C404,103 SEC B,25,N/A,23,1103 Paulsen,Cabernet Sauvignon,26-June-19,2,Livingston,2019,4.7
-C405,103 SEC B,25,N/A,24,1103 Paulsen,Cabernet Sauvignon,26-June-19,2,Livingston,2019,4.4
-C406,005 SEC D,9,N/A,11,Freedom,Cabernet Sauvignon,26-June-19,2,Livingston,2019,5
-C407,005 SEC D,9,N/A,12,Freedom,Cabernet Sauvignon,26-June-19,2,Livingston,2019,4.8
-C408,005 SEC D,9,N/A,13,Freedom,Cabernet Sauvignon,26-June-19,2,Livingston,2019,4.8
-C409,RIP 775,6,N/A,11,Freedom,Cabernet Sauvignon,27-June-19,2,Ripperdan,2019,4.5
-C410,RIP 775,6,N/A,12,Freedom,Cabernet Sauvignon,27-June-19,2,Ripperdan,2019,4.7
-C411,RIP 775,6,N/A,13,Freedom,Cabernet Sauvignon,27-June-19,2,Ripperdan,2019,5.7
-C412,RIP 730,12,N/A,11,Freedom,Chardonnay,27-June-19,2,Ripperdan,2019,5
-C413,RIP 730,12,N/A,12,Freedom,Chardonnay,27-June-19,2,Ripperdan,2019,4.7
-C414,RIP 730,12,N/A,13,Freedom,Chardonnay,27-June-19,2,Ripperdan,2019,4.5
-C415,RIP 772,13,N/A,11,Teleki 5C,Cabernet Sauvignon,27-June-19,2,Ripperdan,2019,4.4
-C416,RIP 772,13,N/A,12,Teleki 5C,Cabernet Sauvignon,27-June-19,2,Ripperdan,2019,4.8
-C417,RIP 772,13,N/A,13,Teleki 5C,Cabernet Sauvignon,27-June-19,2,Ripperdan,2019,4.9
-C418,RIP 760,6,N/A,11,1103 Paulsen,Chardonnay,27-June-19,2,Ripperdan,2019,4.3
-C419,RIP 760,6,N/A,12,1103 Paulsen,Chardonnay,27-June-19,2,Ripperdan,2019,4.3
-C420,RIP 760,6,N/A,13,1103 Paulsen,Chardonnay,27-June-19,2,Ripperdan,2019,4.1
-C420,N/A,20,2,3,Teleki 5C,Cabernet Sauvignon,1-July-19,3,Liberty,2019,4.3
-C421,N/A,20,2,4,Teleki 5C,Cabernet Sauvignon,1-July-19,3,Liberty,2019,4.4
-C422,N/A,20,2,5,Teleki 5C,Cabernet Sauvignon,1-July-19,3,Liberty,2019,4.2
-C423,N/A,21,2,3,1103 Paulsen,Cabernet Sauvignon,1-July-19,3,Liberty,2019,4.6
-C424,N/A,21,2,4,1103 Paulsen,Cabernet Sauvignon,1-July-19,3,Liberty,2019,5
-C425,N/A,21,2,5,1103 Paulsen,Cabernet Sauvignon,1-July-19,3,Liberty,2019,4.8
-C426,N/A,26,3,3,Freedom,Cabernet Sauvignon,1-July-19,3,Liberty,2019,4.3
-C427,N/A,26,3,4,Freedom,Cabernet Sauvignon,1-July-19,3,Liberty,2019,4.7
-C428,N/A,26,3,6,Freedom,Cabernet Sauvignon,1-July-19,3,Liberty,2019,4.1
-C429,N/A,5,2,4,1103 Paulsen,Chardonnay,1-July-19,3,Liberty,2019,5.1
-C430,N/A,5,2,6,1103 Paulsen,Chardonnay,1-July-19,3,Liberty,2019,5
-C431,N/A,5,2,8,1103 Paulsen,Chardonnay,1-July-19,3,Liberty,2019,5.5
-C432,N/A,6,2,4,Teleki 5C,Chardonnay,1-July-19,3,Liberty,2019,5
-C433,N/A,6,2,5,Teleki 5C,Chardonnay,1-July-19,3,Liberty,2019,5.7
-C434,N/A,6,2,6,Teleki 5C,Chardonnay,1-July-19,3,Liberty,2019,4.9
-C435,N/A,12,3,3,Freedom,Chardonnay,1-July-19,3,Liberty,2019,5
-C436,N/A,12,3,4,Freedom,Chardonnay,1-July-19,3,Liberty,2019,5.6
-C437,N/A,12,3,6,Freedom,Chardonnay,1-July-19,3,Liberty,2019,5.6
-C438,018 CARPENTER,8,N/A,18,Teleki 5C,Chardonnay,2-July-19,3,Livingston,2019,5.2
-C439,018 CARPENTER,8,N/A,20,Teleki 5C,Chardonnay,2-July-19,3,Livingston,2019,6.6
-C440,018 CARPENTER,8,N/A,22,Teleki 5C,Chardonnay,2-July-19,3,Livingston,2019,7.5
-C441,103 SEC B,25,N/A,25,1103 Paulsen,Cabernet Sauvignon,2-July-19,3,Livingston,2019,4.9
-C442,103 SEC B,25,N/A,26,1103 Paulsen,Cabernet Sauvignon,2-July-19,3,Livingston,2019,4.8
-C443,103 SEC B,25,N/A,27,1103 Paulsen,Cabernet Sauvignon,2-July-19,3,Livingston,2019,5.7
-C444,005 SEC D,9,N/A,20,Freedom,Cabernet Sauvignon,2-July-19,3,Livingston,2019,4.7
-C445,005 SEC D,9,N/A,21,Freedom,Cabernet Sauvignon,2-July-19,3,Livingston,2019,4.8
-C446,005 SEC D,9,N/A,22,Freedom,Cabernet Sauvignon,2-July-19,3,Livingston,2019,4.9
-C447,089 OLCESE 24,20,N/A,21,Freedom,Chardonnay,2-July-19,3,Livingston,2019,NA
-C448,089 OLCESE 24,20,N/A,19,Freedom,Chardonnay,2-July-19,3,Livingston,2019,NA
-C449,089 OLCESE 24,20,N/A,20,Freedom,Chardonnay,2-July-19,3,Livingston,2019,NA
-C450,RIP 730,12,N/A,14,Freedom,Chardonnay,3-July-19,3,Ripperdan,2019,5.3
-C451,RIP 730,12,N/A,15,Freedom,Chardonnay,3-July-19,3,Ripperdan,2019,5.9
-C452,RIP 730,12,N/A,16,Freedom,Chardonnay,3-July-19,3,Ripperdan,2019,6.3
-C453,RIP 772,13,N/A,14,Teleki 5C,Cabernet Sauvignon,3-July-19,3,Ripperdan,2019,4.2
-C454,RIP 772,13,N/A,15,Teleki 5C,Cabernet Sauvignon,3-July-19,3,Ripperdan,2019,4.4
-C455,RIP 772,13,N/A,16,Teleki 5C,Cabernet Sauvignon,3-July-19,3,Ripperdan,2019,5.7
-C456,RIP 760,6,N/A,14,1103 Paulsen,Chardonnay,3-July-19,3,Ripperdan,2019,4.8
-C457,RIP 760,6,N/A,15,1103 Paulsen,Chardonnay,3-July-19,3,Ripperdan,2019,4.3
-C458,RIP 760,6,N/A,16,1103 Paulsen,Chardonnay,3-July-19,3,Ripperdan,2019,4.9
-C459,RIP 775,6,N/A,14,Freedom,Cabernet Sauvignon,3-July-19,3,Ripperdan,2019,4.8
-C460,RIP 775,6,N/A,15,Freedom,Cabernet Sauvignon,3-July-19,3,Ripperdan,2019,5.4
-C461,RIP 775,6,N/A,16,Freedom,Cabernet Sauvignon,3-July-19,3,Ripperdan,2019,6
-C462,N/A,2,1,2,Teleki 5C,Chardonnay,9-July-19,4,Liberty,2019,5.5
-C463,N/A,2,1,3,Teleki 5C,Chardonnay,9-July-19,4,Liberty,2019,4.8
-C464,N/A,2,1,5,Teleki 5C,Chardonnay,9-July-19,4,Liberty,2019,4.8
-C465,N/A,4,1,3,1103 Paulsen,Chardonnay,9-July-19,4,Liberty,2019,4.4
-C466,N/A,4,1,4,1103 Paulsen,Chardonnay,9-July-19,4,Liberty,2019,5.2
-C467,N/A,4,1,5,1103 Paulsen,Chardonnay,9-July-19,4,Liberty,2019,5
-C468,N/A,8,2,1,Freedom,Chardonnay,9-July-19,4,Liberty,2019,4.9
-C469,N/A,8,2,2,Freedom,Chardonnay,9-July-19,4,Liberty,2019,4.9
-C470,N/A,8,2,4,Freedom,Chardonnay,9-July-19,4,Liberty,2019,5.4
-C471,N/A,16,1,4,Freedom,Cabernet Sauvignon,9-July-19,4,Liberty,2019,4.8
-C472,N/A,16,1,5,Freedom,Cabernet Sauvignon,9-July-19,4,Liberty,2019,4.7
-C473,N/A,16,1,7,Freedom,Cabernet Sauvignon,9-July-19,4,Liberty,2019,4.6
-C474,N/A,17,1,3,Teleki 5C,Cabernet Sauvignon,9-July-19,4,Liberty,2019,4.6
-C475,N/A,17,1,4,Teleki 5C,Cabernet Sauvignon,9-July-19,4,Liberty,2019,4.9
-C476,N/A,17,1,6,Teleki 5C,Cabernet Sauvignon,9-July-19,4,Liberty,2019,4.5
-C477,N/A,19,1,3,1103 Paulsen,Cabernet Sauvignon,9-July-19,4,Liberty,2019,4.8
-C478,N/A,19,1,4,1103 Paulsen,Cabernet Sauvignon,9-July-19,4,Liberty,2019,4.5
-C479,N/A,19,1,5,1103 Paulsen,Cabernet Sauvignon,9-July-19,4,Liberty,2019,4.7
-C480,103 SEC B CAB.,26,N/A,12,1103 Paulsen,Cabernet Sauvignon,10-July-19,4,Livingston,2019,4.9
-C481,103 SEC B CAB.,26,N/A,13,1103 Paulsen,Cabernet Sauvignon,10-July-19,4,Livingston,2019,4.9
-C482,103 SEC B CAB.,26,N/A,14,1103 Paulsen,Cabernet Sauvignon,10-July-19,4,Livingston,2019,5.2
-C483,005 SEC. D,8,N/A,14,Freedom,Cabernet Sauvignon,10-July-19,4,Livingston,2019,4.7
-C484,005 SEC. D,8,N/A,15,Freedom,Cabernet Sauvignon,10-July-19,4,Livingston,2019,4.9
-C485,005 SEC. D,8,N/A,16,Freedom,Cabernet Sauvignon,10-July-19,4,Livingston,2019,4.9
-C486,089 OLCESE 24,21,N/A,10,Freedom,Chardonnay,10-July-19,4,Livingston,2019,7.2
-C487,089 OLCESE 24,21,N/A,11,Freedom,Chardonnay,10-July-19,4,Livingston,2019,7.8
-C488,089 OLCESE 24,21,N/A,12,Freedom,Chardonnay,10-July-19,4,Livingston,2019,8.8
-C489,018 CARPENTER,9,N/A,12,Teleki 5C,Chardonnay,10-July-19,4,Livingston,2019,7.9
-C490,018 CARPENTER,9,N/A,14,Teleki 5C,Chardonnay,10-July-19,4,Livingston,2019,6.5
-C491,018 CARPENTER,9,N/A,16,Teleki 5C,Chardonnay,10-July-19,4,Livingston,2019,6.2
-C492,RIP 772,14,N/A,11,Teleki 5C,Cabernet Sauvignon,12-July-19,4,Ripperdan,2019,4.8
-C493,RIP 772,14,N/A,12,Teleki 5C,Cabernet Sauvignon,12-July-19,4,Ripperdan,2019,4.8
-C494,RIP 772,14,N/A,13,Teleki 5C,Cabernet Sauvignon,12-July-19,4,Ripperdan,2019,5
-C495,RIP 760,7,N/A,11,1103 Paulsen,Chardonnay,12-July-19,4,Ripperdan,2019,12.4
-C496,RIP 760,7,N/A,12,1103 Paulsen,Chardonnay,12-July-19,4,Ripperdan,2019,9.4
-C497,RIP 760,7,N/A,13,1103 Paulsen,Chardonnay,12-July-19,4,Ripperdan,2019,12.1
-C498,RIP 775,7,N/A,11,Freedom,Cabernet Sauvignon,12-July-19,4,Ripperdan,2019,5.1
-C499,RIP 775,7,N/A,12,Freedom,Cabernet Sauvignon,12-July-19,4,Ripperdan,2019,5.5
-C500,RIP 775,7,N/A,13,Freedom,Cabernet Sauvignon,12-July-19,4,Ripperdan,2019,5.3
-C501,RIP 730,13,N/A,11,Freedom,Chardonnay,12-July-19,4,Ripperdan,2019,13.8
-C502,RIP 730,13,N/A,12,Freedom,Chardonnay,12-July-19,4,Ripperdan,2019,12.1
-C503,RIP 730,13,N/A,13,Freedom,Chardonnay,12-July-19,4,Ripperdan,2019,12
-C504,N/A,20,2,3,Teleki 5C,Cabernet Sauvignon,17-July-19,5,Liberty,2019,4.5
-C505,N/A,20,2,4,Teleki 5C,Cabernet Sauvignon,17-July-19,5,Liberty,2019,4.5
-C506,N/A,20,2,5,Teleki 5C,Cabernet Sauvignon,17-July-19,5,Liberty,2019,4.4
-C507,N/A,21,2,3,1103 Paulsen,Cabernet Sauvignon,17-July-19,5,Liberty,2019,4.6
-C508,N/A,21,2,4,1103 Paulsen,Cabernet Sauvignon,17-July-19,5,Liberty,2019,4.2
-C509,N/A,21,2,5,1103 Paulsen,Cabernet Sauvignon,17-July-19,5,Liberty,2019,5.1
-C510,N/A,26,3,3,Freedom,Cabernet Sauvignon,17-July-19,5,Liberty,2019,4.5
-C511,N/A,26,3,4,Freedom,Cabernet Sauvignon,17-July-19,5,Liberty,2019,4.7
-C512,N/A,26,3,6,Freedom,Cabernet Sauvignon,17-July-19,5,Liberty,2019,4.5
-C513,N/A,5,2,4,1103 Paulsen,Chardonnay,17-July-19,5,Liberty,2019,9.9
-C514,N/A,5,2,6,1103 Paulsen,Chardonnay,17-July-19,5,Liberty,2019,8.8
-C515,N/A,5,2,8,1103 Paulsen,Chardonnay,17-July-19,5,Liberty,2019,7.9
-C516,N/A,6,2,4,Teleki 5C,Chardonnay,17-July-19,5,Liberty,2019,8.1
-C517,N/A,6,2,5,Teleki 5C,Chardonnay,17-July-19,5,Liberty,2019,8.1
-C518,N/A,6,2,6,Teleki 5C,Chardonnay,17-July-19,5,Liberty,2019,8.8
-C519,N/A,12,3,3,Freedom,Chardonnay,17-July-19,5,Liberty,2019,9.3
-C520,N/A,12,3,4,Freedom,Chardonnay,17-July-19,5,Liberty,2019,10.1
-C521,N/A,12,3,6,Freedom,Chardonnay,17-July-19,5,Liberty,2019,11.9
-C522,005 SEC D,7,N/A,7,Freedom,Cabernet Sauvignon,15-July-19,5,Livingston,2019,5.7
-C523,005 SEC D,7,N/A,8,Freedom,Cabernet Sauvignon,15-July-19,5,Livingston,2019,4.9
-C524,005 SEC D,7,N/A,9,Freedom,Cabernet Sauvignon,15-July-19,5,Livingston,2019,5
-C525,089 OLCESE 24,21,N/A,13,Freedom,Chardonnay,15-July-19,5,Livingston,2019,14.2
-C526,089 OLCESE 24,21,N/A,14,Freedom,Chardonnay,15-July-19,5,Livingston,2019,14.6
-C527,089 OLCESE 24,21,N/A,15,Freedom,Chardonnay,15-July-19,5,Livingston,2019,13.9
-C528,018 CARPENTER,9,N/A,18,Teleki 5C,Chardonnay,15-July-19,5,Livingston,2019,12.1
-C529,018 CARPENTER,9,N/A,20,Teleki 5C,Chardonnay,15-July-19,5,Livingston,2019,12.8
-C530,018 CARPENTER,9,N/A,22,Teleki 5C,Chardonnay,15-July-19,5,Livingston,2019,12.3
-C531,103 SEC B,26,N/A,15,1103 Paulsen,Cabernet Sauvignon,15-July-19,5,Livingston,2019,4.7
-C532,103 SEC B,26,N/A,16,1103 Paulsen,Cabernet Sauvignon,15-July-19,5,Livingston,2019,5.7
-C533,103 SEC B,26,N/A,17,1103 Paulsen,Cabernet Sauvignon,15-July-19,5,Livingston,2019,5.1
-C534,RIP 760,7,N/A,14,1103 Paulsen,Chardonnay,16-July-19,5,Ripperdan,2019,14.3
-C535,RIP 760,7,N/A,15,1103 Paulsen,Chardonnay,16-July-19,5,Ripperdan,2019,14.6
-C536,RIP 760,7,N/A,16,1103 Paulsen,Chardonnay,16-July-19,5,Ripperdan,2019,15.7
-C537,RIP 775,7,N/A,14,Freedom,Cabernet Sauvignon,16-July-19,5,Ripperdan,2019,5.1
-C538,RIP 775,7,N/A,15,Freedom,Cabernet Sauvignon,16-July-19,5,Ripperdan,2019,4.8
-C539,RIP 775,7,N/A,16,Freedom,Cabernet Sauvignon,16-July-19,5,Ripperdan,2019,4.9
-C540,RIP 730,13,N/A,11,Freedom,Chardonnay,16-July-19,5,Ripperdan,2019,9.8
-C541,RIP 730,13,N/A,12,Freedom,Chardonnay,16-July-19,5,Ripperdan,2019,10
-C542,RIP 730,13,N/A,13,Freedom,Chardonnay,16-July-19,5,Ripperdan,2019,11.8
-C543,RIP 772,14,N/A,14,Teleki 5C,Cabernet Sauvignon,16-July-19,5,Ripperdan,2019,5
-C544,RIP 772,14,N/A,15,Teleki 5C,Cabernet Sauvignon,16-July-19,5,Ripperdan,2019,4.9
-C545,RIP 772,14,N/A,16,Teleki 5C,Cabernet Sauvignon,16-July-19,5,Ripperdan,2019,5.4
-C546,N/A,9,3,3,Teleki 5C,Chardonnay,23-July-19,6,Liberty,2019,11.4
-C547,N/A,9,3,4,Teleki 5C,Chardonnay,23-July-19,6,Liberty,2019,11.3
-C548,N/A,9,3,5,Teleki 5C,Chardonnay,23-July-19,6,Liberty,2019,11.2
-C549,N/A,10,4,3,1103 Paulsen,Chardonnay,23-July-19,6,Liberty,2019,13.5
-C550,N/A,10,4,4,1103 Paulsen,Chardonnay,23-July-19,6,Liberty,2019,14.6
-C551,N/A,10,4,5,1103 Paulsen,Chardonnay,23-July-19,6,Liberty,2019,14.4
-C552,N/A,13,4,3,Freedom,Chardonnay,23-July-19,6,Liberty,2019,19.2
-C553,N/A,13,4,4,Freedom,Chardonnay,23-July-19,6,Liberty,2019,19.4
-C554,N/A,13,4,6,Freedom,Chardonnay,23-July-19,6,Liberty,2019,20.3
-C555,N/A,22,3,4,Teleki 5C,Cabernet Sauvignon,23-July-19,6,Liberty,2019,11.1
-C556,N/A,22,3,5,Teleki 5C,Cabernet Sauvignon,23-July-19,6,Liberty,2019,10
-C557,N/A,22,3,6,Teleki 5C,Cabernet Sauvignon,23-July-19,6,Liberty,2019,8.3
-C558,N/A,23,3,3,1103 Paulsen,Cabernet Sauvignon,23-July-19,6,Liberty,2019,5.8
-C559,N/A,23,3,5,1103 Paulsen,Cabernet Sauvignon,23-July-19,6,Liberty,2019,5.9
-C560,N/A,23,3,6,1103 Paulsen,Cabernet Sauvignon,23-July-19,6,Liberty,2019,6.1
-C561,N/A,26,3,3,Freedom,Cabernet Sauvignon,23-July-19,6,Liberty,2019,4.9
-C562,N/A,26,3,4,Freedom,Cabernet Sauvignon,23-July-19,6,Liberty,2019,4.9
-C563,N/A,26,3,6,Freedom,Cabernet Sauvignon,23-July-19,6,Liberty,2019,4.7
-C564,089 OLCESE 24,21,N/A,16,Freedom,Chardonnay,24-July-19,6,Livingston,2019,16.4
-C565,089 OLCESE 24,21,N/A,17,Freedom,Chardonnay,24-July-19,6,Livingston,2019,14.8
-C566,089 OLCESE 24,21,N/A,18,Freedom,Chardonnay,24-July-19,6,Livingston,2019,16.9
-C567,018 CARP,10,N/A,12,Teleki 5C,Chardonnay,24-July-19,6,Livingston,2019,15.6
-C568,018 CARP,10,N/A,14,Teleki 5C,Chardonnay,24-July-19,6,Livingston,2019,17.4
-C569,018 CARP,10,N/A,16,Teleki 5C,Chardonnay,24-July-19,6,Livingston,2019,16.1
-C570,103 SEC B,26,N/A,18,1103 Paulsen,Cabernet Sauvignon,24-July-19,6,Livingston,2019,12.7
-C571,103 SEC B,26,N/A,19,1103 Paulsen,Cabernet Sauvignon,24-July-19,6,Livingston,2019,12
-C572,103 SEC B,26,N/A,20,1103 Paulsen,Cabernet Sauvignon,24-July-19,6,Livingston,2019,13.5
-C573,005 SEC D,6,N/A,14,Freedom,Cabernet Sauvignon,24-July-19,6,Livingston,2019,14.7
-C574,005 SEC D,6,N/A,15,Freedom,Cabernet Sauvignon,24-July-19,6,Livingston,2019,14.9
-C575,005 SEC D,6,N/A,16,Freedom,Cabernet Sauvignon,24-July-19,6,Livingston,2019,15.3
-C576,RIP 775,5,N/A,11,Freedom,Cabernet Sauvignon,25-July-19,6,Ripperdan,2019,15.7
-C577,RIP 775,5,N/A,12,Freedom,Cabernet Sauvignon,25-July-19,6,Ripperdan,2019,15.3
-C578,RIP 775,5,N/A,13,Freedom,Cabernet Sauvignon,25-July-19,6,Ripperdan,2019,15.9
-C579,RIP 730,14,N/A,11,Freedom,Chardonnay,25-July-19,6,Ripperdan,2019,16
-C580,RIP 730,14,N/A,12,Freedom,Chardonnay,25-July-19,6,Ripperdan,2019,15.6
-C581,RIP 730,14,N/A,13,Freedom,Chardonnay,25-July-19,6,Ripperdan,2019,17.2
-C582,RIP 772,15,N/A,11,Teleki 5C,Cabernet Sauvignon,25-July-19,6,Ripperdan,2019,14
-C583,RIP 772,15,N/A,12,Teleki 5C,Cabernet Sauvignon,25-July-19,6,Ripperdan,2019,13.1
-C584,RIP 772,15,N/A,10,Teleki 5C,Cabernet Sauvignon,25-July-19,6,Ripperdan,2019,10.8
-C585,RIP 760,8,N/A,11,1103 Paulsen,Chardonnay,25-July-19,6,Ripperdan,2019,14.4
-C586,RIP 760,8,N/A,12,1103 Paulsen,Chardonnay,25-July-19,6,Ripperdan,2019,15.4
-C587,RIP 760,8,N/A,13,1103 Paulsen,Chardonnay,25-July-19,6,Ripperdan,2019,15
-C588,N/A,22,3,4,Teleki 5C,Cabernet Sauvignon,29-July-19,7,Liberty,2019,10.4
-C589,N/A,22,3,5,Teleki 5C,Cabernet Sauvignon,29-July-19,7,Liberty,2019,13.4
-C590,N/A,22,3,6,Teleki 5C,Cabernet Sauvignon,29-July-19,7,Liberty,2019,14
-C591,N/A,23,3,3,1103 Paulsen,Cabernet Sauvignon,29-July-19,7,Liberty,2019,10.1
-C592,N/A,23,3,5,1103 Paulsen,Cabernet Sauvignon,29-July-19,7,Liberty,2019,12.1
-C593,N/A,23,3,6,1103 Paulsen,Cabernet Sauvignon,29-July-19,7,Liberty,2019,11.6
-C594,N/A,26,4,2,Freedom,Cabernet Sauvignon,29-July-19,7,Liberty,2019,15
-C595,N/A,26,4,5,Freedom,Cabernet Sauvignon,29-July-19,7,Liberty,2019,14.6
-C596,N/A,26,4,6,Freedom,Cabernet Sauvignon,29-July-19,7,Liberty,2019,13.5
-C597,N/A,9,3,3,Teleki 5C,Chardonnay,29-July-19,7,Liberty,2019,16.5
-C598,N/A,9,3,4,Teleki 5C,Chardonnay,29-July-19,7,Liberty,2019,15
-C599,N/A,9,3,5,Teleki 5C,Chardonnay,29-July-19,7,Liberty,2019,14.1
-C600,N/A,10,4,3,1103 Paulsen,Chardonnay,29-July-19,7,Liberty,2019,14.5
-C601,N/A,10,4,4,1103 Paulsen,Chardonnay,29-July-19,7,Liberty,2019,16.6
-C602,N/A,10,4,5,1103 Paulsen,Chardonnay,29-July-19,7,Liberty,2019,12
-C603,N/A,13,4,3,Freedom,Chardonnay,29-July-19,7,Liberty,2019,16.6
-C604,N/A,13,4,4,Freedom,Chardonnay,29-July-19,7,Liberty,2019,14.6
-C605,N/A,13,4,6,Freedom,Chardonnay,29-July-19,7,Liberty,2019,16.9
-C606,018 CARPENTER,10,N/A,18,Teleki 5C,Chardonnay,30-July-19,7,Livingston,2019,15.9
-C607,018 CARPENTER,10,N/A,20,Teleki 5C,Chardonnay,30-July-19,7,Livingston,2019,17.2
-C608,018 CARPENTER,10,N/A,24,Teleki 5C,Chardonnay,30-July-19,7,Livingston,2019,20.2
-C609,103 SEC B,26,N/A,21,1103 Paulsen,Cabernet Sauvignon,30-July-19,7,Livingston,2019,12.9
-C610,103 SEC B,26,N/A,22,1103 Paulsen,Cabernet Sauvignon,30-July-19,7,Livingston,2019,10.6
-C611,103 SEC B,26,N/A,23,1103 Paulsen,Cabernet Sauvignon,30-July-19,7,Livingston,2019,14.3
-C612,005 SEC D,6,N/A,27,Freedom,Cabernet Sauvignon,30-July-19,7,Livingston,2019,13.5
-C613,005 SEC D,6,N/A,28,Freedom,Cabernet Sauvignon,30-July-19,7,Livingston,2019,13.7
-C614,005 SEC D,6,N/A,39,Freedom,Cabernet Sauvignon,30-July-19,7,Livingston,2019,16
-C615,089 OLCESE 24,21,N/A,19,Freedom,Chardonnay,30-July-19,7,Livingston,2019,19.7
-C616,089 OLCESE 24,21,N/A,20,Freedom,Chardonnay,30-July-19,7,Livingston,2019,17.6
-C617,089 OLCESE 24,21,N/A,21,Freedom,Chardonnay,30-July-19,7,Livingston,2019,15.7
-C618,RIP 730,14,N/A,14,Freedom,Chardonnay,31-July-19,7,Ripperdan,2019,17.1
-C619,RIP 730,14,N/A,15,Freedom,Chardonnay,31-July-19,7,Ripperdan,2019,19.1
-C620,RIP 730,14,N/A,16,Freedom,Chardonnay,31-July-19,7,Ripperdan,2019,19.7
-C621,RIP 772,15,N/A,14,Teleki 5C,Cabernet Sauvignon,31-July-19,7,Ripperdan,2019,16.5
-C622,RIP 772,15,N/A,15,Teleki 5C,Cabernet Sauvignon,31-July-19,7,Ripperdan,2019,18.5
-C623,RIP 772,15,N/A,16,Teleki 5C,Cabernet Sauvignon,31-July-19,7,Ripperdan,2019,16.9
-C624,RIP 760,8,N/A,14,1103 Paulsen,Chardonnay,31-July-19,7,Ripperdan,2019,19.3
-C625,RIP 760,8,N/A,15,1103 Paulsen,Chardonnay,31-July-19,7,Ripperdan,2019,21.1
-C626,RIP 760,8,N/A,16,1103 Paulsen,Chardonnay,31-July-19,7,Ripperdan,2019,18.4
-C627,RIP 775,8,N/A,11,Freedom,Cabernet Sauvignon,31-July-19,7,Ripperdan,2019,16.5
-C628,RIP 775,8,N/A,12,Freedom,Cabernet Sauvignon,31-July-19,7,Ripperdan,2019,16.8
-C629,RIP 775,8,N/A,13,Freedom,Cabernet Sauvignon,31-July-19,7,Ripperdan,2019,16.3
+Tube,Block,Row,Rep,Vine,Rootstock,Scion,Sample Date,Week,Sample Location,Year,brix
+C1,N/A,2,1,2,Teleki 5C,Chardonnay,19-Jun-18,1,San Joaquin,2018,4.5
+C2,N/A,2,1,3,Teleki 5C,Chardonnay,19-Jun-18,1,San Joaquin,2018,5
+C3,N/A,2,1,5,Teleki 5C,Chardonnay,19-Jun-18,1,San Joaquin,2018,4.5
+C4,N/A,4,1,3,1103 Paulsen,Chardonnay,19-Jun-18,1,San Joaquin,2018,4.1
+C5,N/A,4,1,4,1103 Paulsen,Chardonnay,19-Jun-18,1,San Joaquin,2018,4.6
+C6,N/A,4,1,5,1103 Paulsen,Chardonnay,19-Jun-18,1,San Joaquin,2018,4.6
+C7,N/A,8,2,1,Freedom,Chardonnay,19-Jun-18,1,San Joaquin,2018,4.8
+C8,N/A,8,2,2,Freedom,Chardonnay,19-Jun-18,1,San Joaquin,2018,5.6
+C9,N/A,8,2,4,Freedom,Chardonnay,19-Jun-18,1,San Joaquin,2018,5.2
+C10,N/A,16,1,4,Freedom,Cabernet Sauvignon,19-Jun-18,1,San Joaquin,2018,5.1
+C11,N/A,16,1,5,Freedom,Cabernet Sauvignon,19-Jun-18,1,San Joaquin,2018,5
+C12,N/A,16,1,7,Freedom,Cabernet Sauvignon,19-Jun-18,1,San Joaquin,2018,4.6
+C13,N/A,17,1,3,Teleki 5C,Cabernet Sauvignon,19-Jun-18,1,San Joaquin,2018,5.2
+C14,N/A,17,1,4,Teleki 5C,Cabernet Sauvignon,19-Jun-18,1,San Joaquin,2018,5.3
+C15,N/A,17,1,6,Teleki 5C,Cabernet Sauvignon,19-Jun-18,1,San Joaquin,2018,5.7
+C16,N/A,19,1,3,1103 Paulsen,Cabernet Sauvignon,19-Jun-18,1,San Joaquin,2018,5.6
+C17,N/A,19,1,4,1103 Paulsen,Cabernet Sauvignon,19-Jun-18,1,San Joaquin,2018,5.6
+C18,N/A,19,1,5,1103 Paulsen,Cabernet Sauvignon,19-Jun-18,1,San Joaquin,2018,5.6
+C19,103 SEC B CAB.,25,N/A,12,1103 Paulsen,Cabernet Sauvignon,20-Jun-18,1,Merced,2018,4.4
+C20,103 SEC B CAB.,25,N/A,13,1103 Paulsen,Cabernet Sauvignon,20-Jun-18,1,Merced,2018,4.6
+C21,103 SEC B CAB.,25,N/A,14,1103 Paulsen,Cabernet Sauvignon,20-Jun-18,1,Merced,2018,5
+C22,005 SEC. D,10,N/A,13,Freedom,Cabernet Sauvignon,20-Jun-18,1,Merced,2018,4.3
+C23,005 SEC. D,10,N/A,14,Freedom,Cabernet Sauvignon,20-Jun-18,1,Merced,2018,4.1
+C24,005 SEC. D,10,N/A,15,Freedom,Cabernet Sauvignon,20-Jun-18,1,Merced,2018,4.3
+C25,089 OLCESE 24,20,N/A,10,Freedom,Chardonnay,20-Jun-18,1,Merced,2018,4.5
+C26,089 OLCESE 24,20,N/A,11,Freedom,Chardonnay,20-Jun-18,1,Merced,2018,4.7
+C27,089 OLCESE 24,20,N/A,12,Freedom,Chardonnay,20-Jun-18,1,Merced,2018,4.4
+C28,018 CARPENTER,7,N/A,12,Teleki 5C,Chardonnay,20-Jun-18,1,Merced,2018,5.3
+C29,018 CARPENTER,7,N/A,14,Teleki 5C,Chardonnay,20-Jun-18,1,Merced,2018,5
+C30,018 CARPENTER,7,N/A,16,Teleki 5C,Chardonnay,20-Jun-18,1,Merced,2018,5.3
+C31,RIP 772,12,N/A,11,Teleki 5C,Cabernet Sauvignon,21-Jun-18,1,Madera,2018,4.5
+C32,RIP 772,12,N/A,12,Teleki 5C,Cabernet Sauvignon,21-Jun-18,1,Madera,2018,4.6
+C33,RIP 772,12,N/A,13,Teleki 5C,Cabernet Sauvignon,21-Jun-18,1,Madera,2018,4.9
+C34,RIP 760,5,N/A,11,1103 Paulsen,Chardonnay,21-Jun-18,1,Madera,2018,4.4
+C35,RIP 760,5,N/A,12,1103 Paulsen,Chardonnay,21-Jun-18,1,Madera,2018,4.2
+C36,RIP 760,5,N/A,13,1103 Paulsen,Chardonnay,21-Jun-18,1,Madera,2018,4.1
+C37,RIP 775,4,N/A,11,Freedom,Cabernet Sauvignon,21-Jun-18,1,Madera,2018,4.4
+C38,RIP 775,4,N/A,12,Freedom,Cabernet Sauvignon,21-Jun-18,1,Madera,2018,4.4
+C39,RIP 775,4,N/A,13,Freedom,Cabernet Sauvignon,21-Jun-18,1,Madera,2018,4.9
+C40,RIP 730,11,N/A,11,Freedom,Chardonnay,21-Jun-18,1,Madera,2018,3.6
+C41,RIP 730,11,N/A,12,Freedom,Chardonnay,21-Jun-18,1,Madera,2018,3.8
+C42,RIP 730,11,N/A,13,Freedom,Chardonnay,21-Jun-18,1,Madera,2018,4.1
+C43,N/A,20,2,3,Teleki 5C,Cabernet Sauvignon,26-Jun-18,2,San Joaquin,2018,5.1
+C44,N/A,20,2,4,Teleki 5C,Cabernet Sauvignon,26-Jun-18,2,San Joaquin,2018,5.2
+C45,N/A,20,2,5,Teleki 5C,Cabernet Sauvignon,26-Jun-18,2,San Joaquin,2018,4.7
+C46,N/A,21,2,3,1103 Paulsen,Cabernet Sauvignon,26-Jun-18,2,San Joaquin,2018,4.6
+C47,N/A,21,2,4,1103 Paulsen,Cabernet Sauvignon,26-Jun-18,2,San Joaquin,2018,4.7
+C48,N/A,21,2,5,1103 Paulsen,Cabernet Sauvignon,26-Jun-18,2,San Joaquin,2018,4.7
+C49,N/A,26,3,3,Freedom,Cabernet Sauvignon,26-Jun-18,2,San Joaquin,2018,4.9
+C50,N/A,26,3,4,Freedom,Cabernet Sauvignon,26-Jun-18,2,San Joaquin,2018,4.6
+C51,N/A,26,3,6,Freedom,Cabernet Sauvignon,26-Jun-18,2,San Joaquin,2018,4.6
+C52,N/A,5,2,4,1103 Paulsen,Chardonnay,26-Jun-18,2,San Joaquin,2018,4.4
+C53,N/A,5,2,6,1103 Paulsen,Chardonnay,26-Jun-18,2,San Joaquin,2018,4.7
+C54,N/A,5,2,7,1103 Paulsen,Chardonnay,26-Jun-18,2,San Joaquin,2018,4.7
+C55,N/A,6,2,3,Teleki 5C,Chardonnay,26-Jun-18,2,San Joaquin,2018,5.2
+C56,N/A,6,2,4,Teleki 5C,Chardonnay,26-Jun-18,2,San Joaquin,2018,5.5
+C57,N/A,6,2,5,Teleki 5C,Chardonnay,26-Jun-18,2,San Joaquin,2018,5.4
+C58,N/A,12,3,3,Freedom,Chardonnay,26-Jun-18,2,San Joaquin,2018,5.8
+C59,N/A,12,3,4,Freedom,Chardonnay,26-Jun-18,2,San Joaquin,2018,5.9
+C60,N/A,12,3,6,Freedom,Chardonnay,26-Jun-18,2,San Joaquin,2018,5.4
+C61,005 SEC. D,10,N/A,23,Freedom,Cabernet Sauvignon,2-Jul-18,2,Merced,2018,5.2
+C62,005 SEC. D,10,N/A,24,Freedom,Cabernet Sauvignon,2-Jul-18,2,Merced,2018,4.8
+C63,005 SEC. D,10,N/A,25,Freedom,Cabernet Sauvignon,2-Jul-18,2,Merced,2018,4.6
+C64,089 OLCESE 24,20,N/A,13,Freedom,Chardonnay,2-Jul-18,2,Merced,2018,4.5
+C65,089 OLCESE 24,20,N/A,14,Freedom,Chardonnay,2-Jul-18,2,Merced,2018,4.8
+C66,089 OLCESE 24,20,N/A,15,Freedom,Chardonnay,2-Jul-18,2,Merced,2018,5.1
+C67,018 CARPENTER,7,N/A,18,Teleki 5C,Chardonnay,2-Jul-18,2,Merced,2018,5.8
+C68,018 CARPENTER,7,N/A,20,Teleki 5C,Chardonnay,2-Jul-18,2,Merced,2018,5.9
+C69,018 CARPENTER,7,N/A,22,Teleki 5C,Chardonnay,2-Jul-18,2,Merced,2018,5.7
+C70,103 SEC B CAB.,25,N/A,15,1103 Paulsen,Cabernet Sauvignon,2-Jul-18,2,Merced,2018,6.2
+C71,103 SEC B CAB.,25,N/A,16,1103 Paulsen,Cabernet Sauvignon,2-Jul-18,2,Merced,2018,5.3
+C72,103 SEC B CAB.,25,N/A,17,1103 Paulsen,Cabernet Sauvignon,2-Jul-18,2,Merced,2018,5.6
+C73,RIP 760,5,N/A,14,1103 Paulsen,Chardonnay,27-Jun-18,2,Madera,2018,4
+C74,RIP 760,5,N/A,15,1103 Paulsen,Chardonnay,27-Jun-18,2,Madera,2018,4
+C75,RIP 760,5,N/A,16,1103 Paulsen,Chardonnay,27-Jun-18,2,Madera,2018,4.2
+C76,RIP 775,4,N/A,14,Freedom,Cabernet Sauvignon,27-Jun-18,2,Madera,2018,4.3
+C77,RIP 775,4,N/A,15,Freedom,Cabernet Sauvignon,27-Jun-18,2,Madera,2018,4.7
+C78,RIP 775,4,N/A,16,Freedom,Cabernet Sauvignon,27-Jun-18,2,Madera,2018,4.8
+C79,RIP 730,11,N/A,14,Freedom,Chardonnay,27-Jun-18,2,Madera,2018,5.1
+C80,RIP 730,11,N/A,15,Freedom,Chardonnay,27-Jun-18,2,Madera,2018,4.6
+C81,RIP 730,11,N/A,16,Freedom,Chardonnay,27-Jun-18,2,Madera,2018,4.3
+C82,RIP 772,12,N/A,14,Teleki 5C,Cabernet Sauvignon,27-Jun-18,2,Madera,2018,5
+C83,RIP 772,12,N/A,15,Teleki 5C,Cabernet Sauvignon,27-Jun-18,2,Madera,2018,5
+C84,RIP 772,12,N/A,16,Teleki 5C,Cabernet Sauvignon,27-Jun-18,2,Madera,2018,5.2
+C85,N/A,9,3,3,Teleki 5C,Chardonnay,3-Jul-18,3,San Joaquin,2018,5.3
+C86,N/A,9,3,4,Teleki 5C,Chardonnay,3-Jul-18,3,San Joaquin,2018,5.6
+C87,N/A,9,3,5,Teleki 5C,Chardonnay,3-Jul-18,3,San Joaquin,2018,5.3
+C88,N/A,10,4,3,1103 Paulsen,Chardonnay,3-Jul-18,3,San Joaquin,2018,4.4
+C89,N/A,10,4,4,1103 Paulsen,Chardonnay,3-Jul-18,3,San Joaquin,2018,5.1
+C90,N/A,10,4,5,1103 Paulsen,Chardonnay,3-Jul-18,3,San Joaquin,2018,4.4
+C91,N/A,13,4,3,Freedom,Chardonnay,3-Jul-18,3,San Joaquin,2018,5.2
+C92,N/A,13,4,4,Freedom,Chardonnay,3-Jul-18,3,San Joaquin,2018,5.8
+C93,N/A,13,4,6,Freedom,Chardonnay,3-Jul-18,3,San Joaquin,2018,5.2
+C94,N/A,22,3,4,Teleki 5C,Cabernet Sauvignon,3-Jul-18,3,San Joaquin,2018,5.4
+C95,N/A,22,3,5,Teleki 5C,Cabernet Sauvignon,3-Jul-18,3,San Joaquin,2018,4.8
+C96,N/A,22,3,6,Teleki 5C,Cabernet Sauvignon,3-Jul-18,3,San Joaquin,2018,6.2
+C97,N/A,23,3,3,1103 Paulsen,Cabernet Sauvignon,3-Jul-18,3,San Joaquin,2018,4.8
+C98,N/A,23,3,5,1103 Paulsen,Cabernet Sauvignon,3-Jul-18,3,San Joaquin,2018,4.7
+C99,N/A,23,3,6,1103 Paulsen,Cabernet Sauvignon,3-Jul-18,3,San Joaquin,2018,5
+C100,N/A,26,4,2,Freedom,Cabernet Sauvignon,3-Jul-18,3,San Joaquin,2018,4.8
+C101,N/A,26,4,5,Freedom,Cabernet Sauvignon,3-Jul-18,3,San Joaquin,2018,4.7
+C102,N/A,26,4,6,Freedom,Cabernet Sauvignon,3-Jul-18,3,San Joaquin,2018,4.8
+C103,089 OLCESE 24,20,N/A,16,Freedom,Chardonnay,9-Jul-18,3,Merced,2018,6.3
+C104,089 OLCESE 24,20,N/A,17,Freedom,Chardonnay,9-Jul-18,3,Merced,2018,7.4
+C105,089 OLCESE 24,20,N/A,18,Freedom,Chardonnay,9-Jul-18,3,Merced,2018,7.8
+C106,018 CARPENTER,8,N/A,12,Teleki 5C,Chardonnay,9-Jul-18,3,Merced,2018,5.9
+C107,018 CARPENTER,8,N/A,14,Teleki 5C,Chardonnay,9-Jul-18,3,Merced,2018,7.2
+C108,018 CARPENTER,8,N/A,16,Teleki 5C,Chardonnay,9-Jul-18,3,Merced,2018,7.3
+C109,103 SEC B,25,N/A,22,1103 Paulsen,Cabernet Sauvignon,9-Jul-18,3,Merced,2018,5.6
+C110,103 SEC B,25,N/A,23,1103 Paulsen,Cabernet Sauvignon,9-Jul-18,3,Merced,2018,4.9
+C111,103 SEC B,25,N/A,24,1103 Paulsen,Cabernet Sauvignon,9-Jul-18,3,Merced,2018,5.7
+C112,005 SEC D,9,N/A,11,Freedom,Cabernet Sauvignon,9-Jul-18,3,Merced,2018,5.1
+C113,005 SEC D,9,N/A,12,Freedom,Cabernet Sauvignon,9-Jul-18,3,Merced,2018,5.3
+C114,005 SEC D,9,N/A,13,Freedom,Cabernet Sauvignon,9-Jul-18,3,Merced,2018,5.4
+C115,RIP 775,6,N/A,11,Freedom,Cabernet Sauvignon,5-Jul-18,3,Madera,2018,4.8
+C116,RIP 775,6,N/A,12,Freedom,Cabernet Sauvignon,5-Jul-18,3,Madera,2018,4.6
+C117,RIP 775,6,N/A,13,Freedom,Cabernet Sauvignon,5-Jul-18,3,Madera,2018,4.5
+C118,RIP 730,12,N/A,11,Freedom,Chardonnay,5-Jul-18,3,Madera,2018,4.6
+C119,RIP 730,12,N/A,12,Freedom,Chardonnay,5-Jul-18,3,Madera,2018,4.8
+C120,RIP 730,12,N/A,13,Freedom,Chardonnay,5-Jul-18,3,Madera,2018,5.3
+C121,RIP 772,13,N/A,11,Teleki 5C,Cabernet Sauvignon,5-Jul-18,3,Madera,2018,4.5
+C122,RIP 772,13,N/A,12,Teleki 5C,Cabernet Sauvignon,5-Jul-18,3,Madera,2018,4.9
+C123,RIP 772,13,N/A,13,Teleki 5C,Cabernet Sauvignon,5-Jul-18,3,Madera,2018,4.9
+C124,RIP 760,6,N/A,11,1103 Paulsen,Chardonnay,5-Jul-18,3,Madera,2018,4.6
+C125,RIP 760,6,N/A,12,1103 Paulsen,Chardonnay,5-Jul-18,3,Madera,2018,5.1
+C126,RIP 760,6,N/A,13,1103 Paulsen,Chardonnay,5-Jul-18,3,Madera,2018,6.4
+C127,N/A,20,2,3,Teleki 5C,Cabernet Sauvignon,10-Jul-18,4,San Joaquin,2018,5.6
+C128,N/A,20,2,4,Teleki 5C,Cabernet Sauvignon,10-Jul-18,4,San Joaquin,2018,5.8
+C129,N/A,20,2,5,Teleki 5C,Cabernet Sauvignon,10-Jul-18,4,San Joaquin,2018,5
+C130,N/A,21,2,3,1103 Paulsen,Cabernet Sauvignon,10-Jul-18,4,San Joaquin,2018,4.9
+C131,N/A,21,2,4,1103 Paulsen,Cabernet Sauvignon,10-Jul-18,4,San Joaquin,2018,4.3
+C132,N/A,21,2,5,1103 Paulsen,Cabernet Sauvignon,10-Jul-18,4,San Joaquin,2018,4.6
+C133,N/A,26,3,3,Freedom,Cabernet Sauvignon,10-Jul-18,4,San Joaquin,2018,5
+C134,N/A,26,3,4,Freedom,Cabernet Sauvignon,10-Jul-18,4,San Joaquin,2018,4.9
+C135,N/A,26,3,6,Freedom,Cabernet Sauvignon,10-Jul-18,4,San Joaquin,2018,5
+C136,N/A,5,2,4,1103 Paulsen,Chardonnay,10-Jul-18,4,San Joaquin,2018,5
+C137,N/A,5,2,6,1103 Paulsen,Chardonnay,10-Jul-18,4,San Joaquin,2018,5.4
+C138,N/A,5,2,8,1103 Paulsen,Chardonnay,10-Jul-18,4,San Joaquin,2018,5.1
+C139,N/A,6,2,4,Teleki 5C,Chardonnay,10-Jul-18,4,San Joaquin,2018,5.1
+C140,N/A,6,2,5,Teleki 5C,Chardonnay,10-Jul-18,4,San Joaquin,2018,6.2
+C141,N/A,6,2,6,Teleki 5C,Chardonnay,10-Jul-18,4,San Joaquin,2018,6.4
+C142,N/A,12,3,3,Freedom,Chardonnay,10-Jul-18,4,San Joaquin,2018,6
+C143,N/A,12,3,4,Freedom,Chardonnay,10-Jul-18,4,San Joaquin,2018,5.9
+C144,N/A,12,3,6,Freedom,Chardonnay,10-Jul-18,4,San Joaquin,2018,6
+C145,018 CARPENTER,8,N/A,18,Teleki 5C,Chardonnay,13-Jul-18,4,Merced,2018,6.4
+C146,018 CARPENTER,8,N/A,20,Teleki 5C,Chardonnay,13-Jul-18,4,Merced,2018,10.9
+C147,018 CARPENTER,8,N/A,22,Teleki 5C,Chardonnay,13-Jul-18,4,Merced,2018,6.4
+C148,103 SEC B,25,N/A,25,1103 Paulsen,Cabernet Sauvignon,13-Jul-18,4,Merced,2018,4.7
+C149,103 SEC B,25,N/A,26,1103 Paulsen,Cabernet Sauvignon,13-Jul-18,4,Merced,2018,5
+C150,103 SEC B,25,N/A,27,1103 Paulsen,Cabernet Sauvignon,13-Jul-18,4,Merced,2018,5.1
+C151,005 SEC D,9,N/A,20,Freedom,Cabernet Sauvignon,13-Jul-18,4,Merced,2018,5.3
+C152,005 SEC D,9,N/A,21,Freedom,Cabernet Sauvignon,13-Jul-18,4,Merced,2018,5.1
+C153,005 SEC D,9,N/A,22,Freedom,Cabernet Sauvignon,13-Jul-18,4,Merced,2018,5.2
+C154,089 OLCESE 24,20,N/A,18,Freedom,Chardonnay,13-Jul-18,4,Merced,2018,5.4
+C155,089 OLCESE 24,20,N/A,19,Freedom,Chardonnay,13-Jul-18,4,Merced,2018,12
+C156,089 OLCESE 24,20,N/A,20,Freedom,Chardonnay,13-Jul-18,4,Merced,2018,10.1
+C157,RIP 730,12,N/A,14,Freedom,Chardonnay,11-Jul-18,4,Madera,2018,4.1
+C158,RIP 730,12,N/A,15,Freedom,Chardonnay,11-Jul-18,4,Madera,2018,4.4
+C159,RIP 730,12,N/A,16,Freedom,Chardonnay,11-Jul-18,4,Madera,2018,4.8
+C160,RIP 772,13,N/A,14,Teleki 5C,Cabernet Sauvignon,11-Jul-18,4,Madera,2018,4.7
+C161,RIP 772,13,N/A,15,Teleki 5C,Cabernet Sauvignon,11-Jul-18,4,Madera,2018,5.3
+C162,RIP 772,13,N/A,16,Teleki 5C,Cabernet Sauvignon,11-Jul-18,4,Madera,2018,5.3
+C163,RIP 760,6,N/A,14,1103 Paulsen,Chardonnay,11-Jul-18,4,Madera,2018,5.8
+C164,RIP 760,6,N/A,15,1103 Paulsen,Chardonnay,11-Jul-18,4,Madera,2018,9.3
+C165,RIP 760,6,N/A,16,1103 Paulsen,Chardonnay,11-Jul-18,4,Madera,2018,10.1
+C166,RIP 775,6,N/A,14,Freedom,Cabernet Sauvignon,11-Jul-18,4,Madera,2018,5.2
+C167,RIP 775,6,N/A,15,Freedom,Cabernet Sauvignon,11-Jul-18,4,Madera,2018,6
+C168,RIP 775,6,N/A,16,Freedom,Cabernet Sauvignon,11-Jul-18,4,Madera,2018,5
+C169,N/A,2,1,2,Teleki 5C,Chardonnay,17-Jul-18,5,San Joaquin,2018,6.4
+C170,N/A,2,1,3,Teleki 5C,Chardonnay,17-Jul-18,5,San Joaquin,2018,9.8
+C171,N/A,2,1,5,Teleki 5C,Chardonnay,17-Jul-18,5,San Joaquin,2018,5.5
+C172,N/A,4,1,3,1103 Paulsen,Chardonnay,17-Jul-18,5,San Joaquin,2018,5.5
+C173,N/A,4,1,4,1103 Paulsen,Chardonnay,17-Jul-18,5,San Joaquin,2018,6.7
+C174,N/A,4,1,5,1103 Paulsen,Chardonnay,17-Jul-18,5,San Joaquin,2018,5.7
+C175,N/A,8,2,2,Freedom,Chardonnay,17-Jul-18,5,San Joaquin,2018,5.5
+C176,N/A,8,2,4,Freedom,Chardonnay,17-Jul-18,5,San Joaquin,2018,5.5
+C177,N/A,8,2,5,Freedom,Chardonnay,17-Jul-18,5,San Joaquin,2018,5
+C178,N/A,16,1,4,Freedom,Cabernet Sauvignon,17-Jul-18,5,San Joaquin,2018,5
+C179,N/A,16,1,5,Freedom,Cabernet Sauvignon,17-Jul-18,5,San Joaquin,2018,4.8
+C180,N/A,16,1,7,Freedom,Cabernet Sauvignon,17-Jul-18,5,San Joaquin,2018,4.4
+C181,N/A,17,1,3,Teleki 5C,Cabernet Sauvignon,17-Jul-18,5,San Joaquin,2018,5.3
+C182,N/A,17,1,4,Teleki 5C,Cabernet Sauvignon,17-Jul-18,5,San Joaquin,2018,5.1
+C183,N/A,17,1,6,Teleki 5C,Cabernet Sauvignon,17-Jul-18,5,San Joaquin,2018,5.4
+C184,N/A,19,1,3,1103 Paulsen,Cabernet Sauvignon,17-Jul-18,5,San Joaquin,2018,5
+C185,N/A,19,1,4,1103 Paulsen,Cabernet Sauvignon,17-Jul-18,5,San Joaquin,2018,4.9
+C186,N/A,19,1,5,1103 Paulsen,Cabernet Sauvignon,17-Jul-18,5,San Joaquin,2018,5
+C187,103 SEC B CAB.,26,N/A,12,1103 Paulsen,Cabernet Sauvignon,18-Jul-18,5,Merced,2018,4.9
+C188,103 SEC B CAB.,26,N/A,13,1103 Paulsen,Cabernet Sauvignon,18-Jul-18,5,Merced,2018,4.6
+C189,103 SEC B CAB.,26,N/A,14,1103 Paulsen,Cabernet Sauvignon,18-Jul-18,5,Merced,2018,4.9
+C190,005 SEC. D,8,N/A,14,Freedom,Cabernet Sauvignon,18-Jul-18,5,Merced,2018,4.9
+C191,005 SEC. D,8,N/A,15,Freedom,Cabernet Sauvignon,18-Jul-18,5,Merced,2018,4.8
+C192,005 SEC. D,8,N/A,16,Freedom,Cabernet Sauvignon,18-Jul-18,5,Merced,2018,4.9
+C193,089 OLCESE 24,21,N/A,10,Freedom,Chardonnay,18-Jul-18,5,Merced,2018,14.7
+C194,089 OLCESE 24,21,N/A,11,Freedom,Chardonnay,18-Jul-18,5,Merced,2018,5.1
+C195,089 OLCESE 24,21,N/A,12,Freedom,Chardonnay,18-Jul-18,5,Merced,2018,14.5
+C196,018 CARPENTER,9,N/A,12,Teleki 5C,Chardonnay,18-Jul-18,5,Merced,2018,16
+C197,018 CARPENTER,9,N/A,14,Teleki 5C,Chardonnay,18-Jul-18,5,Merced,2018,14
+C198,018 CARPENTER,9,N/A,16,Teleki 5C,Chardonnay,18-Jul-18,5,Merced,2018,14.4
+C199,RIP 772,14,N/A,11,Teleki 5C,Cabernet Sauvignon,19-Jul-18,5,Madera,2018,5.6
+C200,RIP 772,14,N/A,12,Teleki 5C,Cabernet Sauvignon,19-Jul-18,5,Madera,2018,5.8
+C201,RIP 772,14,N/A,13,Teleki 5C,Cabernet Sauvignon,19-Jul-18,5,Madera,2018,4.8
+C202,RIP 760,7,N/A,11,1103 Paulsen,Chardonnay,19-Jul-18,5,Madera,2018,14.1
+C203,RIP 760,7,N/A,12,1103 Paulsen,Chardonnay,19-Jul-18,5,Madera,2018,12.4
+C204,RIP 760,7,N/A,13,1103 Paulsen,Chardonnay,19-Jul-18,5,Madera,2018,12.8
+C205,RIP 775,7,N/A,11,Freedom,Cabernet Sauvignon,19-Jul-18,5,Madera,2018,6.1
+C206,RIP 775,7,N/A,12,Freedom,Cabernet Sauvignon,19-Jul-18,5,Madera,2018,7
+C207,RIP 775,7,N/A,13,Freedom,Cabernet Sauvignon,19-Jul-18,5,Madera,2018,6
+C208,RIP 730,13,N/A,11,Freedom,Chardonnay,19-Jul-18,5,Madera,2018,12.2
+C209,RIP 730,13,N/A,12,Freedom,Chardonnay,19-Jul-18,5,Madera,2018,13.6
+C210,RIP 730,13,N/A,13,Freedom,Chardonnay,19-Jul-18,5,Madera,2018,14.7
+C211,N/A,20,2,3,Teleki 5C,Cabernet Sauvignon,24-Jul-18,6,San Joaquin,2018,6.2
+C212,N/A,20,2,4,Teleki 5C,Cabernet Sauvignon,24-Jul-18,6,San Joaquin,2018,5.9
+C213,N/A,20,2,5,Teleki 5C,Cabernet Sauvignon,24-Jul-18,6,San Joaquin,2018,6.2
+C214,N/A,21,2,3,1103 Paulsen,Cabernet Sauvignon,24-Jul-18,6,San Joaquin,2018,4.8
+C215,N/A,21,2,4,1103 Paulsen,Cabernet Sauvignon,24-Jul-18,6,San Joaquin,2018,5.3
+C216,N/A,21,2,5,1103 Paulsen,Cabernet Sauvignon,24-Jul-18,6,San Joaquin,2018,5.1
+C217,N/A,26,3,3,Freedom,Cabernet Sauvignon,24-Jul-18,6,San Joaquin,2018,6.3
+C218,N/A,26,3,4,Freedom,Cabernet Sauvignon,24-Jul-18,6,San Joaquin,2018,4.8
+C219,N/A,26,3,6,Freedom,Cabernet Sauvignon,24-Jul-18,6,San Joaquin,2018,4.4
+C220,N/A,5,2,4,1103 Paulsen,Chardonnay,24-Jul-18,6,San Joaquin,2018,9.4
+C221,N/A,5,2,6,1103 Paulsen,Chardonnay,24-Jul-18,6,San Joaquin,2018,13.5
+C222,N/A,5,2,8,1103 Paulsen,Chardonnay,24-Jul-18,6,San Joaquin,2018,9.9
+C223,N/A,6,2,4,Teleki 5C,Chardonnay,24-Jul-18,6,San Joaquin,2018,17
+C224,N/A,6,2,5,Teleki 5C,Chardonnay,24-Jul-18,6,San Joaquin,2018,11
+C225,N/A,6,2,6,Teleki 5C,Chardonnay,24-Jul-18,6,San Joaquin,2018,14.6
+C226,N/A,12,3,3,Freedom,Chardonnay,24-Jul-18,6,San Joaquin,2018,10.1
+C227,N/A,12,3,4,Freedom,Chardonnay,24-Jul-18,6,San Joaquin,2018,18.5
+C228,N/A,12,3,6,Freedom,Chardonnay,24-Jul-18,6,San Joaquin,2018,9
+C229,005 SEC D,7,N/A,7,Freedom,Cabernet Sauvignon,25-Jul-18,6,Merced,2018,5.9
+C230,005 SEC D,7,N/A,8,Freedom,Cabernet Sauvignon,25-Jul-18,6,Merced,2018,7
+C231,005 SEC D,7,N/A,9,Freedom,Cabernet Sauvignon,25-Jul-18,6,Merced,2018,5.3
+C232,089 OLCESE 24,21,N/A,13,Freedom,Chardonnay,25-Jul-18,6,Merced,2018,13.9
+C233,089 OLCESE 24,21,N/A,14,Freedom,Chardonnay,25-Jul-18,6,Merced,2018,14.6
+C234,089 OLCESE 24,21,N/A,15,Freedom,Chardonnay,25-Jul-18,6,Merced,2018,16
+C235,018 CARPENTER,9,N/A,18,Teleki 5C,Chardonnay,25-Jul-18,6,Merced,2018,7.3
+C236,018 CARPENTER,9,N/A,20,Teleki 5C,Chardonnay,25-Jul-18,6,Merced,2018,10.8
+C237,018 CARPENTER,9,N/A,22,Teleki 5C,Chardonnay,25-Jul-18,6,Merced,2018,14.8
+C238,103 SEC B,26,N/A,15,1103 Paulsen,Cabernet Sauvignon,25-Jul-18,6,Merced,2018,7.9
+C239,103 SEC B,26,N/A,16,1103 Paulsen,Cabernet Sauvignon,25-Jul-18,6,Merced,2018,9
+C240,103 SEC B,26,N/A,17,1103 Paulsen,Cabernet Sauvignon,25-Jul-18,6,Merced,2018,6.2
+C241,RIP 760,7,N/A,14,1103 Paulsen,Chardonnay,26-Jul-18,6,Madera,2018,18.1
+C242,RIP 760,7,N/A,15,1103 Paulsen,Chardonnay,26-Jul-18,6,Madera,2018,12.5
+C243,RIP 760,7,N/A,16,1103 Paulsen,Chardonnay,26-Jul-18,6,Madera,2018,17.9
+C244,RIP 775,7,N/A,14,Freedom,Cabernet Sauvignon,26-Jul-18,6,Madera,2018,14.1
+C245,RIP 775,7,N/A,15,Freedom,Cabernet Sauvignon,26-Jul-18,6,Madera,2018,6.3
+C246,RIP 775,7,N/A,16,Freedom,Cabernet Sauvignon,26-Jul-18,6,Madera,2018,4.7
+C247,RIP 730,13,N/A,11,Freedom,Chardonnay,26-Jul-18,6,Madera,2018,15.8
+C248,RIP 730,13,N/A,12,Freedom,Chardonnay,26-Jul-18,6,Madera,2018,8.7
+C249,RIP 730,13,N/A,13,Freedom,Chardonnay,26-Jul-18,6,Madera,2018,13.3
+C250,RIP 772,14,N/A,14,Teleki 5C,Cabernet Sauvignon,26-Jul-18,6,Madera,2018,11.7
+C251,RIP 772,14,N/A,15,Teleki 5C,Cabernet Sauvignon,26-Jul-18,6,Madera,2018,17.5
+C252,RIP 772,14,N/A,16,Teleki 5C,Cabernet Sauvignon,26-Jul-18,6,Madera,2018,10.9
+C253,N/A,9,3,3,Teleki 5C,Chardonnay,31-Jul-18,7,San Joaquin,2018,19
+C254,N/A,9,3,4,Teleki 5C,Chardonnay,31-Jul-18,7,San Joaquin,2018,17.8
+C255,N/A,9,3,5,Teleki 5C,Chardonnay,31-Jul-18,7,San Joaquin,2018,16.8
+C256,N/A,10,4,3,1103 Paulsen,Chardonnay,31-Jul-18,7,San Joaquin,2018,16.5
+C257,N/A,10,4,4,1103 Paulsen,Chardonnay,31-Jul-18,7,San Joaquin,2018,16.6
+C258,N/A,10,4,5,1103 Paulsen,Chardonnay,31-Jul-18,7,San Joaquin,2018,15.5
+C259,N/A,13,4,3,Freedom,Chardonnay,31-Jul-18,7,San Joaquin,2018,13.4
+C260,N/A,13,4,4,Freedom,Chardonnay,31-Jul-18,7,San Joaquin,2018,17.5
+C261,N/A,13,4,6,Freedom,Chardonnay,31-Jul-18,7,San Joaquin,2018,18.6
+C262,N/A,22,3,4,Teleki 5C,Cabernet Sauvignon,31-Jul-18,7,San Joaquin,2018,16.9
+C263,N/A,22,3,5,Teleki 5C,Cabernet Sauvignon,31-Jul-18,7,San Joaquin,2018,17.6
+C264,N/A,22,3,6,Teleki 5C,Cabernet Sauvignon,31-Jul-18,7,San Joaquin,2018,16.3
+C265,N/A,23,3,3,1103 Paulsen,Cabernet Sauvignon,31-Jul-18,7,San Joaquin,2018,14.2
+C266,N/A,23,3,5,1103 Paulsen,Cabernet Sauvignon,31-Jul-18,7,San Joaquin,2018,13
+C267,N/A,23,3,6,1103 Paulsen,Cabernet Sauvignon,31-Jul-18,7,San Joaquin,2018,13.3
+C268,N/A,26,3,3,Freedom,Cabernet Sauvignon,31-Jul-18,7,San Joaquin,2018,15.1
+C269,N/A,26,3,4,Freedom,Cabernet Sauvignon,31-Jul-18,7,San Joaquin,2018,14.7
+C270,N/A,26,3,6,Freedom,Cabernet Sauvignon,31-Jul-18,7,San Joaquin,2018,16.9
+C271,089 OLCESE 24,21,N/A,16,Freedom,Chardonnay,1-Aug-18,7,Merced,2018,19.9
+C272,089 OLCESE 24,21,N/A,17,Freedom,Chardonnay,1-Aug-18,7,Merced,2018,18.9
+C273,089 OLCESE 24,21,N/A,18,Freedom,Chardonnay,1-Aug-18,7,Merced,2018,18
+C274,018 CARP,10,N/A,12,Teleki 5C,Chardonnay,1-Aug-18,7,Merced,2018,19.7
+C275,018 CARP,10,N/A,14,Teleki 5C,Chardonnay,1-Aug-18,7,Merced,2018,19.4
+C276,018 CARP,10,N/A,16,Teleki 5C,Chardonnay,1-Aug-18,7,Merced,2018,19.8
+C277,103 SEC B,26,N/A,18,1103 Paulsen,Cabernet Sauvignon,1-Aug-18,7,Merced,2018,17.1
+C278,103 SEC B,26,N/A,19,1103 Paulsen,Cabernet Sauvignon,1-Aug-18,7,Merced,2018,17
+C279,103 SEC B,26,N/A,20,1103 Paulsen,Cabernet Sauvignon,1-Aug-18,7,Merced,2018,17.4
+C280,005 SEC D,6,N/A,14,Freedom,Cabernet Sauvignon,1-Aug-18,7,Merced,2018,16.4
+C281,005 SEC D,6,N/A,15,Freedom,Cabernet Sauvignon,1-Aug-18,7,Merced,2018,16.7
+C282,005 SEC D,6,N/A,16,Freedom,Cabernet Sauvignon,1-Aug-18,7,Merced,2018,16.3
+C283,RIP 775,5,N/A,11,Freedom,Cabernet Sauvignon,2-Aug-18,7,Madera,2018,18.6
+C284,RIP 775,5,N/A,12,Freedom,Cabernet Sauvignon,2-Aug-18,7,Madera,2018,19.2
+C285,RIP 775,5,N/A,13,Freedom,Cabernet Sauvignon,2-Aug-18,7,Madera,2018,20
+C286,RIP 730,14,N/A,11,Freedom,Chardonnay,2-Aug-18,7,Madera,2018,17.5
+C287,RIP 730,14,N/A,12,Freedom,Chardonnay,2-Aug-18,7,Madera,2018,18.2
+C288,RIP 730,14,N/A,13,Freedom,Chardonnay,2-Aug-18,7,Madera,2018,18.5
+C289,RIP 772,15,N/A,11,Teleki 5C,Cabernet Sauvignon,2-Aug-18,7,Madera,2018,16.9
+C290,RIP 772,15,N/A,12,Teleki 5C,Cabernet Sauvignon,2-Aug-18,7,Madera,2018,18
+C291,RIP 772,15,N/A,10,Teleki 5C,Cabernet Sauvignon,2-Aug-18,7,Madera,2018,19.6
+C292,RIP 760,8,N/A,11,1103 Paulsen,Chardonnay,2-Aug-18,7,Madera,2018,19.1
+C293,RIP 760,8,N/A,12,1103 Paulsen,Chardonnay,2-Aug-18,7,Madera,2018,19.7
+C294,RIP 760,8,N/A,13,1103 Paulsen,Chardonnay,2-Aug-18,7,Madera,2018,19.5
+C295,N/A,22,3,4,Teleki 5C,Cabernet Sauvignon,6-Aug-18,8,San Joaquin,2018,15.6
+C296,N/A,22,3,5,Teleki 5C,Cabernet Sauvignon,6-Aug-18,8,San Joaquin,2018,16
+C297,N/A,22,3,6,Teleki 5C,Cabernet Sauvignon,6-Aug-18,8,San Joaquin,2018,16.5
+C298,N/A,23,3,3,1103 Paulsen,Cabernet Sauvignon,6-Aug-18,8,San Joaquin,2018,14.7
+C299,N/A,23,3,5,1103 Paulsen,Cabernet Sauvignon,6-Aug-18,8,San Joaquin,2018,14.4
+C300,N/A,23,3,6,1103 Paulsen,Cabernet Sauvignon,6-Aug-18,8,San Joaquin,2018,13.4
+C301,N/A,26,4,2,Freedom,Cabernet Sauvignon,6-Aug-18,8,San Joaquin,2018,20.1
+C302,N/A,26,4,5,Freedom,Cabernet Sauvignon,6-Aug-18,8,San Joaquin,2018,19.2
+C303,N/A,26,4,6,Freedom,Cabernet Sauvignon,6-Aug-18,8,San Joaquin,2018,20.4
+C304,N/A,9,3,3,Teleki 5C,Chardonnay,6-Aug-18,8,San Joaquin,2018,20.2
+C305,N/A,9,3,4,Teleki 5C,Chardonnay,6-Aug-18,8,San Joaquin,2018,17.9
+C306,N/A,9,3,5,Teleki 5C,Chardonnay,6-Aug-18,8,San Joaquin,2018,19.3
+C307,N/A,10,4,3,1103 Paulsen,Chardonnay,6-Aug-18,8,San Joaquin,2018,16.3
+C308,N/A,10,4,4,1103 Paulsen,Chardonnay,6-Aug-18,8,San Joaquin,2018,17.3
+C309,N/A,10,4,5,1103 Paulsen,Chardonnay,6-Aug-18,8,San Joaquin,2018,16
+C310,N/A,13,4,3,Freedom,Chardonnay,6-Aug-18,8,San Joaquin,2018,17.3
+C311,N/A,13,4,4,Freedom,Chardonnay,6-Aug-18,8,San Joaquin,2018,20
+C312,N/A,13,4,6,Freedom,Chardonnay,6-Aug-18,8,San Joaquin,2018,18.8
+C313,018 CARPENTER,10,N/A,18,Teleki 5C,Chardonnay,8-Aug-18,8,Merced,2018,20.3
+C314,018 CARPENTER,10,N/A,20,Teleki 5C,Chardonnay,8-Aug-18,8,Merced,2018,21.3
+C315,018 CARPENTER,10,N/A,24,Teleki 5C,Chardonnay,8-Aug-18,8,Merced,2018,20.3
+C316,103 SEC B,26,N/A,21,1103 Paulsen,Cabernet Sauvignon,8-Aug-18,8,Merced,2018,15.5
+C317,103 SEC B,26,N/A,22,1103 Paulsen,Cabernet Sauvignon,8-Aug-18,8,Merced,2018,16.2
+C318,103 SEC B,26,N/A,23,1103 Paulsen,Cabernet Sauvignon,8-Aug-18,8,Merced,2018,17.2
+C319,005 SEC D,6,N/A,27,Freedom,Cabernet Sauvignon,8-Aug-18,8,Merced,2018,16.2
+C320,005 SEC D,6,N/A,28,Freedom,Cabernet Sauvignon,8-Aug-18,8,Merced,2018,16.1
+C321,005 SEC D,6,N/A,39,Freedom,Cabernet Sauvignon,8-Aug-18,8,Merced,2018,17.1
+C322,089 OLCESE 24,21,N/A,19,Freedom,Chardonnay,8-Aug-18,8,Merced,2018,20.1
+C323,089 OLCESE 24,21,N/A,20,Freedom,Chardonnay,8-Aug-18,8,Merced,2018,21
+C324,089 OLCESE 24,21,N/A,21,Freedom,Chardonnay,8-Aug-18,8,Merced,2018,22.1
+C325,RIP 730,14,N/A,14,Freedom,Chardonnay,9-Aug-18,8,Madera,2018,18.9
+C326,RIP 730,14,N/A,15,Freedom,Chardonnay,9-Aug-18,8,Madera,2018,20.5
+C327,RIP 730,14,N/A,16,Freedom,Chardonnay,9-Aug-18,8,Madera,2018,19.8
+C328,RIP 772,15,N/A,14,Teleki 5C,Cabernet Sauvignon,9-Aug-18,8,Madera,2018,19.1
+C329,RIP 772,15,N/A,15,Teleki 5C,Cabernet Sauvignon,9-Aug-18,8,Madera,2018,20.2
+C330,RIP 772,15,N/A,16,Teleki 5C,Cabernet Sauvignon,9-Aug-18,8,Madera,2018,21
+C331,RIP 760,8,N/A,14,1103 Paulsen,Chardonnay,9-Aug-18,8,Madera,2018,21.3
+C332,RIP 760,8,N/A,15,1103 Paulsen,Chardonnay,9-Aug-18,8,Madera,2018,19.3
+C333,RIP 760,8,N/A,16,1103 Paulsen,Chardonnay,9-Aug-18,8,Madera,2018,20.1
+C334,RIP 775,8,N/A,11,Freedom,Cabernet Sauvignon,9-Aug-18,8,Madera,2018,17.4
+C335,RIP 775,8,N/A,12,Freedom,Cabernet Sauvignon,9-Aug-18,8,Madera,2018,17.4
+C336,RIP 775,8,N/A,13,Freedom,Cabernet Sauvignon,9-Aug-18,8,Madera,2018,19.4
+C337,N/A,20,2,3,Teleki 5C,Cabernet Sauvignon,17-Jun-19,1,San Joaquin,2019,5
+C338,N/A,20,2,4,Teleki 5C,Cabernet Sauvignon,17-Jun-19,1,San Joaquin,2019,4.3
+C339,N/A,20,2,5,Teleki 5C,Cabernet Sauvignon,17-Jun-19,1,San Joaquin,2019,4.4
+C340,N/A,21,2,3,1103 Paulsen,Cabernet Sauvignon,17-Jun-19,1,San Joaquin,2019,4.3
+C341,N/A,21,2,4,1103 Paulsen,Cabernet Sauvignon,17-Jun-19,1,San Joaquin,2019,4.4
+C342,N/A,21,2,5,1103 Paulsen,Cabernet Sauvignon,17-Jun-19,1,San Joaquin,2019,5.6
+C343,N/A,26,3,3,Freedom,Cabernet Sauvignon,17-Jun-19,1,San Joaquin,2019,3.6
+C344,N/A,26,3,4,Freedom,Cabernet Sauvignon,17-Jun-19,1,San Joaquin,2019,4.9
+C345,N/A,26,3,6,Freedom,Cabernet Sauvignon,17-Jun-19,1,San Joaquin,2019,4.3
+C346,N/A,5,2,4,1103 Paulsen,Chardonnay,17-Jun-19,1,San Joaquin,2019,4.2
+C347,N/A,5,2,6,1103 Paulsen,Chardonnay,17-Jun-19,1,San Joaquin,2019,4.1
+C348,N/A,5,2,7,1103 Paulsen,Chardonnay,17-Jun-19,1,San Joaquin,2019,3.7
+C349,N/A,6,2,3,Teleki 5C,Chardonnay,17-Jun-19,1,San Joaquin,2019,4.6
+C350,N/A,6,2,4,Teleki 5C,Chardonnay,17-Jun-19,1,San Joaquin,2019,4.6
+C351,N/A,6,2,5,Teleki 5C,Chardonnay,17-Jun-19,1,San Joaquin,2019,4.6
+C352,N/A,12,3,3,Freedom,Chardonnay,17-Jun-19,1,San Joaquin,2019,4.9
+C353,N/A,12,3,4,Freedom,Chardonnay,17-Jun-19,1,San Joaquin,2019,5
+C354,N/A,12,3,6,Freedom,Chardonnay,17-Jun-19,1,San Joaquin,2019,5.4
+C355,005 SEC. D,10,N/A,23,Freedom,Cabernet Sauvignon,20-Jun-19,1,Merced,2019,4.2
+C356,005 SEC. D,10,N/A,24,Freedom,Cabernet Sauvignon,20-Jun-19,1,Merced,2019,4.4
+C357,005 SEC. D,10,N/A,25,Freedom,Cabernet Sauvignon,20-Jun-19,1,Merced,2019,4.3
+C358,089 OLCESE 24,20,N/A,13,Freedom,Chardonnay,20-Jun-19,1,Merced,2019,4
+C359,089 OLCESE 24,20,N/A,14,Freedom,Chardonnay,20-Jun-19,1,Merced,2019,5.1
+C360,089 OLCESE 24,20,N/A,15,Freedom,Chardonnay,20-Jun-19,1,Merced,2019,4.5
+C361,018 CARPENTER,7,N/A,18,Teleki 5C,Chardonnay,20-Jun-19,1,Merced,2019,4.3
+C362,018 CARPENTER,7,N/A,20,Teleki 5C,Chardonnay,20-Jun-19,1,Merced,2019,4.3
+C363,018 CARPENTER,7,N/A,22,Teleki 5C,Chardonnay,20-Jun-19,1,Merced,2019,4.2
+C364,103 SEC B CAB.,25,N/A,15,1103 Paulsen,Cabernet Sauvignon,20-Jun-19,1,Merced,2019,5.2
+C365,103 SEC B CAB.,25,N/A,16,1103 Paulsen,Cabernet Sauvignon,20-Jun-19,1,Merced,2019,5.3
+C366,103 SEC B CAB.,25,N/A,17,1103 Paulsen,Cabernet Sauvignon,20-Jun-19,1,Merced,2019,5
+C367,RIP 760,5,N/A,14,1103 Paulsen,Chardonnay,18-Jun-19,1,Madera,2019,4.3
+C368,RIP 760,5,N/A,15,1103 Paulsen,Chardonnay,18-Jun-19,1,Madera,2019,4.2
+C369,RIP 760,5,N/A,16,1103 Paulsen,Chardonnay,18-Jun-19,1,Madera,2019,4
+C370,RIP 775,4,N/A,14,Freedom,Cabernet Sauvignon,18-Jun-19,1,Madera,2019,4.3
+C371,RIP 775,4,N/A,15,Freedom,Cabernet Sauvignon,18-Jun-19,1,Madera,2019,4.3
+C372,RIP 775,4,N/A,16,Freedom,Cabernet Sauvignon,18-Jun-19,1,Madera,2019,4.6
+C373,RIP 730,11,N/A,14,Freedom,Chardonnay,18-Jun-19,1,Madera,2019,5.4
+C374,RIP 730,11,N/A,15,Freedom,Chardonnay,18-Jun-19,1,Madera,2019,4.7
+C375,RIP 730,11,N/A,16,Freedom,Chardonnay,18-Jun-19,1,Madera,2019,4.4
+C376,RIP 772,12,N/A,14,Teleki 5C,Cabernet Sauvignon,18-Jun-19,1,Madera,2019,5.1
+C377,RIP 772,12,N/A,15,Teleki 5C,Cabernet Sauvignon,18-Jun-19,1,Madera,2019,5.3
+C378,RIP 772,12,N/A,16,Teleki 5C,Cabernet Sauvignon,18-Jun-19,1,Madera,2019,5.6
+C379,N/A,9,3,3,Teleki 5C,Chardonnay,25-Jun-19,2,San Joaquin,2019,4.8
+C380,N/A,9,3,4,Teleki 5C,Chardonnay,25-Jun-19,2,San Joaquin,2019,4.4
+C381,N/A,9,3,5,Teleki 5C,Chardonnay,25-Jun-19,2,San Joaquin,2019,4.9
+C382,N/A,10,4,3,1103 Paulsen,Chardonnay,25-Jun-19,2,San Joaquin,2019,4
+C383,N/A,10,4,4,1103 Paulsen,Chardonnay,25-Jun-19,2,San Joaquin,2019,4.5
+C384,N/A,10,4,5,1103 Paulsen,Chardonnay,25-Jun-19,2,San Joaquin,2019,4.5
+C385,N/A,13,4,3,Freedom,Chardonnay,25-Jun-19,2,San Joaquin,2019,4.8
+C386,N/A,13,4,4,Freedom,Chardonnay,25-Jun-19,2,San Joaquin,2019,5.1
+C387,N/A,13,4,6,Freedom,Chardonnay,25-Jun-19,2,San Joaquin,2019,4.7
+C388,N/A,22,3,4,Teleki 5C,Cabernet Sauvignon,25-Jun-19,2,San Joaquin,2019,4.5
+C389,N/A,22,3,5,Teleki 5C,Cabernet Sauvignon,25-Jun-19,2,San Joaquin,2019,4.5
+C390,N/A,22,3,6,Teleki 5C,Cabernet Sauvignon,25-Jun-19,2,San Joaquin,2019,6.4
+C391,N/A,23,3,3,1103 Paulsen,Cabernet Sauvignon,25-Jun-19,2,San Joaquin,2019,4
+C392,N/A,23,3,5,1103 Paulsen,Cabernet Sauvignon,25-Jun-19,2,San Joaquin,2019,4
+C393,N/A,23,3,6,1103 Paulsen,Cabernet Sauvignon,25-Jun-19,2,San Joaquin,2019,4.2
+C394,N/A,26,4,2,Freedom,Cabernet Sauvignon,25-Jun-19,2,San Joaquin,2019,4.7
+C395,N/A,26,4,5,Freedom,Cabernet Sauvignon,25-Jun-19,2,San Joaquin,2019,4.4
+C396,N/A,26,4,6,Freedom,Cabernet Sauvignon,25-Jun-19,2,San Joaquin,2019,4.5
+C397,089 OLCESE 24,20,N/A,16,Freedom,Chardonnay,26-Jun-19,2,Merced,2019,5.2
+C398,089 OLCESE 24,20,N/A,17,Freedom,Chardonnay,26-Jun-19,2,Merced,2019,5
+C399,089 OLCESE 24,20,N/A,18,Freedom,Chardonnay,26-Jun-19,2,Merced,2019,5
+C400,018 CARPENTER,8,N/A,12,Teleki 5C,Chardonnay,26-Jun-19,2,Merced,2019,4.7
+C401,018 CARPENTER,8,N/A,14,Teleki 5C,Chardonnay,26-Jun-19,2,Merced,2019,4.7
+C402,018 CARPENTER,8,N/A,16,Teleki 5C,Chardonnay,26-Jun-19,2,Merced,2019,5.3
+C403,103 SEC B,25,N/A,22,1103 Paulsen,Cabernet Sauvignon,26-Jun-19,2,Merced,2019,4.7
+C404,103 SEC B,25,N/A,23,1103 Paulsen,Cabernet Sauvignon,26-Jun-19,2,Merced,2019,4.7
+C405,103 SEC B,25,N/A,24,1103 Paulsen,Cabernet Sauvignon,26-Jun-19,2,Merced,2019,4.4
+C406,005 SEC D,9,N/A,11,Freedom,Cabernet Sauvignon,26-Jun-19,2,Merced,2019,5
+C407,005 SEC D,9,N/A,12,Freedom,Cabernet Sauvignon,26-Jun-19,2,Merced,2019,4.8
+C408,005 SEC D,9,N/A,13,Freedom,Cabernet Sauvignon,26-Jun-19,2,Merced,2019,4.8
+C409,RIP 775,6,N/A,11,Freedom,Cabernet Sauvignon,27-Jun-19,2,Madera,2019,4.5
+C410,RIP 775,6,N/A,12,Freedom,Cabernet Sauvignon,27-Jun-19,2,Madera,2019,4.7
+C411,RIP 775,6,N/A,13,Freedom,Cabernet Sauvignon,27-Jun-19,2,Madera,2019,5.7
+C412,RIP 730,12,N/A,11,Freedom,Chardonnay,27-Jun-19,2,Madera,2019,5
+C413,RIP 730,12,N/A,12,Freedom,Chardonnay,27-Jun-19,2,Madera,2019,4.7
+C414,RIP 730,12,N/A,13,Freedom,Chardonnay,27-Jun-19,2,Madera,2019,4.5
+C415,RIP 772,13,N/A,11,Teleki 5C,Cabernet Sauvignon,27-Jun-19,2,Madera,2019,4.4
+C416,RIP 772,13,N/A,12,Teleki 5C,Cabernet Sauvignon,27-Jun-19,2,Madera,2019,4.8
+C417,RIP 772,13,N/A,13,Teleki 5C,Cabernet Sauvignon,27-Jun-19,2,Madera,2019,4.9
+C418,RIP 760,6,N/A,11,1103 Paulsen,Chardonnay,27-Jun-19,2,Madera,2019,4.3
+C419,RIP 760,6,N/A,12,1103 Paulsen,Chardonnay,27-Jun-19,2,Madera,2019,4.3
+C420,RIP 760,6,N/A,13,1103 Paulsen,Chardonnay,27-Jun-19,2,Madera,2019,4.1
+C420,N/A,20,2,3,Teleki 5C,Cabernet Sauvignon,1-Jul-19,3,San Joaquin,2019,4.3
+C421,N/A,20,2,4,Teleki 5C,Cabernet Sauvignon,1-Jul-19,3,San Joaquin,2019,4.4
+C422,N/A,20,2,5,Teleki 5C,Cabernet Sauvignon,1-Jul-19,3,San Joaquin,2019,4.2
+C423,N/A,21,2,3,1103 Paulsen,Cabernet Sauvignon,1-Jul-19,3,San Joaquin,2019,4.6
+C424,N/A,21,2,4,1103 Paulsen,Cabernet Sauvignon,1-Jul-19,3,San Joaquin,2019,5
+C425,N/A,21,2,5,1103 Paulsen,Cabernet Sauvignon,1-Jul-19,3,San Joaquin,2019,4.8
+C426,N/A,26,3,3,Freedom,Cabernet Sauvignon,1-Jul-19,3,San Joaquin,2019,4.3
+C427,N/A,26,3,4,Freedom,Cabernet Sauvignon,1-Jul-19,3,San Joaquin,2019,4.7
+C428,N/A,26,3,6,Freedom,Cabernet Sauvignon,1-Jul-19,3,San Joaquin,2019,4.1
+C429,N/A,5,2,4,1103 Paulsen,Chardonnay,1-Jul-19,3,San Joaquin,2019,5.1
+C430,N/A,5,2,6,1103 Paulsen,Chardonnay,1-Jul-19,3,San Joaquin,2019,5
+C431,N/A,5,2,8,1103 Paulsen,Chardonnay,1-Jul-19,3,San Joaquin,2019,5.5
+C432,N/A,6,2,4,Teleki 5C,Chardonnay,1-Jul-19,3,San Joaquin,2019,5
+C433,N/A,6,2,5,Teleki 5C,Chardonnay,1-Jul-19,3,San Joaquin,2019,5.7
+C434,N/A,6,2,6,Teleki 5C,Chardonnay,1-Jul-19,3,San Joaquin,2019,4.9
+C435,N/A,12,3,3,Freedom,Chardonnay,1-Jul-19,3,San Joaquin,2019,5
+C436,N/A,12,3,4,Freedom,Chardonnay,1-Jul-19,3,San Joaquin,2019,5.6
+C437,N/A,12,3,6,Freedom,Chardonnay,1-Jul-19,3,San Joaquin,2019,5.6
+C438,018 CARPENTER,8,N/A,18,Teleki 5C,Chardonnay,2-Jul-19,3,Merced,2019,5.2
+C439,018 CARPENTER,8,N/A,20,Teleki 5C,Chardonnay,2-Jul-19,3,Merced,2019,6.6
+C440,018 CARPENTER,8,N/A,22,Teleki 5C,Chardonnay,2-Jul-19,3,Merced,2019,7.5
+C441,103 SEC B,25,N/A,25,1103 Paulsen,Cabernet Sauvignon,2-Jul-19,3,Merced,2019,4.9
+C442,103 SEC B,25,N/A,26,1103 Paulsen,Cabernet Sauvignon,2-Jul-19,3,Merced,2019,4.8
+C443,103 SEC B,25,N/A,27,1103 Paulsen,Cabernet Sauvignon,2-Jul-19,3,Merced,2019,5.7
+C444,005 SEC D,9,N/A,20,Freedom,Cabernet Sauvignon,2-Jul-19,3,Merced,2019,4.7
+C445,005 SEC D,9,N/A,21,Freedom,Cabernet Sauvignon,2-Jul-19,3,Merced,2019,4.8
+C446,005 SEC D,9,N/A,22,Freedom,Cabernet Sauvignon,2-Jul-19,3,Merced,2019,4.9
+C447,089 OLCESE 24,20,N/A,21,Freedom,Chardonnay,2-Jul-19,3,Merced,2019,NA
+C448,089 OLCESE 24,20,N/A,19,Freedom,Chardonnay,2-Jul-19,3,Merced,2019,NA
+C449,089 OLCESE 24,20,N/A,20,Freedom,Chardonnay,2-Jul-19,3,Merced,2019,NA
+C450,RIP 730,12,N/A,14,Freedom,Chardonnay,3-Jul-19,3,Madera,2019,5.3
+C451,RIP 730,12,N/A,15,Freedom,Chardonnay,3-Jul-19,3,Madera,2019,5.9
+C452,RIP 730,12,N/A,16,Freedom,Chardonnay,3-Jul-19,3,Madera,2019,6.3
+C453,RIP 772,13,N/A,14,Teleki 5C,Cabernet Sauvignon,3-Jul-19,3,Madera,2019,4.2
+C454,RIP 772,13,N/A,15,Teleki 5C,Cabernet Sauvignon,3-Jul-19,3,Madera,2019,4.4
+C455,RIP 772,13,N/A,16,Teleki 5C,Cabernet Sauvignon,3-Jul-19,3,Madera,2019,5.7
+C456,RIP 760,6,N/A,14,1103 Paulsen,Chardonnay,3-Jul-19,3,Madera,2019,4.8
+C457,RIP 760,6,N/A,15,1103 Paulsen,Chardonnay,3-Jul-19,3,Madera,2019,4.3
+C458,RIP 760,6,N/A,16,1103 Paulsen,Chardonnay,3-Jul-19,3,Madera,2019,4.9
+C459,RIP 775,6,N/A,14,Freedom,Cabernet Sauvignon,3-Jul-19,3,Madera,2019,4.8
+C460,RIP 775,6,N/A,15,Freedom,Cabernet Sauvignon,3-Jul-19,3,Madera,2019,5.4
+C461,RIP 775,6,N/A,16,Freedom,Cabernet Sauvignon,3-Jul-19,3,Madera,2019,6
+C462,N/A,2,1,2,Teleki 5C,Chardonnay,9-Jul-19,4,San Joaquin,2019,5.5
+C463,N/A,2,1,3,Teleki 5C,Chardonnay,9-Jul-19,4,San Joaquin,2019,4.8
+C464,N/A,2,1,5,Teleki 5C,Chardonnay,9-Jul-19,4,San Joaquin,2019,4.8
+C465,N/A,4,1,3,1103 Paulsen,Chardonnay,9-Jul-19,4,San Joaquin,2019,4.4
+C466,N/A,4,1,4,1103 Paulsen,Chardonnay,9-Jul-19,4,San Joaquin,2019,5.2
+C467,N/A,4,1,5,1103 Paulsen,Chardonnay,9-Jul-19,4,San Joaquin,2019,5
+C468,N/A,8,2,1,Freedom,Chardonnay,9-Jul-19,4,San Joaquin,2019,4.9
+C469,N/A,8,2,2,Freedom,Chardonnay,9-Jul-19,4,San Joaquin,2019,4.9
+C470,N/A,8,2,4,Freedom,Chardonnay,9-Jul-19,4,San Joaquin,2019,5.4
+C471,N/A,16,1,4,Freedom,Cabernet Sauvignon,9-Jul-19,4,San Joaquin,2019,4.8
+C472,N/A,16,1,5,Freedom,Cabernet Sauvignon,9-Jul-19,4,San Joaquin,2019,4.7
+C473,N/A,16,1,7,Freedom,Cabernet Sauvignon,9-Jul-19,4,San Joaquin,2019,4.6
+C474,N/A,17,1,3,Teleki 5C,Cabernet Sauvignon,9-Jul-19,4,San Joaquin,2019,4.6
+C475,N/A,17,1,4,Teleki 5C,Cabernet Sauvignon,9-Jul-19,4,San Joaquin,2019,4.9
+C476,N/A,17,1,6,Teleki 5C,Cabernet Sauvignon,9-Jul-19,4,San Joaquin,2019,4.5
+C477,N/A,19,1,3,1103 Paulsen,Cabernet Sauvignon,9-Jul-19,4,San Joaquin,2019,4.8
+C478,N/A,19,1,4,1103 Paulsen,Cabernet Sauvignon,9-Jul-19,4,San Joaquin,2019,4.5
+C479,N/A,19,1,5,1103 Paulsen,Cabernet Sauvignon,9-Jul-19,4,San Joaquin,2019,4.7
+C480,103 SEC B CAB.,26,N/A,12,1103 Paulsen,Cabernet Sauvignon,10-Jul-19,4,Merced,2019,4.9
+C481,103 SEC B CAB.,26,N/A,13,1103 Paulsen,Cabernet Sauvignon,10-Jul-19,4,Merced,2019,4.9
+C482,103 SEC B CAB.,26,N/A,14,1103 Paulsen,Cabernet Sauvignon,10-Jul-19,4,Merced,2019,5.2
+C483,005 SEC. D,8,N/A,14,Freedom,Cabernet Sauvignon,10-Jul-19,4,Merced,2019,4.7
+C484,005 SEC. D,8,N/A,15,Freedom,Cabernet Sauvignon,10-Jul-19,4,Merced,2019,4.9
+C485,005 SEC. D,8,N/A,16,Freedom,Cabernet Sauvignon,10-Jul-19,4,Merced,2019,4.9
+C486,089 OLCESE 24,21,N/A,10,Freedom,Chardonnay,10-Jul-19,4,Merced,2019,7.2
+C487,089 OLCESE 24,21,N/A,11,Freedom,Chardonnay,10-Jul-19,4,Merced,2019,7.8
+C488,089 OLCESE 24,21,N/A,12,Freedom,Chardonnay,10-Jul-19,4,Merced,2019,8.8
+C489,018 CARPENTER,9,N/A,12,Teleki 5C,Chardonnay,10-Jul-19,4,Merced,2019,7.9
+C490,018 CARPENTER,9,N/A,14,Teleki 5C,Chardonnay,10-Jul-19,4,Merced,2019,6.5
+C491,018 CARPENTER,9,N/A,16,Teleki 5C,Chardonnay,10-Jul-19,4,Merced,2019,6.2
+C492,RIP 772,14,N/A,11,Teleki 5C,Cabernet Sauvignon,12-Jul-19,4,Madera,2019,4.8
+C493,RIP 772,14,N/A,12,Teleki 5C,Cabernet Sauvignon,12-Jul-19,4,Madera,2019,4.8
+C494,RIP 772,14,N/A,13,Teleki 5C,Cabernet Sauvignon,12-Jul-19,4,Madera,2019,5
+C495,RIP 760,7,N/A,11,1103 Paulsen,Chardonnay,12-Jul-19,4,Madera,2019,12.4
+C496,RIP 760,7,N/A,12,1103 Paulsen,Chardonnay,12-Jul-19,4,Madera,2019,9.4
+C497,RIP 760,7,N/A,13,1103 Paulsen,Chardonnay,12-Jul-19,4,Madera,2019,12.1
+C498,RIP 775,7,N/A,11,Freedom,Cabernet Sauvignon,12-Jul-19,4,Madera,2019,5.1
+C499,RIP 775,7,N/A,12,Freedom,Cabernet Sauvignon,12-Jul-19,4,Madera,2019,5.5
+C500,RIP 775,7,N/A,13,Freedom,Cabernet Sauvignon,12-Jul-19,4,Madera,2019,5.3
+C501,RIP 730,13,N/A,11,Freedom,Chardonnay,12-Jul-19,4,Madera,2019,13.8
+C502,RIP 730,13,N/A,12,Freedom,Chardonnay,12-Jul-19,4,Madera,2019,12.1
+C503,RIP 730,13,N/A,13,Freedom,Chardonnay,12-Jul-19,4,Madera,2019,12
+C504,N/A,20,2,3,Teleki 5C,Cabernet Sauvignon,17-Jul-19,5,San Joaquin,2019,4.5
+C505,N/A,20,2,4,Teleki 5C,Cabernet Sauvignon,17-Jul-19,5,San Joaquin,2019,4.5
+C506,N/A,20,2,5,Teleki 5C,Cabernet Sauvignon,17-Jul-19,5,San Joaquin,2019,4.4
+C507,N/A,21,2,3,1103 Paulsen,Cabernet Sauvignon,17-Jul-19,5,San Joaquin,2019,4.6
+C508,N/A,21,2,4,1103 Paulsen,Cabernet Sauvignon,17-Jul-19,5,San Joaquin,2019,4.2
+C509,N/A,21,2,5,1103 Paulsen,Cabernet Sauvignon,17-Jul-19,5,San Joaquin,2019,5.1
+C510,N/A,26,3,3,Freedom,Cabernet Sauvignon,17-Jul-19,5,San Joaquin,2019,4.5
+C511,N/A,26,3,4,Freedom,Cabernet Sauvignon,17-Jul-19,5,San Joaquin,2019,4.7
+C512,N/A,26,3,6,Freedom,Cabernet Sauvignon,17-Jul-19,5,San Joaquin,2019,4.5
+C513,N/A,5,2,4,1103 Paulsen,Chardonnay,17-Jul-19,5,San Joaquin,2019,9.9
+C514,N/A,5,2,6,1103 Paulsen,Chardonnay,17-Jul-19,5,San Joaquin,2019,8.8
+C515,N/A,5,2,8,1103 Paulsen,Chardonnay,17-Jul-19,5,San Joaquin,2019,7.9
+C516,N/A,6,2,4,Teleki 5C,Chardonnay,17-Jul-19,5,San Joaquin,2019,8.1
+C517,N/A,6,2,5,Teleki 5C,Chardonnay,17-Jul-19,5,San Joaquin,2019,8.1
+C518,N/A,6,2,6,Teleki 5C,Chardonnay,17-Jul-19,5,San Joaquin,2019,8.8
+C519,N/A,12,3,3,Freedom,Chardonnay,17-Jul-19,5,San Joaquin,2019,9.3
+C520,N/A,12,3,4,Freedom,Chardonnay,17-Jul-19,5,San Joaquin,2019,10.1
+C521,N/A,12,3,6,Freedom,Chardonnay,17-Jul-19,5,San Joaquin,2019,11.9
+C522,005 SEC D,7,N/A,7,Freedom,Cabernet Sauvignon,15-Jul-19,5,Merced,2019,5.7
+C523,005 SEC D,7,N/A,8,Freedom,Cabernet Sauvignon,15-Jul-19,5,Merced,2019,4.9
+C524,005 SEC D,7,N/A,9,Freedom,Cabernet Sauvignon,15-Jul-19,5,Merced,2019,5
+C525,089 OLCESE 24,21,N/A,13,Freedom,Chardonnay,15-Jul-19,5,Merced,2019,14.2
+C526,089 OLCESE 24,21,N/A,14,Freedom,Chardonnay,15-Jul-19,5,Merced,2019,14.6
+C527,089 OLCESE 24,21,N/A,15,Freedom,Chardonnay,15-Jul-19,5,Merced,2019,13.9
+C528,018 CARPENTER,9,N/A,18,Teleki 5C,Chardonnay,15-Jul-19,5,Merced,2019,12.1
+C529,018 CARPENTER,9,N/A,20,Teleki 5C,Chardonnay,15-Jul-19,5,Merced,2019,12.8
+C530,018 CARPENTER,9,N/A,22,Teleki 5C,Chardonnay,15-Jul-19,5,Merced,2019,12.3
+C531,103 SEC B,26,N/A,15,1103 Paulsen,Cabernet Sauvignon,15-Jul-19,5,Merced,2019,4.7
+C532,103 SEC B,26,N/A,16,1103 Paulsen,Cabernet Sauvignon,15-Jul-19,5,Merced,2019,5.7
+C533,103 SEC B,26,N/A,17,1103 Paulsen,Cabernet Sauvignon,15-Jul-19,5,Merced,2019,5.1
+C534,RIP 760,7,N/A,14,1103 Paulsen,Chardonnay,16-Jul-19,5,Madera,2019,14.3
+C535,RIP 760,7,N/A,15,1103 Paulsen,Chardonnay,16-Jul-19,5,Madera,2019,14.6
+C536,RIP 760,7,N/A,16,1103 Paulsen,Chardonnay,16-Jul-19,5,Madera,2019,15.7
+C537,RIP 775,7,N/A,14,Freedom,Cabernet Sauvignon,16-Jul-19,5,Madera,2019,5.1
+C538,RIP 775,7,N/A,15,Freedom,Cabernet Sauvignon,16-Jul-19,5,Madera,2019,4.8
+C539,RIP 775,7,N/A,16,Freedom,Cabernet Sauvignon,16-Jul-19,5,Madera,2019,4.9
+C540,RIP 730,13,N/A,11,Freedom,Chardonnay,16-Jul-19,5,Madera,2019,9.8
+C541,RIP 730,13,N/A,12,Freedom,Chardonnay,16-Jul-19,5,Madera,2019,10
+C542,RIP 730,13,N/A,13,Freedom,Chardonnay,16-Jul-19,5,Madera,2019,11.8
+C543,RIP 772,14,N/A,14,Teleki 5C,Cabernet Sauvignon,16-Jul-19,5,Madera,2019,5
+C544,RIP 772,14,N/A,15,Teleki 5C,Cabernet Sauvignon,16-Jul-19,5,Madera,2019,4.9
+C545,RIP 772,14,N/A,16,Teleki 5C,Cabernet Sauvignon,16-Jul-19,5,Madera,2019,5.4
+C546,N/A,9,3,3,Teleki 5C,Chardonnay,23-Jul-19,6,San Joaquin,2019,11.4
+C547,N/A,9,3,4,Teleki 5C,Chardonnay,23-Jul-19,6,San Joaquin,2019,11.3
+C548,N/A,9,3,5,Teleki 5C,Chardonnay,23-Jul-19,6,San Joaquin,2019,11.2
+C549,N/A,10,4,3,1103 Paulsen,Chardonnay,23-Jul-19,6,San Joaquin,2019,13.5
+C550,N/A,10,4,4,1103 Paulsen,Chardonnay,23-Jul-19,6,San Joaquin,2019,14.6
+C551,N/A,10,4,5,1103 Paulsen,Chardonnay,23-Jul-19,6,San Joaquin,2019,14.4
+C552,N/A,13,4,3,Freedom,Chardonnay,23-Jul-19,6,San Joaquin,2019,19.2
+C553,N/A,13,4,4,Freedom,Chardonnay,23-Jul-19,6,San Joaquin,2019,19.4
+C554,N/A,13,4,6,Freedom,Chardonnay,23-Jul-19,6,San Joaquin,2019,20.3
+C555,N/A,22,3,4,Teleki 5C,Cabernet Sauvignon,23-Jul-19,6,San Joaquin,2019,11.1
+C556,N/A,22,3,5,Teleki 5C,Cabernet Sauvignon,23-Jul-19,6,San Joaquin,2019,10
+C557,N/A,22,3,6,Teleki 5C,Cabernet Sauvignon,23-Jul-19,6,San Joaquin,2019,8.3
+C558,N/A,23,3,3,1103 Paulsen,Cabernet Sauvignon,23-Jul-19,6,San Joaquin,2019,5.8
+C559,N/A,23,3,5,1103 Paulsen,Cabernet Sauvignon,23-Jul-19,6,San Joaquin,2019,5.9
+C560,N/A,23,3,6,1103 Paulsen,Cabernet Sauvignon,23-Jul-19,6,San Joaquin,2019,6.1
+C561,N/A,26,3,3,Freedom,Cabernet Sauvignon,23-Jul-19,6,San Joaquin,2019,4.9
+C562,N/A,26,3,4,Freedom,Cabernet Sauvignon,23-Jul-19,6,San Joaquin,2019,4.9
+C563,N/A,26,3,6,Freedom,Cabernet Sauvignon,23-Jul-19,6,San Joaquin,2019,4.7
+C564,089 OLCESE 24,21,N/A,16,Freedom,Chardonnay,24-Jul-19,6,Merced,2019,16.4
+C565,089 OLCESE 24,21,N/A,17,Freedom,Chardonnay,24-Jul-19,6,Merced,2019,14.8
+C566,089 OLCESE 24,21,N/A,18,Freedom,Chardonnay,24-Jul-19,6,Merced,2019,16.9
+C567,018 CARP,10,N/A,12,Teleki 5C,Chardonnay,24-Jul-19,6,Merced,2019,15.6
+C568,018 CARP,10,N/A,14,Teleki 5C,Chardonnay,24-Jul-19,6,Merced,2019,17.4
+C569,018 CARP,10,N/A,16,Teleki 5C,Chardonnay,24-Jul-19,6,Merced,2019,16.1
+C570,103 SEC B,26,N/A,18,1103 Paulsen,Cabernet Sauvignon,24-Jul-19,6,Merced,2019,12.7
+C571,103 SEC B,26,N/A,19,1103 Paulsen,Cabernet Sauvignon,24-Jul-19,6,Merced,2019,12
+C572,103 SEC B,26,N/A,20,1103 Paulsen,Cabernet Sauvignon,24-Jul-19,6,Merced,2019,13.5
+C573,005 SEC D,6,N/A,14,Freedom,Cabernet Sauvignon,24-Jul-19,6,Merced,2019,14.7
+C574,005 SEC D,6,N/A,15,Freedom,Cabernet Sauvignon,24-Jul-19,6,Merced,2019,14.9
+C575,005 SEC D,6,N/A,16,Freedom,Cabernet Sauvignon,24-Jul-19,6,Merced,2019,15.3
+C576,RIP 775,5,N/A,11,Freedom,Cabernet Sauvignon,25-Jul-19,6,Madera,2019,15.7
+C577,RIP 775,5,N/A,12,Freedom,Cabernet Sauvignon,25-Jul-19,6,Madera,2019,15.3
+C578,RIP 775,5,N/A,13,Freedom,Cabernet Sauvignon,25-Jul-19,6,Madera,2019,15.9
+C579,RIP 730,14,N/A,11,Freedom,Chardonnay,25-Jul-19,6,Madera,2019,16
+C580,RIP 730,14,N/A,12,Freedom,Chardonnay,25-Jul-19,6,Madera,2019,15.6
+C581,RIP 730,14,N/A,13,Freedom,Chardonnay,25-Jul-19,6,Madera,2019,17.2
+C582,RIP 772,15,N/A,11,Teleki 5C,Cabernet Sauvignon,25-Jul-19,6,Madera,2019,14
+C583,RIP 772,15,N/A,12,Teleki 5C,Cabernet Sauvignon,25-Jul-19,6,Madera,2019,13.1
+C584,RIP 772,15,N/A,10,Teleki 5C,Cabernet Sauvignon,25-Jul-19,6,Madera,2019,10.8
+C585,RIP 760,8,N/A,11,1103 Paulsen,Chardonnay,25-Jul-19,6,Madera,2019,14.4
+C586,RIP 760,8,N/A,12,1103 Paulsen,Chardonnay,25-Jul-19,6,Madera,2019,15.4
+C587,RIP 760,8,N/A,13,1103 Paulsen,Chardonnay,25-Jul-19,6,Madera,2019,15
+C588,N/A,22,3,4,Teleki 5C,Cabernet Sauvignon,29-Jul-19,7,San Joaquin,2019,10.4
+C589,N/A,22,3,5,Teleki 5C,Cabernet Sauvignon,29-Jul-19,7,San Joaquin,2019,13.4
+C590,N/A,22,3,6,Teleki 5C,Cabernet Sauvignon,29-Jul-19,7,San Joaquin,2019,14
+C591,N/A,23,3,3,1103 Paulsen,Cabernet Sauvignon,29-Jul-19,7,San Joaquin,2019,10.1
+C592,N/A,23,3,5,1103 Paulsen,Cabernet Sauvignon,29-Jul-19,7,San Joaquin,2019,12.1
+C593,N/A,23,3,6,1103 Paulsen,Cabernet Sauvignon,29-Jul-19,7,San Joaquin,2019,11.6
+C594,N/A,26,4,2,Freedom,Cabernet Sauvignon,29-Jul-19,7,San Joaquin,2019,15
+C595,N/A,26,4,5,Freedom,Cabernet Sauvignon,29-Jul-19,7,San Joaquin,2019,14.6
+C596,N/A,26,4,6,Freedom,Cabernet Sauvignon,29-Jul-19,7,San Joaquin,2019,13.5
+C597,N/A,9,3,3,Teleki 5C,Chardonnay,29-Jul-19,7,San Joaquin,2019,16.5
+C598,N/A,9,3,4,Teleki 5C,Chardonnay,29-Jul-19,7,San Joaquin,2019,15
+C599,N/A,9,3,5,Teleki 5C,Chardonnay,29-Jul-19,7,San Joaquin,2019,14.1
+C600,N/A,10,4,3,1103 Paulsen,Chardonnay,29-Jul-19,7,San Joaquin,2019,14.5
+C601,N/A,10,4,4,1103 Paulsen,Chardonnay,29-Jul-19,7,San Joaquin,2019,16.6
+C602,N/A,10,4,5,1103 Paulsen,Chardonnay,29-Jul-19,7,San Joaquin,2019,12
+C603,N/A,13,4,3,Freedom,Chardonnay,29-Jul-19,7,San Joaquin,2019,16.6
+C604,N/A,13,4,4,Freedom,Chardonnay,29-Jul-19,7,San Joaquin,2019,14.6
+C605,N/A,13,4,6,Freedom,Chardonnay,29-Jul-19,7,San Joaquin,2019,16.9
+C606,018 CARPENTER,10,N/A,18,Teleki 5C,Chardonnay,30-Jul-19,7,Merced,2019,15.9
+C607,018 CARPENTER,10,N/A,20,Teleki 5C,Chardonnay,30-Jul-19,7,Merced,2019,17.2
+C608,018 CARPENTER,10,N/A,24,Teleki 5C,Chardonnay,30-Jul-19,7,Merced,2019,20.2
+C609,103 SEC B,26,N/A,21,1103 Paulsen,Cabernet Sauvignon,30-Jul-19,7,Merced,2019,12.9
+C610,103 SEC B,26,N/A,22,1103 Paulsen,Cabernet Sauvignon,30-Jul-19,7,Merced,2019,10.6
+C611,103 SEC B,26,N/A,23,1103 Paulsen,Cabernet Sauvignon,30-Jul-19,7,Merced,2019,14.3
+C612,005 SEC D,6,N/A,27,Freedom,Cabernet Sauvignon,30-Jul-19,7,Merced,2019,13.5
+C613,005 SEC D,6,N/A,28,Freedom,Cabernet Sauvignon,30-Jul-19,7,Merced,2019,13.7
+C614,005 SEC D,6,N/A,39,Freedom,Cabernet Sauvignon,30-Jul-19,7,Merced,2019,16
+C615,089 OLCESE 24,21,N/A,19,Freedom,Chardonnay,30-Jul-19,7,Merced,2019,19.7
+C616,089 OLCESE 24,21,N/A,20,Freedom,Chardonnay,30-Jul-19,7,Merced,2019,17.6
+C617,089 OLCESE 24,21,N/A,21,Freedom,Chardonnay,30-Jul-19,7,Merced,2019,15.7
+C618,RIP 730,14,N/A,14,Freedom,Chardonnay,31-Jul-19,7,Madera,2019,17.1
+C619,RIP 730,14,N/A,15,Freedom,Chardonnay,31-Jul-19,7,Madera,2019,19.1
+C620,RIP 730,14,N/A,16,Freedom,Chardonnay,31-Jul-19,7,Madera,2019,19.7
+C621,RIP 772,15,N/A,14,Teleki 5C,Cabernet Sauvignon,31-Jul-19,7,Madera,2019,16.5
+C622,RIP 772,15,N/A,15,Teleki 5C,Cabernet Sauvignon,31-Jul-19,7,Madera,2019,18.5
+C623,RIP 772,15,N/A,16,Teleki 5C,Cabernet Sauvignon,31-Jul-19,7,Madera,2019,16.9
+C624,RIP 760,8,N/A,14,1103 Paulsen,Chardonnay,31-Jul-19,7,Madera,2019,19.3
+C625,RIP 760,8,N/A,15,1103 Paulsen,Chardonnay,31-Jul-19,7,Madera,2019,21.1
+C626,RIP 760,8,N/A,16,1103 Paulsen,Chardonnay,31-Jul-19,7,Madera,2019,18.4
+C627,RIP 775,8,N/A,11,Freedom,Cabernet Sauvignon,31-Jul-19,7,Madera,2019,16.5
+C628,RIP 775,8,N/A,12,Freedom,Cabernet Sauvignon,31-Jul-19,7,Madera,2019,16.8
+C629,RIP 775,8,N/A,13,Freedom,Cabernet Sauvignon,31-Jul-19,7,Madera,2019,16.3

@@ -31,8 +31,13 @@ rootstock_palette <- c('#1b9e77', '#f0a4af', '#7570b3')
 scion_palette <- c('#ed254e', '#0e79b2')
 site_palette <- c('#e6ab02', '#281c39', '#12664c')
 compartment_palette <- c("#5a1991", "#139d08", "#5c3c0d") #https://lospec.com/palette-list/famicube
-safe_colorblind_palette <- c("#88CCEE", "#CC6677", "#DDCC77", "#AA4499", "#332288", "#117733", 
-                             "#661100", "#999933", "#44AA99", "#882255", "#6699CC", "#888888")
+safe_colorblind_palette <- c("Acidobacteriota" = "#88CCEE", "Actinobacteriota" = "#CC6677",
+                             "Bacteroidota" = "#DDCC77", "Chloroflexi" = "#AA4499",
+                             "Deinococcota" = "#332288","Firmicutes" = "#117733",
+                             "Myxococcota" = "#661100", "Planctomycetota" = "#999933",
+                             "Proteobacteria" = "#44AA99", "Verrucomicrobiota" = "#882255",
+                             "Desulfobacterota" = "#888888","Crenarchaeota" = "#D55E00",
+                             "Other" = "#6699CC") 
 ##### Functions #####
 # Calculate shannon, inverse simpson, and faith's phylogeny diversity metrics from a phyloseq object
 Alpha_div_metrics <- function(phyloseq_obj){
@@ -223,36 +228,91 @@ Brix_spilt_plot <- ggplot(Brix_values[Brix_values$plant_body_site == "berry",], 
 ggsave("Brix_discret_split_plot.svg", Brix_spilt_plot, bg = 'white', dpi = 600, height = 8, width = 6)
 ggsave("Brix_discret_split_plot.pdf", Brix_spilt_plot, bg = 'white', dpi = 600, height = 8, width = 6)
 
-###### Figure 1 B and C ######
-# Load Brix data set from CA_Brix_2018-2019.R
-Brixdf <- readRDS("../Data_files/CA_Brix_2018-2019.rds")
-# 2018
-bx2018 <- ggplot(Brixdf[Brixdf$Year == "2018",], aes(x=Sample.Date, y=brix, color = Scion)) + 
+###### Figure 1 B-D ######
+# Load Brix data set from csv file
+Brixdf <- read.csv("../Data_files/Brix_data_CA_2018-2019.csv")
+# Convert year to a factor
+Brixdf$Year <- as.factor(Brixdf$Year)
+# Convert date strings to an R accepted format year-month-day
+Brixdf$Sample.Date <- dmy(Brixdf$Sample.Date)
+
+# 2018/2019 scion panels
+a <- ggplot(Brixdf[Brixdf$Year == "2018",], aes(x=Sample.Date, y=brix, color = Scion)) + 
     annotate("rect", fill = "black", alpha= 0.5, xmin=as.Date("2018-06-19"), xmax=as.Date("2018-06-21"), ymin=-Inf, ymax=Inf) + 
     annotate("rect", fill = "black", alpha= 0.5, xmin=as.Date("2018-07-10"), xmax=as.Date("2018-07-13"), ymin=-Inf, ymax=Inf) + 
     annotate("rect", fill = "black", alpha= 0.5, xmin=as.Date("2018-07-31"), xmax=as.Date("2018-08-02"), ymin=-Inf, ymax=Inf) +
-    geom_smooth(method = "loess", level=0.95, size = 1, se=TRUE) +
+    geom_point(aes(fill = Scion), shape = 21, size = 3, color = 'black', alpha = 0.8) +
+    geom_smooth(method = "loess", level=0.95, size = 1, se=FALSE) +
     scale_color_manual(values = scion_palette) +
-    #scale_y_continuous(breaks = seq(1,25,4)) +
+    scale_fill_manual(values = scion_palette) +
     scale_x_date(limits = as.Date(c("2018-06-15","2018-08-10"))) +
     #\u00B0 makes the degree symbol#
     ylab("Sugar content (\u00B0Bx)") +
     ylim(3, 23) +
     theme(legend.position = "right", axis.title.x=element_blank()) +
     ggtitle("2018")
-# 2019
-bx2019 <- ggplot(Brixdf[Brixdf$Year == "2019",], aes(x=Sample.Date, y=brix, color = Scion)) + 
-    annotate("rect", fill = "black", alpha= 0.5, xmin=as.Date("2019-06-25"), xmax=as.Date("2019-06-27"), ymin=-Inf, ymax=Inf) + 
-    annotate("rect", fill = "black", alpha= 0.5, xmin=as.Date("2019-07-23"), xmax=as.Date("2019-07-25"), ymin=-Inf, ymax=Inf) + 
-    geom_smooth(method = "loess", level=0.95, size = 1, se=TRUE) +
-    scale_color_manual(values = scion_palette) +
-    #scale_y_continuous(breaks = seq(1,25,4)) +
-    scale_x_date(limits = as.Date(c("2019-06-15","2019-08-10"))) +
-    #\u00B0 makes the degree symbol#
-    ylab("Sugar content (\u00B0Bx)") +
-    ylim(3, 23) +
-    theme(legend.position = "right", axis.title.x=element_blank()) +
-    ggtitle("2019")
+b <- ggplot(Brixdf[Brixdf$Year == "2019",], aes(x=Sample.Date, y=brix, color = Scion)) + 
+  annotate("rect", fill = "black", alpha= 0.5, xmin=as.Date("2019-06-25"), xmax=as.Date("2019-06-27"), ymin=-Inf, ymax=Inf) + 
+  annotate("rect", fill = "black", alpha= 0.5, xmin=as.Date("2019-07-23"), xmax=as.Date("2019-07-25"), ymin=-Inf, ymax=Inf) + 
+  geom_point(aes(fill = Scion), shape = 21, size = 3, color = 'black', alpha = 0.8) +
+  geom_smooth(method = "loess", level=0.95, size = 1, se=FALSE) +
+  scale_color_manual(values = scion_palette) +
+  scale_fill_manual(values = scion_palette) +
+  scale_x_date(limits = as.Date(c("2019-06-15","2019-08-10"))) +
+  #\u00B0 makes the degree symbol#
+  ylab("Sugar content (\u00B0Bx)") +
+  ylim(3, 23) +
+  theme(legend.position = "right",
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(),
+        axis.title.y=element_blank(),
+        axis.line.y = element_blank(),
+        axis.title.x=element_blank()) +
+  ggtitle("2019")
+
+part1 <- ggarrange(a,b, ncol = 2, align = 'hv', common.legend = TRUE)
+
+# 2018/2019 site panels
+c <- ggplot(Brixdf[Brixdf$Year == "2018",], aes(x=Sample.Date, y=brix, color = Sample.Location)) + 
+  annotate("rect", fill = "black", alpha= 0.5, xmin=as.Date("2018-06-19"), xmax=as.Date("2018-06-21"), ymin=-Inf, ymax=Inf) + 
+  annotate("rect", fill = "black", alpha= 0.5, xmin=as.Date("2018-07-10"), xmax=as.Date("2018-07-13"), ymin=-Inf, ymax=Inf) + 
+  annotate("rect", fill = "black", alpha= 0.5, xmin=as.Date("2018-07-31"), xmax=as.Date("2018-08-02"), ymin=-Inf, ymax=Inf) +
+  geom_point(aes(fill = Sample.Location), shape = 21, size = 3, color = 'black', alpha = 0.8) +
+  geom_smooth(method = "loess", level=0.95, size = 1, se=FALSE) +
+  scale_color_manual(name = "Site", values = site_palette) +
+  scale_fill_manual(name = "Site", values = site_palette) +
+  scale_x_date(limits = as.Date(c("2018-06-15","2018-08-10"))) +
+  #\u00B0 makes the degree symbol#
+  ylab("Sugar content (\u00B0Bx)") +
+  ylim(3, 23) +
+  theme(legend.position = "right", axis.title.x=element_blank()) +
+  ggtitle("2018")
+d <- ggplot(Brixdf[Brixdf$Year == "2019",], aes(x=Sample.Date, y=brix, color = Sample.Location)) + 
+  annotate("rect", fill = "black", alpha= 0.5, xmin=as.Date("2019-06-25"), xmax=as.Date("2019-06-27"), ymin=-Inf, ymax=Inf) + 
+  annotate("rect", fill = "black", alpha= 0.5, xmin=as.Date("2019-07-23"), xmax=as.Date("2019-07-25"), ymin=-Inf, ymax=Inf) + 
+  geom_point(aes(fill = Sample.Location), shape = 21, size = 3, color = 'black', alpha = 0.8) +
+  geom_smooth(method = "loess", level=0.95, size = 1, se=FALSE) +
+  scale_color_manual(values = site_palette) +
+  scale_fill_manual(values = site_palette) +
+  scale_x_date(limits = as.Date(c("2019-06-15","2019-08-10"))) +
+  #\u00B0 makes the degree symbol#
+  ylab("Sugar content (\u00B0Bx)") +
+  ylim(3, 23) +
+  theme(legend.position = "right",
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(),
+        axis.title.y=element_blank(),
+        axis.line.y = element_blank(),
+        axis.title.x=element_blank()) +
+  ggtitle("2019")
+
+part2 <- ggarrange(c,d, ncol = 2, align = 'hv', common.legend = TRUE)
+
+# Combine and save
+fig1 <- ggarrange(part1, part2, nrow = 2)
+ggsave("figure1_brix_line_plots.svg", fig1, height = 9, width = 9)
+ggsave("figure1_brix_line_plots.pdf", fig1, height = 9, width = 9)
+
 # Brix statistics | Berry only
 alpha_berries <- alpha_diversity.df[alpha_diversity.df$plant_body_site == 'berry',]
 brix_berry.mod <- lm(brix ~ rootstock + lower_political + scion*col_week, data = alpha_berries) # Model brix data with rootstock, scion, and scion*col_week
@@ -438,6 +498,177 @@ ggplot(phylum_lvl[phylum_lvl$plant_body_site == 'root',], aes(x= Sample, y=Abund
         axis.ticks.x=element_blank(),
         legend.position = 'right')
 
+
+###### Figure S4 PCoAs for compartments together ######
+# load dataset with soil samples included
+phy_with_soil_vst <- readRDS("../Data_files/phyloseq_16s_filtered_vst_dataset.rds")
+# ordinations, axes 1/2/3
+out.bray_all <- ordinate(phy_with_soil_vst, method = "MDS", distance = "bray")
+A1.2 <- plot_ordination(phy_with_soil_vst, out.bray_all, axes = c(1,2)) 
+A1.3 <- plot_ordination(phy_with_soil_vst, out.bray_all, axes = c(1,3)) 
+
+a <- A1.2 + geom_point(aes(fill=plant_body_site, shape=plant_body_site), size = 5, alpha = 0.80, color = "black") +
+  scale_shape_manual(name = "Compartment", values = c(22,24,21,23), labels = c("Berry", "Leaf", "Root", "Soil")) +
+  scale_fill_manual(name = "Compartment", values= c("#5a1991", "#139d08", "#5c3c0d", "grey"), labels = c("Berry", "Leaf", "Root", "Soil")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y)))
+
+b <- A1.3 + geom_point(aes(fill=plant_body_site, shape=plant_body_site), size = 5, alpha = 0.80, color = "black") +
+  scale_shape_manual(name = "Compartment", values = c(22,24,21,23), labels = c("Berry", "Leaf", "Root", "Soil")) +
+  scale_fill_manual(name = "Compartment", values= c("#5a1991", "#139d08", "#5c3c0d", "grey"), labels = c("Berry", "Leaf", "Root", "Soil")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 3", sub(".*\\ ", "", temp$labels$y)))
+
+part1 <- ggarrange(a,b, legend = 'right', common.legend = TRUE, align = 'hv', labels = "AUTO")
+
+c <- A1.2 + geom_point(aes(fill=lower_political, shape=plant_body_site), size = 5, alpha = 0.80, color = "black") +
+  scale_shape_manual(name = "Compartment", values = c(22,24,21,23), labels = c("Berry", "Leaf", "Root", "Soil")) +
+  scale_fill_manual(name = "Site", values=site_palette, labels = c("Madera", "Merced", "San Joaquin")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y))) +
+  guides(fill = guide_legend(override.aes = c(shape = 21, alpha = 1)), color = guide_legend(override.aes = c(alpha=1)),
+         shape = "none")
+
+d <- A1.3 + geom_point(aes(fill=lower_political, shape=plant_body_site), size = 5, alpha = 0.80, color = "black") +
+  scale_shape_manual(name = "Compartment", values = c(22,24,21,23), labels = c("Berry", "Leaf", "Root", "Soil")) +
+  scale_fill_manual(name = "Site", values=site_palette, labels = c("Madera", "Merced", "San Joaquin")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 3", sub(".*\\ ", "", temp$labels$y))) +
+  guides(fill = guide_legend(override.aes = c(shape = 21, alpha = 1)), color = guide_legend(override.aes = c(alpha=1)),
+         shape = "none")
+
+part2 <- ggarrange(c,d, legend = 'right', common.legend = TRUE, align = 'hv', labels = c('C', 'D'))
+
+# combine plots and save
+PCoAs_compartments_together <- ggarrange(part1,part2, nrow = 2)
+ggsave("FigureS4_experimental_factors_pcoas.svg", PCoAs_compartments_together, width = 12, height = 12)
+
+
+###### Figure S5 PCoAs for each experimental factor by compartment  ###### 
+# PCoA plots for each microbiome separately
+# Phyloseq data objects subset from above
+phy_vst_leaf
+phy_vst_berry
+phy_vst_root
+# Ordinations based off the subset objects
+out.bray_leaf <- ordinate(phy_vst_leaf, method = "MDS", distance = "bray")
+out.bray_berry <- ordinate(phy_vst_berry, method = "MDS", distance = "bray")
+out.bray_root <- ordinate(phy_vst_root, method = "MDS", distance = "bray")
+
+# Berry PCoAs
+temp <- plot_ordination(phy_vst_berry, out.bray_berry, axes = c(1,2)) 
+# in order rootstock, scion, year, site, brix
+a <-  temp +
+  geom_point(aes(fill=rootstock, shape=plant_body_site), shape = 22, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Rootstock", values=rootstock_palette) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y)))
+b <-  temp +
+  geom_point(aes(fill=scion, shape=plant_body_site), shape = 22, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Scion", values=scion_palette, labels = c("Cabernet Sauvignon", "Chardonnay")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y)))
+c <-  temp +
+  geom_point(aes(fill=year, shape=plant_body_site), shape = 22, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Year", values = c("grey50", "white")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y)))
+d <-  temp +
+  geom_point(aes(fill=lower_political, shape=plant_body_site), shape = 22, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Site", values=site_palette, labels = c("Madera", "Merced", "San Joaquin")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y)))
+e <-  temp +
+  geom_point(aes(fill=brix, shape=plant_body_site), shape = 22, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_gradient(low = "#c8ed8c", high = "#722F37", name = "Sugar content (\u00B0Bx)") +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y)))
+
+berry_pcoas <- ggarrange(a,b,c,d,e, nrow = 1, align = 'hv', labels = c("A"))
+
+# Leaf PCoAs
+temp <- plot_ordination(phy_vst_leaf, out.bray_leaf, axes = c(1,2)) 
+# in order rootstock, scion, year, site, brix
+a <-  temp +
+  geom_point(aes(fill=rootstock, shape=plant_body_site), shape = 24, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Rootstock", values=rootstock_palette) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y))) +
+  theme(legend.position = "none")
+b <-  temp +
+  geom_point(aes(fill=scion, shape=plant_body_site), shape = 24, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Scion", values=scion_palette, labels = c("Cabernet Sauvignon", "Chardonnay")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y))) +
+  theme(legend.position = "none")
+c <-  temp +
+  geom_point(aes(fill=year, shape=plant_body_site), shape = 24, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Year", values = c("grey50", "white")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y))) +
+  theme(legend.position = "none")
+d <-  temp +
+  geom_point(aes(fill=lower_political, shape=plant_body_site), shape = 24, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Site", values=site_palette, labels = c("Madera", "Merced", "San Joaquin")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y))) +
+  theme(legend.position = "none")
+e <-  temp +
+  geom_point(aes(fill=brix, shape=plant_body_site), shape = 24, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_gradient(low = "#c8ed8c", high = "#722F37", name = "Sugar content (\u00B0Bx)") +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y))) +
+  theme(legend.position = "none")
+
+leaf_pcoas <- ggarrange(a,b,c,d,e, nrow = 1, align = 'hv', labels = c("B"))
+
+# Root PCoAs
+temp <- plot_ordination(phy_vst_root, out.bray_root, axes = c(1,2)) 
+# in order rootstock, scion, year, site, brix
+a <-  temp +
+  geom_point(aes(fill=rootstock, shape=plant_body_site), shape = 21, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Rootstock", values=rootstock_palette) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y))) +
+  theme(legend.position = "none")
+b <-  temp +
+  geom_point(aes(fill=scion, shape=plant_body_site), shape = 21, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Scion", values=scion_palette) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y))) +
+  theme(legend.position = "none")
+c <-  temp +
+  geom_point(aes(fill=year, shape=plant_body_site), shape = 21, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Year", values = c("grey50", "white")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y))) +
+  theme(legend.position = "none")
+d <-  temp +
+  geom_point(aes(fill=lower_political, shape=plant_body_site), shape = 21, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Site", values=site_palette, labels = c("Madera", "Merced", "San Joaquin")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y))) +
+  theme(legend.position = "none")
+e <-  temp +
+  geom_point(aes(fill=brix, shape=plant_body_site), shape = 21, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_gradient(low = "#c8ed8c", high = "#722F37", name = "Sugar content (\u00B0Bx)") +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y))) +
+  theme(legend.position = "none")
+
+root_pcoas <- ggarrange(a,b,c,d,e, nrow = 1, align = 'hv', labels = c("C"))
+
+# combine together compartment plots and save
+PCoAs_all_factors <- ggarrange(berry_pcoas, leaf_pcoas, root_pcoas, nrow = 3)
+ggsave("FigureS5_experimental_factors_pcoas.svg", PCoAs_all_factors, width = 22, height = 12)
+
+
+
+
+
+
+
+
 ###### Figure 4 ###### 
 ### Panel A and B
 ### Bray curtis PCoA with all compartments
@@ -447,7 +678,7 @@ pcoa_bray_1_3 <- PLOT_PCoA(phy_vst, out.bray, 1, 3, split_by = 'site')
 Bray123_pcoa <- ggarrange(pcoa_bray_1_2, pcoa_bray_1_3, ncol = 2, common.legend = TRUE, legend = "right", labels = c("A", "B"))
 ### Panel C
 ### Taxonomic barplots for root samples split by site
-### Bars are relative abudance of the top ten phyla
+### Bars are relative abundance of the top ten phyla
 phylum_lvl <- tax_glom(phy_vst, taxrank = "Phylum") # 42 taxa
 phylum_lvl <- subset_samples(phylum_lvl, extraction_num != "492" & extraction_num != "615") # Remove two outlier samples
 phylum_lvl <- transform_sample_counts(phylum_lvl, function(x) x/sum(x))
@@ -560,7 +791,7 @@ SS_pval_combo_df$taxa <- rownames(SS_pval_combo_df)
 total_var <- SS_pval_combo_df %>% dplyr::select(taxa, "rootstock":"site")
 # Reorganize and rename to format for plotting
 total_var <- total_var %>% gather(key=factor, value=var, -taxa)
-total_var <- total_var %>% mutate(factor=str_replace(factor, "_var" %R% END, ""))
+total_var <- total_var %>% mutate(factor=str_replace(factor, "_var$", ""))
 # Get p-value columns
 total_p_name <- SS_pval_combo_df %>% dplyr::select("rootstock_p":"site_p")
 total_p <- data.frame(t(apply(total_p_name, 1, FUN=p.adjust, method='BH')))
@@ -568,7 +799,7 @@ colnames(total_p)<- colnames(total_p_name) #This is hacky but I need to preserve
 total_p$taxa <- SS_pval_combo_df$taxa
 # Reorganize and rename to format for plotting
 total_p <- total_p %>% gather(key=factor, value=p_value, -taxa)
-total_p <- total_p %>% mutate(factor=str_replace(factor,"_p" %R% END, ""))
+total_p <- total_p %>% mutate(factor=str_replace(factor,"_p$", ""))
 # Join variance and p-value tables back together 
 total_var_p <- full_join(total_var, total_p,by=c("taxa", "factor"))
 # Have to remove Deinococcota and Firmicutes prior to adding number for Y-axis plotting
@@ -593,9 +824,116 @@ Lm_heat_map_var_exp <- ggplot(data=total_var_p_sig, aes(x=factor, y=element_numb
   scale_fill_viridis(option="plasma", name="% variance explained", direction = -1)
 temp <- ggarrange(phylum_root_site, Lm_heat_map_var_exp, ncol = 2, widths = c(0.75,0.25), labels = c("C","D"))
 # Save it
-Figure3 <- ggarrange(Bray123_pcoa, temp, nrow = 2, common.legend = FALSE, legend = "right")
-ggsave("Figure3_Bray_PCoA_1x2_1x3_Taxonomic_barplot_root_by_site_LM_heatmap.png", Figure3, height = 12, width = 18.7, units = "in")
-ggsave("Figure3_Bray_PCoA_1x2_1x3_Taxonomic_barplot_root_by_site_LM_heatmap.pdf", Figure3, height = 12, width = 18.7, units = "in")
+Figure4 <- ggarrange(Fig4, temp, nrow = 2, common.legend = FALSE, legend = "right")
+ggsave("Figure4_Bray_PCoA_1x2_1x3_Taxonomic_barplot_root_by_site_LM_heatmap.png", Figure4, height = 12, width = 18.7, units = "in")
+ggsave("Figure4_Bray_PCoA_1x2_1x3_Taxonomic_barplot_root_by_site_LM_heatmap.pdf", Figure4, height = 12, width = 18.7, units = "in")
+
+####### NEW Panel A/B figure 4 #######
+# panel was added with inkscape to preserve space and sizing of other plot elements
+# PCoA plots for each microbiome seperately
+# Phyloseq data objects subset from above
+phy_vst_berry
+phy_vst_leaf
+phy_vst_root
+# Ordinations based off the subset objects
+out.bray_berry <- ordinate(phy_vst_berry, method = "MDS", distance = "bray")
+out.bray_leaf <- ordinate(phy_vst_leaf, method = "MDS", distance = "bray")
+out.bray_root <- ordinate(phy_vst_root, method = "MDS", distance = "bray")
+# berry
+temp <- plot_ordination(phy_vst_berry, out.bray_berry, axes = c(1,2)) 
+a <- temp +
+  geom_point(aes(fill=lower_political, shape=plant_body_site), shape = 22, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Site", values=site_palette, labels = c("Madera", "Merced", "San Joaquin")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y))) +
+  theme(legend.position = "none")
+temp <- plot_ordination(phy_vst_berry, out.bray_berry, axes = c(1,3)) 
+b <- temp + 
+  geom_point(aes(fill=lower_political, shape=plant_body_site), shape = 22, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Site", values=site_palette, labels = c("Madera", "Merced", "San Joaquin")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 3", sub(".*\\ ", "", temp$labels$y))) +
+  theme(legend.position = "none")
+# leaf
+temp <- plot_ordination(phy_vst_leaf, out.bray_leaf, axes = c(1,2)) 
+c <- temp +
+  geom_point(aes(fill=lower_political, shape=plant_body_site), shape = 24, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Site", values=site_palette, labels = c("Madera", "Merced", "San Joaquin")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y))) +
+  theme(legend.position = "none")
+temp <- plot_ordination(phy_vst_leaf, out.bray_leaf, axes = c(1,3)) 
+d <- temp + 
+  geom_point(aes(fill=lower_political, shape=plant_body_site), shape = 24, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Site", values=site_palette, labels = c("Madera", "Merced", "San Joaquin")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 3", sub(".*\\ ", "", temp$labels$y))) +
+  theme(legend.position = "none")
+# root
+temp <- plot_ordination(phy_vst_root, out.bray_root, axes = c(1,2)) 
+e <- temp +
+  geom_point(aes(fill=lower_political, shape=plant_body_site), shape = 21, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Site", values=site_palette, labels = c("Madera", "Merced", "San Joaquin")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y))) +
+  theme(legend.position = "none")
+temp <- plot_ordination(phy_vst_root, out.bray_root, axes = c(1,3)) 
+f <- temp + 
+  geom_point(aes(fill=lower_political, shape=plant_body_site), shape = 21, size = 5, alpha = 0.95, color = "black") +
+  scale_fill_manual(name = "Site", values=site_palette, labels = c("Madera", "Merced", "San Joaquin")) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
+  ylab(paste("PCoA 3", sub(".*\\ ", "", temp$labels$y))) +
+  theme(legend.position = "none")
+
+part1 <- ggarrange(a,c,e, nrow = 3, ncol = 1, align = 'hv')
+part2 <- ggarrange(b,d,f, nrow = 3, ncol = 1, align = 'hv')
+Fig4A.B <- ggarrange(part1, part2, ncol = 2, align = 'hv', labels = c("A", "B"))
+
+ggsave("Figure4_new_panel_A-b.svg", Fig4A.B, width = 10.239, height = 14.091)
+
+####### NEW Panel C figure 4 #######
+library(fantaxtic)
+# Load data 
+phy_vst <- readRDS("../Data_files/phyloseq_16s_no_soil_filtered_vst_dataset.rds")
+# Remove two outlier root samples, IDed above 
+phy_vst <- subset_samples(phy_vst, extraction_num != "492" & extraction_num != "615")
+# make subset root top ten
+phy_root_only_vst <- subset_samples(phy_vst, plant_body_site=="root")
+# Make Nested dataframe for plotting
+top_nested <- nested_top_taxa(phy_root_only_vst,
+                              top_tax_level = "Phylum",
+                              nested_tax_level = "Class",
+                              n_top_taxa = 10, 
+                              n_nested_taxa = 3,
+                              by_proportion = TRUE) 
+# Facet labels capitalized for consistency
+ylabels <- c('madera'='Madera', 'merced' = 'Merced', 'san joaquin' = "San Joaquin")
+# Nest plot with facet between sites
+fig4C <- plot_nested_bar(top_nested$ps_obj,
+                                  top_level = "Phylum",
+                                  nested_level = "Class",
+                                  legend_title = "Phylum and Class",
+                                  palette = safe_colorblind_palette) +
+  labs(y = "Relative Abuance") +
+  facet_wrap(~lower_political, scales = "free_x", labeller = as_labeller(ylabels)) +
+  # mostly changes made to fit the pubr theme without breaking legend text formatting from fantaxtic
+  theme(plot.title = element_text(hjust = 0.5, size = 8, face = "bold"), legend.key.size = unit(10, "points"),
+        axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        legend.position = 'right',
+        strip.background = element_rect(fill = "#F2F2F2", colour = "black", size = 0.7),
+        axis.line = element_line(colour = "black", size = 0.5),
+        axis.text = element_text(color = "black"),
+        strip.text = element_text(colour = 'black'),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.ticks.y = element_line("black"), 
+        panel.border = element_blank(),
+        panel.background = element_blank()) +
+  guides(fill=guide_legend(ncol=2))
+# Save to exact dimensions 
+ggsave("Figure4_new_panel_C.svg", fig4C, width = 17.664, height = 7.083)
 
 ###### Figure S4 ######
 #Figure S4A/B
@@ -625,8 +963,44 @@ Figure4B <- ggplot(phylum_lvl[phylum_lvl$plant_body_site == "leaf",], aes(x= Sam
 
 # Save it
 Figure4 <- ggarrange(Figure4A, Figure4B, nrow = 2, common.legend = TRUE,legend = 'right', labels = c('A','B'))
-ggsave("FigureS3_Taxonomic_barplot_berry&leaf_by_site_LM_heatmap.png", Figure4, height = 12, width = 18.7, units = "in")
-ggsave("FigureS3_Taxonomic_barplot_berry&leaf_by_site_LM_heatmap.pdf", Figure4, height = 12, width = 18.7, units = "in")
+ggsave("FigureS4_Taxonomic_barplot_berry&leaf_by_site_LM_heatmap.png", Figure4, height = 12, width = 18.7, units = "in")
+ggsave("FigureS4_Taxonomic_barplot_berry&leaf_by_site_LM_heatmap.pdf", Figure4, height = 12, width = 18.7, units = "in")
+
+### NEW FIGURE 5 Berry and leaf taxabarplots ###
+# subset to berries and leaves
+phy_berry_leaf_vst <- subset_samples(phy_vst, plant_body_site %in% c("berry", "leaf"))
+top_nested <- nested_top_taxa(phy_berry_leaf_vst,
+                              top_tax_level = "Phylum",
+                              nested_tax_level = "Class",
+                              n_top_taxa = 10, 
+                              n_nested_taxa = 3,
+                              by_proportion = TRUE) 
+ylabels <- c('madera'='Madera', 'merced' = 'Merced', 'san joaquin' = "San Joaquin", "berry" = "Berry", "leaf" = "Leaf")
+Fig_5 <- plot_nested_bar(top_nested$ps_obj,
+                top_level = "Phylum",
+                nested_level = "Class",
+                legend_title = "Phylum and Class",
+                palette = safe_colorblind_palette) +
+  labs(y = "Relative Abuance") +
+  facet_wrap(~plant_body_site+lower_political, scales = "free_x", labeller = as_labeller(ylabels)) +
+  # mostly changes made to fit the pubr theme without breaking legend text formatting from fantaxtic
+  theme(plot.title = element_text(hjust = 0.5, size = 8, face = "bold"), legend.key.size = unit(10, "points"),
+        axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        legend.position = 'right',
+        strip.background = element_rect(fill = "#F2F2F2", colour = "black", size = 0.7),
+        axis.line = element_line(colour = "black", size = 0.5),
+        axis.text = element_text(color = "black"),
+        strip.text = element_text(colour = 'black'),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.ticks.y = element_line("black"), 
+        panel.border = element_blank(),
+        panel.background = element_blank()) +
+  guides(fill=guide_legend(ncol=2))
+
+ggsave("Figure5_new_figure.svg", Fig_5, width = 20, height = 10)
 
 
 ### Berry top ten phyla lms
