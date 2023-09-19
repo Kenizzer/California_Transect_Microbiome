@@ -12,7 +12,7 @@ Table of markers used within the study.
 
 ## Experimental and Sampling Design
 
-Multiple scion/rootstock combinations were sampled across vineyards in the 2018 and 2019 growing seasons in the Central Valley of California. **A)** Each of the colored counties represents a vineyard that was sampled. Within each county box (San Joaquin, Merced, and Madera) the scion/rootstock combinations are depicted, corresponding to the legend in the bottom left. The sugar content (measured in degrees Brix) was collected for vines across the **B)** 2018 and **C)** 2019 growing seasons. Grey shading represents collection windows for microbiome sampling.
+Multiple scion/rootstock combinations were sampled across vineyards and the 2018 and 2019 growing seasons in the central valley of California. **A)** Each of the colored counties represents a vineyard that was sampled. Within each county box (San Joaquin, Merced, and Madera) the scion/rootstock combinations are depicted, corresponding to the legend in the bottom left. Sugar content (measured in degrees Brix) was collected for vines across the **B)** 2018 and **C)** 2019 growing seasons; measurements and trend lines are colored by scion (upper panel) and site (lower panel). Grey shading represents collection windows for microbiome sampling.
 
 ![Image of experimental and sampling design](https://github.com/Kenizzer/California_Transect_Microbiome/blob/main/Experimental_design_image/Figure_1.png)
 
