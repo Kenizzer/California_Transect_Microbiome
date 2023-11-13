@@ -143,8 +143,7 @@ summarySE <- function(data=NULL, measurevar, groupvars=NULL, na.rm=FALSE,
 # load dataset generated from Data_filtering_normalization.R
 phy_soil_vst <- readRDS("../../Data_files/phyloseq_16s_filtered_vst_dataset.rds")
 phy_soil_only_vst <- subset_samples(phy_soil_vst, plant_body_site=="soil")
-
-
+phy_soil_only_vst <- prune_taxa(taxa_sums(phy_soil_only_vst) > 0, phy_soil_only_vst) # 4197 ASVs
 
 # Figure 2 panel A
 Full_df <- readRDS("dataframe_for_analysis.RDS")

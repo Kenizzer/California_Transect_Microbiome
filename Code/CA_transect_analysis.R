@@ -499,7 +499,7 @@ ggplot(phylum_lvl[phylum_lvl$plant_body_site == 'root',], aes(x= Sample, y=Abund
         legend.position = 'right')
 
 
-###### Figure S4 PCoAs for compartments together ######
+###### Figure S6 PCoAs for compartments together ######
 # load dataset with soil samples included
 phy_with_soil_vst <- readRDS("../Data_files/phyloseq_16s_filtered_vst_dataset.rds")
 # ordinations, axes 1/2/3
@@ -507,33 +507,36 @@ out.bray_all <- ordinate(phy_with_soil_vst, method = "MDS", distance = "bray")
 A1.2 <- plot_ordination(phy_with_soil_vst, out.bray_all, axes = c(1,2)) 
 A1.3 <- plot_ordination(phy_with_soil_vst, out.bray_all, axes = c(1,3)) 
 
+A1.2[["layers"]][[1]][["geom"]][["default_aes"]][["colour"]] <- "white"
+A1.3[["layers"]][[1]][["geom"]][["default_aes"]][["colour"]] <- "white"
+
 a <- A1.2 + geom_point(aes(fill=plant_body_site, shape=plant_body_site), size = 5, alpha = 0.80, color = "black") +
   scale_shape_manual(name = "Compartment", values = c(22,24,21,23), labels = c("Berry", "Leaf", "Root", "Soil")) +
   scale_fill_manual(name = "Compartment", values= c("#5a1991", "#139d08", "#5c3c0d", "grey"), labels = c("Berry", "Leaf", "Root", "Soil")) +
-  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
-  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y)))
+  xlab(paste("PCoA 1", sub(".*\\ ", "", A1.2$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", A1.2$labels$y)))
 
 b <- A1.3 + geom_point(aes(fill=plant_body_site, shape=plant_body_site), size = 5, alpha = 0.80, color = "black") +
   scale_shape_manual(name = "Compartment", values = c(22,24,21,23), labels = c("Berry", "Leaf", "Root", "Soil")) +
   scale_fill_manual(name = "Compartment", values= c("#5a1991", "#139d08", "#5c3c0d", "grey"), labels = c("Berry", "Leaf", "Root", "Soil")) +
-  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
-  ylab(paste("PCoA 3", sub(".*\\ ", "", temp$labels$y)))
+  xlab(paste("PCoA 1", sub(".*\\ ", "", A1.3$labels$x))) +
+  ylab(paste("PCoA 3", sub(".*\\ ", "", A1.3$labels$y)))
 
 part1 <- ggarrange(a,b, legend = 'right', common.legend = TRUE, align = 'hv', labels = "AUTO")
 
 c <- A1.2 + geom_point(aes(fill=lower_political, shape=plant_body_site), size = 5, alpha = 0.80, color = "black") +
   scale_shape_manual(name = "Compartment", values = c(22,24,21,23), labels = c("Berry", "Leaf", "Root", "Soil")) +
   scale_fill_manual(name = "Site", values=site_palette, labels = c("Madera", "Merced", "San Joaquin")) +
-  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
-  ylab(paste("PCoA 2", sub(".*\\ ", "", temp$labels$y))) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", A1.2$labels$x))) +
+  ylab(paste("PCoA 2", sub(".*\\ ", "", A1.2$labels$y))) +
   guides(fill = guide_legend(override.aes = c(shape = 21, alpha = 1)), color = guide_legend(override.aes = c(alpha=1)),
          shape = "none")
 
 d <- A1.3 + geom_point(aes(fill=lower_political, shape=plant_body_site), size = 5, alpha = 0.80, color = "black") +
   scale_shape_manual(name = "Compartment", values = c(22,24,21,23), labels = c("Berry", "Leaf", "Root", "Soil")) +
   scale_fill_manual(name = "Site", values=site_palette, labels = c("Madera", "Merced", "San Joaquin")) +
-  xlab(paste("PCoA 1", sub(".*\\ ", "", temp$labels$x))) +
-  ylab(paste("PCoA 3", sub(".*\\ ", "", temp$labels$y))) +
+  xlab(paste("PCoA 1", sub(".*\\ ", "", A1.3$labels$x))) +
+  ylab(paste("PCoA 3", sub(".*\\ ", "", A1.3$labels$y))) +
   guides(fill = guide_legend(override.aes = c(shape = 21, alpha = 1)), color = guide_legend(override.aes = c(alpha=1)),
          shape = "none")
 
@@ -541,7 +544,7 @@ part2 <- ggarrange(c,d, legend = 'right', common.legend = TRUE, align = 'hv', la
 
 # combine plots and save
 PCoAs_compartments_together <- ggarrange(part1,part2, nrow = 2)
-ggsave("FigureS4_experimental_factors_pcoas.svg", PCoAs_compartments_together, width = 12, height = 12)
+ggsave("FigureS6_experimental_factors_pcoas.svg", PCoAs_compartments_together, width = 12, height = 12)
 
 
 ###### Figure S5 PCoAs for each experimental factor by compartment  ###### 

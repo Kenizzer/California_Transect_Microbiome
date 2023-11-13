@@ -520,53 +520,71 @@ rm(a,b,c,d,e, Rootstock_all_levels, Scion_all_levels, Year_all_levels, Brix_all_
    phy_vst_phy, phy_vst_ord, phy_vst_gen, phy_vst_fam, phy_vst_cla)
 
 
-
-
-
-
-
 #### ASV overlap between compartments ####
-# load dataset with soil samples included
+# load venn diagram package
+library(ggvenn)
+# load dataset with soil samples 
 phy_with_soil <- readRDS("../Data_files/phyloseq_16s_filtered_dataset.rds")
-
 # Soil ASVs
 soil_samples <- subset_samples(phy_with_soil, plant_body_site == "soil")
 soil_samples <- prune_taxa(taxa_sums(soil_samples) > 0, soil_samples)
 soil_asvs <- row.names(soil_samples@tax_table)
-
 # Root ASVs
 root_samples <- subset_samples(phy_with_soil, plant_body_site == "root")
 root_samples <- prune_taxa(taxa_sums(root_samples) > 0, root_samples)
 root_asvs <- row.names(root_samples@tax_table)
-
 # Leaf ASVs
 leaf_samples <- subset_samples(phy_with_soil, plant_body_site == "leaf")
 leaf_samples <- prune_taxa(taxa_sums(leaf_samples) > 0, leaf_samples)
 leaf_asvs <- row.names(leaf_samples@tax_table)
-
 # Berry ASVs
 berry_samples <- subset_samples(phy_with_soil, plant_body_site == "berry")
 berry_samples <- prune_taxa(taxa_sums(berry_samples) > 0, berry_samples)
 berry_asvs <- row.names(berry_samples@tax_table)
+# add lists together and give capitalized names for plot labels
+with_soil_list <- c(list(Berry = berry_asvs), list(Leaf = leaf_asvs), list(Root = root_asvs), list(Soil = soil_asvs))
+Plot_with_soil <- ggvenn(with_soil_list, fill_alpha = 0.5, fill_color = c("#5a1991", "#139d08", "#5c3c0d", "black"),
+       text_color = 'white', show_percentage = TRUE, digits = 0, stroke_color = "black", text_size = 5)
 
-# For Venn Diagram
-write.csv(soil_asvs, "Soil_ASVs.csv", row.names = FALSE)
-write.csv(root_asvs, "Root_ASVs.csv", row.names = FALSE)
-write.csv(leaf_asvs, "Leaf_ASVs.csv", row.names = FALSE)
-write.csv(berry_asvs, "Berry_ASVs.csv", row.names = FALSE)
+# Change percentages less than zero to be <1% (otherwise they are displayed as 0%)
+Plot_with_soil[["layers"]][[4]][["data"]][["text"]]
+# [1] "1\n(0%)"     "14\n(0%)"    "3105\n(35%)" "18\n(0%)"    "140\n(2%)"   "616\n(7%)"   "2506\n(28%)" "353\n(4%)"   "9\n(0%)"    
+# [10] "4\n(0%)"     "412\n(5%)"   "743\n(8%)"   "284\n(3%)"   "8\n(0%)"     "625\n(7%)"
 
-# upset plot
-library(UpSetR)
+Plot_with_soil[["layers"]][[4]][["data"]][["text"]] <- c("1\n(<1%)", "14\n(<1%)", "3105\n(35%)", "18\n(<1%)", "140\n(2%)", "616\n(7%)",
+                                                         "2506\n(28%)", "353\n(4%)", "9\n(<1%)", "4\n(<1%)", "412\n(5%)", "743\n(8%)",
+                                                         "284\n(3%)", "8\n(<1%)", "625\n(7%)")
 
-compartment_sets <- list(
-  Berry = berry_asvs,
-  Leaf = leaf_asvs,
-  Soil = soil_asvs,
-  Root = root_asvs)
+rm(soil_samples, soil_asvs, root_samples, root_asvs, leaf_samples, leaf_asvs, berry_samples, berry_asvs)
 
-upset_plot <- upset(fromList(compartment_sets),
-      sets.x.label = "ASVs")
+## Since the data set used for all the main analyses conducted filtering of ASVs without
+## soil samples included in the data set, the number of ASVs is slightly lower as less
+## ASVs did met the minimum of being present in 5 or more samples. I will make another
+## venn diagram to represent this dataset (just berry, leaf, and root).
+phy_without_soil <- readRDS("../Data_files/phyloseq_16s_no_soil_filtered_dataset.rds")
+# Root ASVs
+root_samples <- subset_samples(phy_without_soil, plant_body_site == "root")
+root_samples <- prune_taxa(taxa_sums(root_samples) > 0, root_samples)
+root_asvs <- row.names(root_samples@tax_table)
+# Leaf ASVs
+leaf_samples <- subset_samples(phy_without_soil, plant_body_site == "leaf")
+leaf_samples <- prune_taxa(taxa_sums(leaf_samples) > 0, leaf_samples)
+leaf_asvs <- row.names(leaf_samples@tax_table)
+# Berry ASVs
+berry_samples <- subset_samples(phy_without_soil, plant_body_site == "berry")
+berry_samples <- prune_taxa(taxa_sums(berry_samples) > 0, berry_samples)
+berry_asvs <- row.names(berry_samples@tax_table)
+# add lists together and give capitalized names for plot labels
+without_soil_list <- c(list(Berry = berry_asvs), list(Leaf = leaf_asvs), list(Root = root_asvs))
+Plot_without_soil <- ggvenn(without_soil_list, fill_alpha = 0.5, fill_color = c("#5a1991", "#139d08", "#5c3c0d"),
+                         text_color = 'white', show_percentage = TRUE, digits = 0, stroke_color = "black", text_size = 5)
+# Change percentages less than zero to be <1% (otherwise they are displayed as 0%)
+Plot_without_soil[["layers"]][[4]][["data"]][["text"]]
+# [1] "1\n(0%)"     "16\n(0%)"    "4909\n(62%)" "142\n(2%)"   "602\n(8%)"   "1282\n(16%)" "1029\n(13%)"
+Plot_without_soil[["layers"]][[4]][["data"]][["text"]] <- c("1\n(<1%)", "16\n(<1%)", "4909\n(62%)", "142\n(2%)",
+                                                            "602\n(8%)", "1282\n(16%)", "1029\n(13%)")
+# Arrange and save
+Figure_S5 <- ggarrange(Plot_without_soil, Plot_with_soil, labels = "AUTO")
 
-pdf(file="ASV_overlap_compartments.pdf") # or other device
-upset_plot
-dev.off()
+ggsave("Figure_S5_venn_diagrams.svg", Figure_S5, height = 6, width = 10)
+ggsave("Figure_S5_venn_diagrams.png", Figure_S5, height = 6, width = 10)
